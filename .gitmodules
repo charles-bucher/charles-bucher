@@ -1,0 +1,15 @@
+[submodule "docs/Desktop/REPOS/charles-bucher/AWS-Serverless-API-CICD"]
+	path = docs/Desktop/REPOS/charles-bucher/AWS-Serverless-API-CICD
+	url = https://github.com/charles-bucher/AWS-Serverless-API-CICD.git
+[submodule "docs/Desktop/REPOS/charles-bucher/AWS_Monitoring_Observability"]
+	path = docs/Desktop/REPOS/charles-bucher/AWS_Monitoring_Observability
+	url = https://github.com/charles-bucher/AWS_Monitoring_Observability.git
+[submodule "docs/Desktop/REPOS/charles-bucher/AWS_MultiTier_VPC_CloudOps"]
+	path = docs/Desktop/REPOS/charles-bucher/AWS_MultiTier_VPC_CloudOps
+	url = https://github.com/charles-bucher/AWS_MultiTier_VPC_CloudOps.git
+[submodule "docs/Desktop/REPOS/charles-bucher/CloudOps-GuardDuty-Automation"]
+	path = docs/Desktop/REPOS/charles-bucher/CloudOps-GuardDuty-Automation
+	url = https://github.com/charles-bucher/CloudOps-GuardDuty-Automation.git
+[submodule "docs/Desktop/REPOS/charles-bucher/Terraform-CI-CD-Automation"]
+	path = docs/Desktop/REPOS/charles-bucher/Terraform-CI-CD-Automation
+	url = https://github.com/charles-bucher/Terraform-CI-CD-Automation.git
