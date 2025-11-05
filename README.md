@@ -16,23 +16,6 @@ As I transition out of DevOps, I’m leaving behind a body of work that’s repr
 
 - 
 
-🛡️ GuardDuty Automation
-From :
-![Clone Repo](cloudOps-guardDuty-automation/screenshots/clone_Repo.png)  
-![Deployed](cloudOps-guardDuty-automation/screenshots/deployed.png)  
-![GuardDuty Instance Running](cloudOps-guardDuty-automation/screenshots/guardduty-instance-running.png)
-
-## 📸 Screenshots
-
-### 🛡️ GuardDuty Automation
-![GuardDuty Automation](./screenshots/guardduty_automation.png)
-
-### 📊 Observability & Monitoring
-![CloudWatch Alarm](./screenshots/cloudwatch_alarm.png)
-
-
- 
-
 ## 🧱 My Stack  
 Terraform • AWS • Python • CloudWatch • GitHub Actions • PowerShell  
 
