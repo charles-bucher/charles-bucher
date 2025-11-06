@@ -3,7 +3,9 @@
 
 
 ## 🧠 Who I Am  
-I’m a hands-on cloud builder entering through support and pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be reused. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to show ownership.
+   I’m a hands-on cloud builder breaking in through support, pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be inherited. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to prove ownershi
+
+
 
 ## 🧰 Projects That Prove It  
 - [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)  
