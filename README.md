@@ -3,7 +3,7 @@
 
 
 ## 🧠 Who I Am  
-   I’m a hands-on cloud builder breaking in through support, pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be inherited. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to prove ownershi
+   I’m a hands-on cloud builder breaking in through support, pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be inherited. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to prove ownership
 
 
 
