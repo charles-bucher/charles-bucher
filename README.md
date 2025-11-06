@@ -6,7 +6,7 @@ Cloud Support Engineer | Terraform • AWS • Python | Built for Incident Respo
 ## 🧠 Who I Am  
 I’m a hands-on cloud support engineer building modular, secure, and observable AWS infrastructure from scratch. My repos reflect real-world troubleshooting workflows, incident response tooling, and infrastructure hygiene — all designed to scale, alert, and prove.  
 
- Every project I build is reproducible, documented, and crafted to demonstrate practical, real-world cloud skills.  
+I’m using cloud support as a launchpad into full cloud engineering. Every project I build is reproducible, documented, and crafted to demonstrate practical, real-world cloud skills.  
 
 ---
 
@@ -35,11 +35,20 @@ GuardDuty Instance Running:
 ---
 
 ### 📊 Observability & Monitoring
-CloudWatch Alarm Triggered:  
-![CloudWatch Alarm](aws_monitoring_observability_screenshots/cloudwatch_alarm.png)  
+Terraform Init:  
+![Terraform Init](aws_monitoring_observability_screenshots/terraform_init.png)  
 
-EC2 Monitoring Metrics:  
-![EC2 Metrics](aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png)  
+Terraform Plan:  
+![Terraform Plan](aws_monitoring_observability_screenshots/tplan_ss.png)  
+
+AWS Config Setup:  
+![AWS Config Setup](aws_monitoring_observability_screenshots/aws_config_ss.png)  
+
+AWS Config Confirmed:  
+![AWS Config Confirmed](aws_monitoring_observability_screenshots/aws_config_confirm.png)  
+
+Project Pushed:  
+![Project Pushed](aws_monitoring_observability_screenshots/project_pushed.png)  
 
 ---
 
