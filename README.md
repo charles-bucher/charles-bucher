@@ -70,8 +70,6 @@ Terraform • AWS • Python • CloudWatch • GitHub Actions • PowerShell
 > “Every fix is a transformation arc. Every repo is a proof of grit. I build these projects to be teachable, reproducible, and honest — not perfect. Cloud support is my bridge into full cloud engineering, and these repos show the path.”  
 
 ---
-
-## 📫 Let’s Connect  
-🌐 [Portfolio](https://charles-bucher.github.io)  
-💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher)  
-📧 quietopscb@gmail.com
+## 📫 Connect with Me
+- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher85813)  
+- GitHub: [charles-bucher](https://github.com/charles-bucher)
