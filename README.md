@@ -6,7 +6,7 @@ Cloud Support Engineer | Terraform • AWS • Python | Built for Incident Respo
 ## 🧠 Who I Am  
 I’m a hands-on cloud support engineer building modular, secure, and observable AWS infrastructure from scratch. My repos reflect real-world troubleshooting workflows, incident response tooling, and infrastructure hygiene — all designed to scale, alert, and prove.  
 
-I’m using cloud support as a launchpad into full cloud engineering. Every project I build is reproducible, documented, and crafted to demonstrate practical, real-world cloud skills.  
+ Every project I build is reproducible, documented, and crafted to demonstrate practical, real-world cloud skills.  
 
 ---
 
