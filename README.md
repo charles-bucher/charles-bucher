@@ -1,5 +1,6 @@
 # 👋 Charles Bucher  
-**Cloud Engineer in Progress** | Terraform • AWS • Python | Built for Infra Ownership, Automation & Hygiene  
+**Cloud Engineer  Terraform • AWS • Python  Built, Documented & Tore Down Infra with Lifecycle Proof
+
 
 ## 🧠 Who I Am  
 I’m a hands-on cloud builder entering through support and pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be reused. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to show ownership.
