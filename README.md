@@ -14,6 +14,58 @@
 - [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)  
   Deploys EC2 monitoring with CloudWatch dashboards, alarms, and SNS notifications. Built for proactive incident response and modular observability.
 
+
+
+# 📸 GuardDuty Automation — Screenshot Proof
+
+This repo demonstrates modular AWS automation for GuardDuty findings, built with teardown hygiene and lifecycle clarity. Below are screenshots documenting the infrastructure lifecycle — from deployment to teardown.
+
+---
+
+## 🔧 1. Terraform Deployment
+
+![Terraform apply output](screenshots/terraform-apply-output.png)  
+*Modular Terraform deployment with tagged resources and lifecycle-aware naming.*
+
+---
+
+## 🛡️ 2. GuardDuty Findings Trigger
+
+![GuardDuty finding](screenshots/guardduty-finding.png)  
+*GuardDuty detects suspicious activity and triggers automation via EventBridge.*
+
+---
+
+## 🔁 3. EventBridge → Lambda Flow
+
+![EventBridge rule](screenshots/eventbridge-rule.png)  
+*EventBridge routes findings to Lambda for automated response.*
+
+![Lambda function](screenshots/lambda-function.png)  
+*Lambda function parses findings and initiates tagging, notification, or remediation.*
+
+---
+
+## 📬 4. SNS Notification
+
+![SNS topic](screenshots/sns-topic.png)  
+*Security alerts published to SNS for visibility and escalation.*
+
+---
+
+## 🧹 5. Teardown Hygiene
+
+![Terraform destroy output](screenshots/terraform-destroy-output.png)  
+*Clean teardown with no orphaned assets. All resources tagged and removed.*
+
+---
+
+## 📚 Repo Hygiene
+
+- All screenshots are timestamped
+
+
+
 ## 🧱 My Stack  
 Terraform • AWS • Python • CloudWatch • GitHub Actions • PowerShell  
 
