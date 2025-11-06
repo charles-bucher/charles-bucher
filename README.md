@@ -18,7 +18,39 @@
 
 # 📸 GuardDuty Automation — Screenshot Proof
 
-This repo demonstrates modular AWS automation for GuardDuty findings, built with teardown hygiene and lifecycle clarity. Below are screenshots documenting the infrastructure lifecycle — from deployment to teardown.
+This repo documents modular AWS infrastructure built for GuardDuty automation, with teardown hygiene and lifecycle clarity. Below are screenshots capturing key stages of deployment, automation flow, and teardown.
+
+---
+
+## 🔁 Lifecycle Overview
+
+| Stage            | Screenshot                                  | Description                                                  |
+|------------------|---------------------------------------------|--------------------------------------------------------------|
+| Clone & Setup    | `clone_Repo.png`                            | Repo cloned locally to begin Terraform provisioning.         |
+| Terraform Ready  | `terraform_installed.png`                   | Terraform binary installed and verified.                     |
+| Infra Created    | `terraform_made.png`, `terraform-plan.png`  | Resources defined and planned for deployment.                |
+| Plan Confirmed   | `tf_plan_screenshot.png`                    | Terraform plan output confirms tagged, modular resources.    |
+| Infra Deployed   | `deployed.png`                              | Infrastructure successfully deployed.                        |
+| GuardDuty Active | `guardduty-running.png`, `guardduty-instance-running.png` | GuardDuty enabled and monitoring EC2 instance.               |
+| Alert Triggered  | `Screenshot 2025-10-09 111039.png`          | GuardDuty finding triggered automation flow.                 |
+| Infra Destroyed  | `destroy.png`                               | Clean teardown confirmed — no orphaned assets remain.        |
+
+---
+
+## 🧼 Teardown Hygiene
+
+- All resources tagged for lifecycle clarity.
+- Screenshots timestamped and tied to specific stages.
+- Teardown confirmed via `terraform destroy` with zero residuals.
+
+---
+
+## 🧠 Why This Matters
+
+This repo isn’t just technical — it’s reproducible, teardown-proof, and built to prove ownership. Every screenshot backs a lifecycle stage. Every fix is documented like it’s meant to be inherited.
+
+> 💬 Built for support engineers, cloud learners, and underdogs who need visual proof of transformation.
+
 
 ---
 
