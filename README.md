@@ -1,33 +1,29 @@
 # 👋 Charles Bucher  
-Cloud Support Engineer | Terraform • AWS • Python | Built for Incident Response, Automation & Hygiene  
+**Cloud Engineer in Progress** | Terraform • AWS • Python | Built for Infra Ownership, Automation & Hygiene  
 
 ## 🧠 Who I Am  
-I’m a hands-on cloud support engineer who built modular, secure, and observable AWS infrastructure from scratch. My repos reflect real-world troubleshooting workflows, incident response tooling, and infrastructure hygiene — all designed to scale, alert, and prove.  
-
-As I transition out of DevOps, I’m leaving behind a body of work that’s reproducible, documented, and built for others in support roles to learn from.  
+I’m a hands-on cloud builder entering through support and pushing toward full cloud engineering. I design modular AWS infrastructure, automate what breaks, and document every fix like it’s meant to be reused. My repos aren’t just technical—they’re reproducible, teardown-proof, and built to show ownership.
 
 ## 🧰 Projects That Prove It  
 - [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)  
-  Terraform module for automating GuardDuty, EventBridge filtering, SNS alerting, and secure S3 export. Includes lifecycle screenshots and teardown proof.  
+  Automates GuardDuty threat detection with EventBridge filtering, SNS alerts, and secure S3 export. Includes teardown logic, lifecycle tagging, and screenshots.
 
 - [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)  
-  End-to-end CloudWatch monitoring with EC2 metrics, dashboards, and SNS alerts. Designed for proactive incident response and modular observability.  
-
-
-- 
+  Deploys EC2 monitoring with CloudWatch dashboards, alarms, and SNS notifications. Built for proactive incident response and modular observability.
 
 ## 🧱 My Stack  
 Terraform • AWS • Python • CloudWatch • GitHub Actions • PowerShell  
 
-## 🧠 What I Leave Behind  
-🔁 Infrastructure-as-Code that deploys, alerts, and tears down cleanly  
-📸 Screenshot-driven documentation for reproducibility and recruiter optics  
-🧰 Support tooling for real-world AWS incidents  
-🧼 Repo hygiene that proves teardown, tagging, and lifecycle awareness  
-🛡️ Security-first modules built for visibility and response  
+## 🧠 Cloud Engineer Proof  
+- Infra that deploys, alerts, and tears down clean  
+- Screenshot-driven documentation for reproducibility and recruiter clarity  
+- Support tooling built from real AWS incidents  
+- Lifecycle tagging and teardown hygiene baked in  
+- Security-first modules with encryption and versioning  
+- CI/CD pipelines and modular automation for scale  
 
 ## 🧠 My Philosophy  
-“Every fix is a transformation arc. Every repo is a proof of grit. I built these projects to be teachable, reproducible, and honest — not perfect. I’m leaving DevOps, but the work stays.”  
+Every fix is a transformation arc. Every repo is a survival story. I build for clarity, not perfection—and I document like someone who wants others to learn from it. I’m not leaving DevOps. I’m building toward Cloud Engineering, one repo at a time.
 
 ## 📫 Let’s Connect  
 🌐 [charles-bucher.github.io](https://charles-bucher.github.io)  
