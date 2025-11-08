@@ -1,8 +1,7 @@
 # Hi, I'm Charles 👋
 **Hands-on Cloud Engineer | AWS SysOps | Terraform Automation**
 
-I turn cloud ideas into **secure, scalable AWS systems**.  
-Specializing in **infrastructure as code**, **cloud monitoring**, and **real-world automation**.
+I turn cloud ideas into **secure, scalable AWS systems**.  Specializing in **infrastructure as code**, **cloud monitoring**, and **real-world automation**.
 
 ---
 
