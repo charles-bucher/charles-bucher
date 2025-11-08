@@ -1,60 +1,61 @@
-Hi, I'm Charles 👋
-Hands-on NOC & Cloud Engineer | AWS SysOps | Terraform Automation
+# Hi, I’m Charles 👋  
 
-I specialize in real-world NOC operations, cloud monitoring, and automated incident response, turning complex network and cloud environments into secure, observable, scalable systems.
+**Cloud Support & NOC Engineer | AWS | Python | Terraform | Monitoring & Automation**
 
-🚨 Featured NOC Project (Front & Center)
-NOC-Toolkit-Automation
-View Repo →
+I turn complex cloud environments into stable, observable systems.  
+Focused on real-world AWS troubleshooting, proactive monitoring, and automation that keeps services healthy and secure.
 
-Why this matters: Immediate proof of NOC skills—device monitoring, incident simulation, and live dashboards. Recruiters see your hands-on capabilities right away.
+---
 
-Skills demonstrated:
+### 🚀 Featured Project — [NOC-Toolkit-Automation](https://github.com/charles-bucher/NOC-Toolkit-Automation)
+**Simulated NOC environment for monitoring and incident response**
 
-Real-time device & network monitoring (Netmiko, Paramiko, AWS)
+This project demonstrates how I handle real-world cloud and network issues — from device monitoring to automated incident remediation.  
+It’s built to show how Cloud Support Engineers respond to outages and scale reliability across AWS systems.
 
-Incident detection & automated response simulation
+**Skills Highlighted**
+- Real-time monitoring with **AWS, Netmiko, Paramiko**
+- **Incident detection + automated response simulation**
+- Python automation & workflow orchestration
+- Cloud integration for alerts and dashboards
 
-Python automation & workflow orchestration
+📸 *Screenshots:*  
+Dashboard • Incident Simulation  
 
-Cloud integration for monitoring & alerting
+---
 
-Screenshots:
+### ☁️ Cloud & Security Projects  
 
-Dashboard	Incident Simulation
-☁️ Cloud & Security Projects
-CloudOps-GuardDuty Automation
-View Repo →
+**[CloudOps-GuardDuty-Automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)**  
+Automated AWS threat detection and incident response with GuardDuty, CloudWatch, Lambda, and Terraform.  
+*Skills:* AWS security automation, SNS/Slack integration, proactive threat alerts.  
 
-GuardDuty Alert	Automated Response
-Skills demonstrated: AWS threat detection, Lambda automation, SNS/Slack alert integration, proactive monitoring
+**[AWS Monitoring & Observability](https://github.com/charles-bucher/aws_monitoring_observability)**  
+End-to-end AWS monitoring and alerting pipeline using CloudWatch and SNS.  
+*Skills:* Terraform IaC deployment, EC2 metrics, dashboards, automated notifications.  
 
-AWS Monitoring & Observability
-View Repo →
+---
 
-CloudWatch Metrics	Notification Example
-Skills demonstrated: Terraform IaC deployment, EC2 metrics & dashboards, automated notifications
+### 🧠 Core Skills  
 
-💡 Core Skills
-NOC & Cloud Tools: Real-time monitoring, AWS (EC2, CloudWatch, GuardDuty, SNS, Lambda)
+**Cloud Platforms:** AWS (EC2, CloudWatch, GuardDuty, SNS, Lambda)  
+**Automation & IaC:** Python, Terraform  
+**Support Operations:** Troubleshooting, incident response, customer issue resolution, ticketing mindset  
+**Networking & Security:** Monitoring, alerting, high availability, best practices  
 
-Automation & IaC: Python, Terraform
+---
 
-Networking & Security: High availability, monitoring, alerting, security best practices
+### 🎯 What I’m Working Toward  
+Building deeper AWS automation playbooks and support workflows that shorten MTTR and reduce incident fatigue.  
+Always learning, always improving reliability and visibility across systems.
 
-Operations: 24/7 monitoring, incident detection & escalation, proactive troubleshooting
+---
 
-📫 Connect with Me
-LinkedIn: Charles Bucher
+### 📫 Connect With Me  
+- **LinkedIn:** [Charles Bucher](https://linkedin.com/in/charles-bucher-26598728b)  
+- **GitHub:** [charles-bucher](https://github.com/charles-bucher)  
+- **Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io)  
 
-GitHub: charles-bucher
+---
 
-⚡ Hireability Edge
-NOC-first: NOC-Toolkit-Automation at the top, front and center, with screenshots
-
-CloudOps/Security: Terraform/IaC, CloudWatch dashboards, automated alerts
-
-Recruiter-friendly: Screenshots + links = instant proof
-
-Ready for 24/7 operations: Shows ability to handle real-world network and cloud responsibilities
-
+> “Good cloud support isn’t about reacting fast — it’s about building systems that rarely need saving.”

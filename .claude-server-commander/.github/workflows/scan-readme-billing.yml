@@ -1,0 +1,36 @@
+﻿name: Scan README for AWS Billing Mentions
+
+on:
+  push:
+    paths:
+      - README.md
+  workflow_dispatch:
+
+jobs:
+  scan-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Scan README for billing phrases
+        run: |
+          phrases=("aws bill" "billing" "costs covered" "free tier" "charges apply" "you are responsible" "monthly cost" "pricing" "budget" "pay for aws" "incur charges" "not free" "usage fees")
+          found=false
+          for phrase in ""; do
+            if grep -i "" README.md; then
+              echo "⚠️ Found billing phrase: "
+              found=true
+            fi
+          done
+
+          if [ "" = true ]; then
+            echo -e "\n---\n**Note**: This repository is part of a personal cloud portfolio. It is not connected to any live infrastructure or production workloads." >> README.md
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add README.md
+            git commit -m "🧼 Injected disclaimer: not a live AWS billing system"
+            git push
+          else
+            echo "✅ No billing phrases found."
+          fi
