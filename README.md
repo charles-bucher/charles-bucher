@@ -1,66 +1,47 @@
 Hi, I'm Charles 👋
+Hands-on NOC & Cloud Engineer | AWS SysOps | Terraform Automation
 
-Hands-on Cloud & NOC Engineer | AWS SysOps | Terraform Automation
+I turn network & cloud monitoring challenges into secure, scalable, observable systems, with automation that 24/7 operations teams rely on.
 
-I turn cloud and network monitoring challenges into secure, scalable systems. Specializing in infrastructure as code, proactive monitoring, and automation that NOCs and CloudOps teams rely on.
-
-🛡️ Key Projects
-1️⃣ NOC-Toolkit-Automation
-
+🚨 Featured NOC Project
+NOC-Toolkit-Automation
 Repo →
 
-Simulates a Network Operations Center workflow: device monitoring, incident simulation, and live dashboards.
-Skills demonstrated: Python automation (Netmiko & Paramiko), real-time monitoring, incident detection & alert automation, AWS integration with Boto3.
+Hands-on NOC skills: real-time device monitoring, incident simulation, live dashboards, Python automation, AWS integration.
 
-Screenshots:
+Dashboard	Incident Simulation
+Key Skills:
 
+Device & network monitoring (Netmiko, Paramiko, AWS)
 
+Automated incident detection & response
 
+Workflow orchestration & Python scripting
 
-2️⃣ CloudOps-GuardDuty Automation
-
+☁️ Cloud & Security Projects
+CloudOps-GuardDuty Automation
 Repo →
 
-Automates AWS GuardDuty alerts and incident response.
-Skills demonstrated: AWS threat detection, Lambda automation, SNS & Slack alerts, proactive cloud security monitoring.
+GuardDuty Alert	Automated Response
+Skills: AWS threat detection, Lambda automation, SNS/Slack alert integration, proactive monitoring
 
-Screenshots:
-
-
-
-
-3️⃣ AWS Monitoring & Observability
-
+AWS Monitoring & Observability
 Repo →
 
-End-to-end infrastructure monitoring and observability using CloudWatch and Terraform.
-Skills demonstrated: Terraform IaC, EC2 metrics & dashboards, automated notifications, proactive incident response.
+CloudWatch Metrics	Notification Example
+Skills: Terraform IaC deployment, EC2 metrics, dashboards, automated notifications
 
-Screenshots:
+💡 Core Skills
+NOC & Cloud Tools: AWS (EC2, CloudWatch, GuardDuty, SNS, Lambda), network monitoring
 
+Automation & IaC: Python, Terraform
 
+Networking & Security: High availability, monitoring, alerting, security best practices
 
-
-💡 Skills
-
-Cloud & NOC Tools: AWS (EC2, CloudWatch, GuardDuty, SNS, Lambda)
-
-Automation & IaC: Terraform, Python
-
-Networking & Security: Monitoring, high availability, security best practices
-
-Operations: Incident detection, alerting, proactive troubleshooting
+Operations: 24/7 monitoring, incident detection & escalation, proactive troubleshooting
 
 📫 Connect with Me
-
 LinkedIn: Charles Bucher
 
 GitHub: charles-bucher
 
-✅ Hireability Edge:
-
-Real-world NOC & cloud monitoring projects
-
-Hands-on automation, alerting, and incident response
-
-Ready for 24/7 monitoring and CloudOps responsibilities
