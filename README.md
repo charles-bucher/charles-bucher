@@ -1,76 +1,64 @@
-# Hi, I'm Charles 👋
-**Hands-on Cloud Engineer | AWS SysOps | Terraform Automation**
+Hi, I'm Charles 👋
 
-I turn cloud ideas into **secure, scalable AWS systems**.  Specializing in **infrastructure as code**, **cloud monitoring**, and **real-world automation**.
+Hands-on NOC & Cloud Engineer | AWS SysOps | Terraform Automation
 
----
+I specialize in real-world NOC operations, cloud monitoring, and automated incident response, turning complex network and cloud environments into secure, observable, scalable systems.
 
-## 🛡️ Projects
+🚨 Featured NOC Project (Front & Center)
+NOC-Toolkit-Automation
 
-### 1️⃣ cloudOps-GuardDuty Automation
-[TERRAFORM MODULE REPO →](https://github.com/charles-bucher/cloudOps-guardDuty-automation)  
+View Repo →
 
-Terraform module for AWS GuardDuty automation. Built for reproducibility, modular scaling, and real-world visibility.
+Why this matters: Immediate proof of NOC skills—device monitoring, incident simulation, and live dashboards. Recruiters see your hands-on capabilities right away.
 
-### 2️⃣ AWS Monitoring & Observability
-[OBSERVABILITY REPO →](https://github.com/charles-bucher/aws_monitoring_observability)  
+Skills demonstrated:
 
-Infrastructure monitoring and observability using **CloudWatch, SNS, and Terraform modules**.
+Real-time device & network monitoring (Netmiko, Paramiko, AWS)
 
----
+Incident detection & automated response simulation
 
-## 📸 Full Screenshot Gallery
+Python automation & workflow orchestration
 
-<details>
-  <summary>Click to scroll horizontally →</summary>
+Cloud integration for monitoring & alerting
 
-<div style="overflow-x: auto; white-space: nowrap; padding: 10px 0;">
-  <!-- GuardDuty Screenshots -->
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/clone_Repo.png" alt="Clone Repo" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/deployed.png" alt="Deployed" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/guardduty-instance-running.png" alt="GuardDuty Instance Running" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/guardduty-running.png" alt="GuardDuty Running" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/pushed_screenshot.png" alt="Pushed Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/terraform-plan.png" alt="Terraform Plan" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/terraform_installed.png" alt="Terraform Installed" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/terraform_made.png" alt="Terraform Made" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/tf_plan.png" alt="TF Plan" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/cloudOps-guardDuty-automation/main/screenshots/tf_plan_screenshot.png" alt="TF Plan Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
+Screenshots:
 
-  <!-- Observability Screenshots -->
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/Clone_screenshot.PNG" alt="Clone Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/terraform_installed_screenshot.PNG" alt="Terraform Installed Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/terraform_init_screenshot.PNG" alt="Terraform Init Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/terraform_apply_screenshot.PNG" alt="Terraform Apply Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/terraform_made_screenshot.PNG" alt="Terraform Made Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/terraform_plan_scxreenshot.PNG" alt="Terraform Plan Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/cloudwatch_alarm_screenshot.PNG" alt="CloudWatch Alarm Screenshot" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/cloudwatch_alarm_screenshot2.PNG" alt="CloudWatch Alarm Screenshot 2" width="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="https://raw.githubusercontent.com/charles-bucher/aws_monitoring_observability/main/screenshots/cloudwatch_alarms_screenshot.PNG" alt="CloudWatch Alarms Overview" width="400" style="display:inline-block; margin-right:10px;"/>
-</div>
-</details>
+Dashboard	Incident Simulation
 
----
+	
+☁️ Cloud & Security Projects
+CloudOps-GuardDuty Automation
 
-## 💡 Skills
-- AWS Cloud (EC2, CloudWatch, GuardDuty, SNS, Lambda)  
-- Terraform & Infrastructure as Code  
-- Cloud Monitoring & Observability  
-- Networking & Security Best Practices  
-- High Availability & Scalability Design  
+View Repo →
 
----
+GuardDuty Alert	Automated Response
 
-## 📫 Connect with Me
-- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher85813)  
-- GitHub: [charles-bucher](https://github.com/charles-bucher)  
+	
 
+Skills demonstrated: AWS threat detection, Lambda automation, SNS/Slack alert integration, proactive monitoring
 
+AWS Monitoring & Observability
 
+View Repo →
 
+CloudWatch Metrics	Notification Example
 
+	
 
+Skills demonstrated: Terraform IaC deployment, EC2 metrics & dashboards, automated notifications
 
+💡 Core Skills
 
+NOC & Cloud Tools: Real-time monitoring, AWS (EC2, CloudWatch, GuardDuty, SNS, Lambda)
 
-ChatGPT can make mistakes. Check
+Automation & IaC: Python, Terraform
+
+Networking & Security: High availability, monitoring, alerting, security best practices
+
+Operations: 24/7 monitoring, incident detection & escalation, proactive troubleshooting
+
+📫 Connect with Me
+
+LinkedIn: Charles Bucher
+
+GitHub: charles-bucher
