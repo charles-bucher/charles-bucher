@@ -27,14 +27,6 @@ I build **hands-on projects simulating real-world NOC/CloudOps workflows**, show
 - **Tech Stack:** Python, Lambda, EventBridge, S3, Glacier, CloudWatch  
 - **View Project →**  
 
-**Workflow Screenshots:**
-
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01   | ![Repo Created](Screenshots/aws_monitoring_screenshots/00_clone_success.png) | Repository created & cloned |
-| 05   | ![Python Script](Screenshots/aws_monitoring_screenshots/01_aws_config.png) | Backup script configuration |
-| 10   | ![Monitoring Output](Screenshots/aws_monitoring_screenshots/04_terraform_init_.png) | Lambda automation running |
-
 ---
 
 ### 📊 NOC Toolkit Automation
@@ -43,14 +35,6 @@ I build **hands-on projects simulating real-world NOC/CloudOps workflows**, show
 - **Tech Stack:** Python, Flask, CloudWatch, SNS, boto3  
 - **View Project →**  
 
-**Workflow Screenshots:**
-
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01   | ![Repo Created](Screenshots/NOC_Toolkit_screenshots/01_repo_created.png) | Repo created on GitHub |
-| 05   | ![Python Script](Screenshots/NOC_Toolkit_screenshots/05.png) | Monitoring script |
-| 10   | ![Dashboard Output](Screenshots/NOC_Toolkit_screenshots/10_monitor_output.png) | Dashboard live & monitoring output |
-
 ---
 
 ### 🛡️ CloudOps GuardDuty Automation
@@ -58,15 +42,6 @@ I build **hands-on projects simulating real-world NOC/CloudOps workflows**, show
 - **Solution:** Automated AWS GuardDuty threat detection using Terraform, Lambda, and CloudWatch.  
 - **Tech Stack:** AWS GuardDuty, Terraform, Python, Lambda  
 - **View Project →**  
-
-**Workflow Screenshots:**
-
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01   | ![Clone Repo](Screenshots/cloudOps_guardDuty_screenshots/01_clone.png) | Repo cloned locally |
-| 02   | ![Terraform Applied](Screenshots/cloudOps_guardDuty_screenshots/02_deployed.png) | Terraform deployed GuardDuty |
-| 10   | ![Monitoring Active](Screenshots/cloudOps_guardDuty_screenshots/10_pushed_screenshot.png) | GuardDuty monitoring active |
-
 ---
 
 ### 🔍 AWS Monitoring & Observability
@@ -75,31 +50,12 @@ I build **hands-on projects simulating real-world NOC/CloudOps workflows**, show
 - **Tech Stack:** CloudWatch, SNS, Lambda, Python  
 - **View Project →**  
 
-**Workflow Screenshots:**
-
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 00   | ![Clone Repo](Screenshots/aws_monitoring_screenshots/00_clone_success.png) | Repo cloned successfully |
-| 02   | ![Terraform Plan](Screenshots/aws_monitoring_screenshots/03_tf_plan.png) | Terraform plan verified |
-| 04   | ![Terraform Init](Screenshots/aws_monitoring_screenshots/04_terraform_init_.png) | Terraform infrastructure initialized |
-
----
-
 ### 🛠️ Cloud Support Troubleshooting Knowledge Base
 - **Problem:** AWS incidents need fast diagnosis.  
 - **Solution:** Interactive guides & Terraform modules to simulate common incidents and teach troubleshooting.  
 - **Tech Stack:** Python, Bash, AWS CLI, Terraform  
 - **View Project →**  
 
-**Workflow Screenshots:**
-
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01   | ![Prerequisites](Screenshots/Cloud_Support_Troubleshooting_screenshots/01_prerequisites_git_python_installed.PNG) | Git & Python installed |
-| 05   | ![Config Editing](Screenshots/Cloud_Support_Troubleshooting_screenshots/05_config_editing.PNG) | Config file edited |
-| 08   | ![App Running](Screenshots/Cloud_Support_Troubleshooting_screenshots/08_app_running.PNG) | Knowledge base running |
-
----
 
 ## 🛠️ Technical Skills
 - **Cloud Platforms:** AWS (EC2, S3, Lambda, CloudWatch, GuardDuty, IAM, VPC, RDS, SNS)  
