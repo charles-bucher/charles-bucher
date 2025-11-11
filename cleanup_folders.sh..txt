@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# navigate to your repo (change path if needed)
+cd "C:/Users/buche/repos/Cloud_Work/repos/charles-bucher" || exit
+
+# make sure you're on main and up to date
+git checkout main
+git pull origin main
+
+# list of folders to delete
+folders=(
+  "NOC_Toolkit_screenshots"
+  "aws_monitoring_observability_screenshots"
+  "cloudOps-guardDuty-automation-screenshots"
+)
+
+# delete each folder if it exists
+for folder in "${folders[@]}"; do
+  if [ -d "$folder" ]; then
+    echo "Deleting $folder ..."
+    rm -rf "$folder"
+    git rm -r --cached "$folder"
+  else
+    echo "Folder $folder not found, skipping..."
+  fi
+done
+
+# commit and push changes
+git add .
+git commit -m "Remove outdated screenshot folders"
+git push origin main
+
+echo "✅ Selected folders deleted and changes pushed successfully."
