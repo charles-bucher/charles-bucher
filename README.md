@@ -2,7 +2,8 @@
 
 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b/) | [Portfolio](https://charles-bucher.github.io) | [Email](mailto:quietopscb@gmail.com)
 
-![Repo Traffic](https://img.shields.io/badge/Repo_Traffic-CharlesBucher-blue)
+![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
+
 
 ---
 
