@@ -2,6 +2,9 @@
 
 **LinkedIn** | **Portfolio** | **Email**
 
+![Profile Views](https://hits.sh/github.com/charles-bucher/charles-bucher.svg?style=flat-square)
+
+
 ---
 
 ## 🚀 About Me
