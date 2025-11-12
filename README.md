@@ -1,86 +1,74 @@
-👋 Hi, I’m Charles Bucher
-AWS Cloud Support & DevOps Engineer | Infrastructure Automation | CloudOps Specialist
+# Charles Bucher
 
-LinkedIn • Portfolio •  • GitHub
+**AWS Cloud Engineer | Infrastructure Automation Specialist**
 
-🚀 About Me
-I’m a hands-on Cloud Support & DevOps Engineer specializing in AWS troubleshooting, automation, and monitoring. I build production-ready projects that demonstrate real-world cloud operations skills, from incident response to fully automated infrastructure.
+Building cost-effective cloud solutions that prevent downtime & save money.  
+🧠 AWS | Terraform | Python | Bash | DevOps Automation
 
-Open to: Tier 1/2 Cloud Support, Junior DevOps, NOC/CloudOps roles.
+---
 
-🛠 Core Skills
-Cloud & Monitoring: AWS EC2, S3, Lambda, CloudWatch, SNS, GuardDuty, IAM
+## 📸 Project Screenshots
 
-Automation & IaC: Python, Bash, Terraform
+Below are visual examples from each of my key cloud engineering projects.  
+Each folder inside `/screenshots` corresponds to one project.
 
-CI/CD: GitHub Actions, AWS CodePipeline
+---
 
-Cloud Operations: Incident response, troubleshooting, Tier 1 monitoring
+### 🚀 Automated Multi-Service Deployment
+Path: `screenshots/Automated-Multi-Service-screenshots/`
 
-📂 Featured Projects
-1️⃣ AWS Monitoring & Observability
-Tech Stack: Terraform, CloudWatch, SNS, EC2, Python
+![Multi-Service Screenshot 1](screenshots/Automated-Multi-Service-screenshots/screenshot1.png)
+![Multi-Service Screenshot 2](screenshots/Automated-Multi-Service-screenshots/screenshot2.png)
+<!-- Add more screenshots as needed -->
 
-Highlights:
+---
 
-Automated EC2 monitoring & CloudWatch alarms
+### 📊 AWS Monitoring & Observability
+Path: `screenshots/aws_monitoring_observability_screenshots/`
 
-Multi-datapoint SNS notifications for incidents
+![Observability Screenshot 1](screenshots/aws_monitoring_observability_screenshots/screenshot1.png)
+![Observability Screenshot 2](screenshots/aws_monitoring_observability_screenshots/screenshot2.png)
 
-Troubleshooting for RDS, S3, IAM
+---
 
-Full Infrastructure as Code deployment
+### 🏗️ Multi-Tier VPC Cloud Architecture
+Path: `screenshots/aws_mult_itier_vpc_cloud_screenshots/`
 
-Screenshot:
+![VPC Screenshot 1](screenshots/aws_mult_itier_vpc_cloud_screenshots/screenshot1.png)
+![VPC Screenshot 2](screenshots/aws_mult_itier_vpc_cloud_screenshots/screenshot2.png)
 
-2️⃣ Automated Multi-Service Backup System
-Tech Stack: Python, Lambda, S3, EC2, RDS, Terraform
+---
 
-Highlights:
+### 🛡️ CloudOps GuardDuty Automation
+Path: `screenshots/cloudOps-guardDuty-automation-screenshots/`
 
-Automated backups to prevent accidental deletion or ransomware
+![GuardDuty Screenshot 1](screenshots/cloudOps-guardDuty-automation-screenshots/screenshot1.png)
+![GuardDuty Screenshot 2](screenshots/cloudOps-guardDuty-automation-screenshots/screenshot2.png)
 
-Intelligent Glacier transitions to cut storage costs by up to 83%
+---
 
-Fully serverless, event-driven architecture
+### 🧰 Cloud Support Troubleshooting
+Path: `screenshots/Cloud-Support-Troubleshooting-screenshots/`
 
-Screenshot:
+![Support Screenshot 1](screenshots/Cloud-Support-Troubleshooting-screenshots/screenshot1.png)
+![Support Screenshot 2](screenshots/Cloud-Support-Troubleshooting-screenshots/screenshot2.png)
 
-3️⃣ Cloud Support Troubleshooting Knowledge Base
-Tech Stack: Python, Bash, Terraform, AWS CLI
+---
 
-Highlights:
+## ⚙️ How to Update Screenshots Automatically
 
-Centralized reference for cloud troubleshooting
+You can generate all Markdown image links for every folder with this script:
 
-Step-by-step guides & automated scripts
-
-Supports NOC/CloudOps learning & documentation
-
-Screenshot:
-
-4️⃣ CloudOps GuardDuty Automation
-Tech Stack: Terraform, Python, CloudWatch, SNS, GuardDuty
-
-Highlights:
-
-Detects security threats proactively
-
-Triggers automated remediation workflows
-
-Integrates with CI/CD pipelines for continuous monitoring
-
-Screenshot:
-
-📈 GitHub Stats
-246 contributions in the last year
-
-Active in building CloudOps tooling, knowledge bases, and automation workflows
-
-⚡ About This Profile
-This profile README showcases my CloudOps, DevOps, and Tier 1 support skills, along with featured projects that demonstrate hands-on AWS expertise.
-
-Topics: python, bash, aws, terraform, lambda, automation, devops, cloud-monitoring, ec2, s3, cicd, security
-
-© 2025 Charles Bucher
-
+```bash
+#!/bin/bash
+echo "# 📸 Project Screenshots" > SCREENSHOTS.md
+for dir in screenshots/*; do
+  [ -d "$dir" ] || continue
+  dirname=$(basename "$dir")
+  echo -e "\n## ${dirname}" >> SCREENSHOTS.md
+  find "$dir" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | while read img; do
+    echo "![${img##*/}](${img})" >> SCREENSHOTS.md
+  done
+done
+<!-- Auto-generated gallery -->
+{% include_relative SCREENSHOTS.md %}
