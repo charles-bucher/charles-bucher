@@ -1,124 +1,86 @@
-# 👨‍💻 Charles Bucher | Cloud Support & DevOps Engineer
+👋 Hi, I’m Charles Bucher
+AWS Cloud Support & DevOps Engineer | Infrastructure Automation | CloudOps Specialist
 
-[LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b/) | [Portfolio](https://charles-bucher.github.io) | [Email](mailto:quietopscb@gmail.com)
+LinkedIn • Portfolio •  • GitHub
 
-![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
+🚀 About Me
+I’m a hands-on Cloud Support & DevOps Engineer specializing in AWS troubleshooting, automation, and monitoring. I build production-ready projects that demonstrate real-world cloud operations skills, from incident response to fully automated infrastructure.
 
+Open to: Tier 1/2 Cloud Support, Junior DevOps, NOC/CloudOps roles.
 
----
+🛠 Core Skills
+Cloud & Monitoring: AWS EC2, S3, Lambda, CloudWatch, SNS, GuardDuty, IAM
 
-## 🚀 About Me
-Hands-on Cloud Support & DevOps Engineer specializing in AWS troubleshooting, monitoring, and automation. I build production-ready projects demonstrating practical cloud operations skills.
+Automation & IaC: Python, Bash, Terraform
 
-Open to: Cloud Support Engineer (Tier 1/2) | Junior DevOps | NOC/CloudOps Roles
+CI/CD: GitHub Actions, AWS CodePipeline
 
----
+Cloud Operations: Incident response, troubleshooting, Tier 1 monitoring
 
-## Core Skills & Tools
-- Tier 1 Cloud Support & NOC Monitoring  
-- AWS: EC2, S3, Lambda, CloudWatch, SNS, GuardDuty, IAM  
-- Incident Response & Troubleshooting  
-- Automation & Infrastructure as Code: Python, Bash, Terraform  
-- CI/CD Pipelines: GitHub Actions, AWS CodePipeline  
+📂 Featured Projects
+1️⃣ AWS Monitoring & Observability
+Tech Stack: Terraform, CloudWatch, SNS, EC2, Python
 
----
+Highlights:
 
-## 📂 Featured Projects
+Automated EC2 monitoring & CloudWatch alarms
 
-### 1️⃣ AWS Monitoring & Observability
-**Repo:** [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)  
-**Tech Stack:** Terraform, AWS CloudWatch, SNS, EC2, Python  
+Multi-datapoint SNS notifications for incidents
 
-**Highlights:**
-- Automated EC2 monitoring & CloudWatch alarms  
-- Multi-datapoint SNS email alerts  
-- Troubleshooting for RDS, S3, IAM  
-- Full Infrastructure as Code deployment  
+Troubleshooting for RDS, S3, IAM
 
-**Screenshots:**
-<div align="center">
-  <img src="Screenshots/aws_monitoring_observability_screenshots/01_Clone.PNG" width="300px"/>
-  <img src="Screenshots/aws_monitoring_observability_screenshots/02_cloudwatch_alarm.PNG" width="300px"/>
-  <img src="Screenshots/aws_monitoring_observability_screenshots/03_cloudwatch_alarm.PNG" width="300px"/>
-</div>
+Full Infrastructure as Code deployment
 
----
+Screenshot:
 
-### 2️⃣ Automated Multi-Service Backup System
-**Repo:** [Automated-Multi-Service-Backup-System](https://github.com/charles-bucher/Automated-Multi-Service-Backup-System)  
-**Tech Stack:** Python, AWS Lambda, S3, EC2, RDS, Terraform  
+2️⃣ Automated Multi-Service Backup System
+Tech Stack: Python, Lambda, S3, EC2, RDS, Terraform
 
-**Highlights:**
-- Automates backups to prevent accidental deletion or ransomware  
-- Intelligent Glacier transitions reduce storage costs by up to 83%  
-- Fully serverless, event-driven architecture  
+Highlights:
 
-**Screenshots:**
-<div align="center">
-  <img src="Screenshots/Automated-Multi-Service-screenshots/00_before_cleanup.png" width="300px"/>
-  <img src="Screenshots/Automated-Multi-Service-screenshots/01_clone_success.png" width="300px"/>
-  <img src="Screenshots/Automated-Multi-Service-screenshots/02_venv_created.PNG" width="300px"/>
-</div>
+Automated backups to prevent accidental deletion or ransomware
 
----
+Intelligent Glacier transitions to cut storage costs by up to 83%
 
-### 3️⃣ AWS Multi-Tier VPC CloudOps Automation
-**Repo:** [aws_mult_itier_vpc_cloud_ops](https://github.com/charles-bucher/aws_mult_itier_vpc_cloud_ops)  
-**Tech Stack:** Terraform, AWS VPC, EC2, CloudWatch, IAM  
+Fully serverless, event-driven architecture
 
-**Highlights:**
-- Fully automated secure VPC with subnets, routing, and IAM policies  
-- Integrated monitoring for Tier 1 operational readiness  
-- Best practices for scalable, isolated, and compliant cloud environments  
+Screenshot:
 
-**Screenshots:**
-<div align="center">
-  <img src="Screenshots/aws_mult_itier_vpc_cloud_screenshots/architecture.png" width="300px"/>
-  <img src="Screenshots/aws_mult_itier_vpc_cloud_screenshots/scaffold_screenshots.sh" width="300px"/>
-  <img src="Screenshots/aws_mult_itier_vpc_cloud_screenshots/simulation_result.png" width="300px"/>
-</div>
+3️⃣ Cloud Support Troubleshooting Knowledge Base
+Tech Stack: Python, Bash, Terraform, AWS CLI
 
----
+Highlights:
 
-### 4️⃣ Cloud Support Troubleshooting Knowledge Base
-**Repo:** [charles-bucher](https://github.com/charles-bucher/charles-bucher)  
-**Tech Stack:** Python, AWS CLI, Bash, Terraform  
+Centralized reference for cloud troubleshooting
 
-**Highlights:**
-- Centralized reference for cloud troubleshooting  
-- Step-by-step guides & automated scripts  
-- Supports NOC/CloudOps learning & documentation  
+Step-by-step guides & automated scripts
 
-**Screenshots:**
-<div align="center">
-  <img src="Screenshots/Cloud-Support-Troubleshooting-screenshots/01_prerequisites_git_python_installed.PNG" width="300px"/>
-  <img src="Screenshots/Cloud-Support-Troubleshooting-screenshots/02_clone_repo_terminal.PNG" width="300px"/>
-  <img src="Screenshots/Cloud-Support-Troubleshooting-screenshots/03_navigate_project_folder.PNG" width="300px"/>
-</div>
+Supports NOC/CloudOps learning & documentation
 
----
+Screenshot:
 
-### 5️⃣ CloudOps GuardDuty Automation
-**Repo:** [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)  
-**Tech Stack:** Terraform, Python, CloudWatch, SNS, GuardDuty  
+4️⃣ CloudOps GuardDuty Automation
+Tech Stack: Terraform, Python, CloudWatch, SNS, GuardDuty
 
-**Highlights:**
-- Detects security threats proactively  
-- Triggers automated remediation workflows  
-- Integrates with CI/CD pipelines for continuous monitoring  
+Highlights:
 
-**Screenshots:**
-<div align="center">
-  <img src="Screenshots/cloudOps-guardDuty-automation-screenshots/clone_Repo.png" width="300px"/>
-  <img src="Screenshots/cloudOps-guardDuty-automation-screenshots/deployed.png" width="300px"/>
-  <img src="Screenshots/cloudOps-guardDuty-automation-screenshots/terraform_plan.png" width="300px"/>
-</div>
+Detects security threats proactively
 
----
+Triggers automated remediation workflows
 
-## 🛠 About This Repo
-This repository, `charles-bucher/charles-bucher`, is a special profile README showcasing my skills, projects, and hands-on CloudOps experience.
+Integrates with CI/CD pipelines for continuous monitoring
 
-**Topics:** python, docker, aws, security, devops, lambda, automation, cloud-monitoring, ec2, terraform, s3, vpc, cicd, cloud-support  
+Screenshot:
+
+📈 GitHub Stats
+246 contributions in the last year
+
+Active in building CloudOps tooling, knowledge bases, and automation workflows
+
+⚡ About This Profile
+This profile README showcases my CloudOps, DevOps, and Tier 1 support skills, along with featured projects that demonstrate hands-on AWS expertise.
+
+Topics: python, bash, aws, terraform, lambda, automation, devops, cloud-monitoring, ec2, s3, cicd, security
 
 © 2025 Charles Bucher
+
