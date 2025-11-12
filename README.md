@@ -75,3 +75,13 @@
 ![10.png](Screenshots/cloudops-guardduty-automation-screenshots/10.png)
 ![11.png](Screenshots/cloudops-guardduty-automation-screenshots/11.png)
 ![12.src](Screenshots/cloudops-guardduty-automation-screenshots/12.src)
+
+## 🖼️ Screenshots
+
+Below are visual examples from this project:
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/Automated-Multi-Service-screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/aws_monitoring_observability_screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/aws_mult_itier_vpc_cloud_screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/cloudops-guardduty-automation-screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/Cloud-Support-Troubleshooting-screenshots/)
+
