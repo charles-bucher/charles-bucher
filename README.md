@@ -1,52 +1,77 @@
-# Charles Bucher | AWS Cloud Engineer
+# 📸 Project Screenshots
 
-Building cost-effective cloud solutions that prevent downtime & save money.  
-🧠 AWS | Terraform | Python | Bash | DevOps Automation
+## aws_monitoring_observability_screenshots
+![00.png](assets/aws_monitoring_observability_screenshots/00.png)
+![01.PNG](assets/aws_monitoring_observability_screenshots/01.PNG)
+![02.png](assets/aws_monitoring_observability_screenshots/02.png)
+![03.PNG](assets/aws_monitoring_observability_screenshots/03.PNG)
+![04.png](assets/aws_monitoring_observability_screenshots/04.png)
+![05.PNG](assets/aws_monitoring_observability_screenshots/05.PNG)
+![06.png](assets/aws_monitoring_observability_screenshots/06.png)
+![07.PNG](assets/aws_monitoring_observability_screenshots/07.PNG)
+![08.PNG](assets/aws_monitoring_observability_screenshots/08.PNG)
+![09.PNG](assets/aws_monitoring_observability_screenshots/09.PNG)
 
----
+## Cloud_Support-Troubleshooting_Knowledge_screenshots
+![00.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/00.PNG)
+![01.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/01.PNG)
+![02.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/02.PNG)
+![03.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/03.PNG)
+![04.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/04.PNG)
+![05.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/05.PNG)
+![06.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/06.PNG)
 
-## 📸 Project Screenshots
+## Screenshots
+![Automated-Multi-Service-screenshots](Screenshots/Automated-Multi-Service-screenshots)
+![aws_monitoring_observability_screenshots](Screenshots/aws_monitoring_observability_screenshots)
+![aws_mult_itier_vpc_cloud_screenshots](Screenshots/aws_mult_itier_vpc_cloud_screenshots)
+![cloudops-guardduty-automation-screenshots](Screenshots/cloudops-guardduty-automation-screenshots)
+![Cloud-Support-Troubleshooting-screenshots](Screenshots/Cloud-Support-Troubleshooting-screenshots)
 
-### 🚀 Automated Multi-Service Deployment
-Path: `assets/Automated-Multi-Service-assets/`
+## Automated-Multi-Service-screenshots
+![00.png](Screenshots/Automated-Multi-Service-screenshots/00.png)
+![01.png](Screenshots/Automated-Multi-Service-screenshots/01.png)
+![02.PNG](Screenshots/Automated-Multi-Service-screenshots/02.PNG)
+![03.png](Screenshots/Automated-Multi-Service-screenshots/03.png)
+![04.png](Screenshots/Automated-Multi-Service-screenshots/04.png)
+![05.png](Screenshots/Automated-Multi-Service-screenshots/05.png)
+![06.png](Screenshots/Automated-Multi-Service-screenshots/06.png)
+![07.png](Screenshots/Automated-Multi-Service-screenshots/07.png)
+![08.PNG](Screenshots/Automated-Multi-Service-screenshots/08.PNG)
 
-![00](assets/Automated-Multi-Service-assets/00.png)
-![01](assets/Automated-Multi-Service-assets/01.png)
-![02](assets/Automated-Multi-Service-assets/02.png)
-![03](assets/Automated-Multi-Service-assets/03.png)
-![04](assets/Automated-Multi-Service-assets/04.png)
-![05](assets/Automated-Multi-Service-assets/05.png)
-![06](assets/Automated-Multi-Service-assets/06.png)
-![08](assets/Automated-Multi-Service-assets/08.png)
-![09](assets/Automated-Multi-Service-assets/09.png)
+## aws_monitoring_observability_screenshots
+![00.PNG](Screenshots/aws_monitoring_observability_screenshots/00.PNG)
+![01.PNG](Screenshots/aws_monitoring_observability_screenshots/01.PNG)
+![02.PNG](Screenshots/aws_monitoring_observability_screenshots/02.PNG)
+![03.PNG](Screenshots/aws_monitoring_observability_screenshots/03.PNG)
+![04.PNG](Screenshots/aws_monitoring_observability_screenshots/04.PNG)
+![05.PNG](Screenshots/aws_monitoring_observability_screenshots/05.PNG)
 
-### 📊 AWS Monitoring & Observability
-Path: `assets/aws_monitoring_observability_assets/`
+## aws_mult_itier_vpc_cloud_screenshots
+![00.png](Screenshots/aws_mult_itier_vpc_cloud_screenshots/00.png)
+![01.sh](Screenshots/aws_mult_itier_vpc_cloud_screenshots/01.sh)
+![02.png](Screenshots/aws_mult_itier_vpc_cloud_screenshots/02.png)
 
-![01](assets/aws_monitoring_observability_assets/01.png)
-![02](assets/aws_monitoring_observability_assets/02.png)
-![03](assets/aws_monitoring_observability_assets/03.png)
-![04](assets/aws_monitoring_observability_assets/04.png)
-![05](assets/aws_monitoring_observability_assets/05.png)
-![06](assets/aws_monitoring_observability_assets/06.png)
+## Cloud-Support-Troubleshooting-screenshots
+![00.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/00.PNG)
+![01.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/01.PNG)
+![02.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/02.PNG)
+![03.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/03.PNG)
+![04.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/04.PNG)
+![05.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/05.PNG)
+![06.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/06.PNG)
 
-### 🏗️ Multi-Tier VPC Cloud Architecture
-Path: `assets/aws_mult_itier_vpc_cloud_assets/`
-
-![01](assets/aws_mult_itier_vpc_cloud_assets/01.png)
-![02](assets/aws_mult_itier_vpc_cloud_assets/02.png)
-![03](assets/aws_mult_itier_vpc_cloud_assets/03.png)
-
-### 🛡️ CloudOps GuardDuty Automation
-Path: `assets/cloudops-guardDuty-automation-assets/`
-
-![01](assets/cloudops-guardDuty-automation-assets/01.png)
-…
-![12](assets/cloudops-guardDuty-automation-assets/12.png)
-
-### 🧰 Cloud Support Troubleshooting
-Path: `assets/Cloud-Support-Troubleshooting-assets/`
-
-![01](assets/Cloud-Support-Troubleshooting-assets/01.png)
-…
-![07](assets/Cloud-Support-Troubleshooting-assets/07.png)
+## cloudops-guardduty-automation-screenshots
+![00.png](Screenshots/cloudops-guardduty-automation-screenshots/00.png)
+![01.png](Screenshots/cloudops-guardduty-automation-screenshots/01.png)
+![02.png](Screenshots/cloudops-guardduty-automation-screenshots/02.png)
+![03.png](Screenshots/cloudops-guardduty-automation-screenshots/03.png)
+![04.png](Screenshots/cloudops-guardduty-automation-screenshots/04.png)
+![05.png](Screenshots/cloudops-guardduty-automation-screenshots/05.png)
+![06.png](Screenshots/cloudops-guardduty-automation-screenshots/06.png)
+![07.png](Screenshots/cloudops-guardduty-automation-screenshots/07.png)
+![08.png](Screenshots/cloudops-guardduty-automation-screenshots/08.png)
+![09.png](Screenshots/cloudops-guardduty-automation-screenshots/09.png)
+![10.png](Screenshots/cloudops-guardduty-automation-screenshots/10.png)
+![11.png](Screenshots/cloudops-guardduty-automation-screenshots/11.png)
+![12.src](Screenshots/cloudops-guardduty-automation-screenshots/12.src)
