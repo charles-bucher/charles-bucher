@@ -17,41 +17,56 @@ Each folder inside `/screenshots` corresponds to one project.
 ### 🚀 Automated Multi-Service Deployment
 Path: `assets/Automated-Multi-Service-assets/`
 
-![Multi-Service Screenshot 1](assets/Automated-Multi-Service-assets/screenshot1.png)
-![Multi-Service Screenshot 2](assets/Automated-Multi-Service-assets/screenshot2.png)
-<!-- Add more screenshots as needed -->
+![00_before_cleanup](assets/Automated-Multi-Service-screenshots/00_before_cleanup.png)
+![01_clone_success](assets/Automated-Multi-Service-screenshots/01_clone_success.png)
+![02_venv_created](assets/Automated-Multi-Service-screenshots/02_venv_created.png)
+![03_repo_files](assets/Automated-Multi-Service-screenshots/03_repo_files.png)
+![04_packages_installed](assets/Automated-Multi-Service-screenshots/04_packages_installed.png)
+![05_deploy_placeholder](assets/Automated-Multi-Service-screenshots/05_deploy_placeholder.png)
+![06_config_placeholder](assets/Automated-Multi-Service-screenshots/06_config_placeholder.png)
+![08_git_status](assets/Automated-Multi-Service-screenshots/08_git_status.png)
+![09_teardown](assets/Automated-Multi-Service-screenshots/09_teardown.png)
+
 
 ---
 
 ### 📊 AWS Monitoring & Observability
 Path: `assets/aws_monitoring_observability_assets/`
 
-![Observability Screenshot 1](assets/aws_monitoring_observability_assets/screenshot1.png)
-![Observability Screenshot 2](assets/aws_monitoring_observability_assets/screenshot2.png)
+![01_Clone](assets/aws_monitoring_observability_screenshots/01_Clone.PNG)
+![01_aws_config](assets/aws_monitoring_observability_screenshots/01_aws_config.png)
+![02_clone](assets/aws_monitoring_observability_screenshots/02_clone.png)
+![02_cloudwatch_alarm](assets/aws_monitoring_observability_screenshots/02_cloudwatch_alarm.PNG)
+![03_tf_plan](assets/aws_monitoring_observability_screenshots/03_tf_plan.png)
+![04_cloudwatch_alarms](assets/aws_monitoring_observability_screenshots/04_cloudwatch_alarms.PNG)
+![05_terraform](assets/aws_monitoring_observability_screenshots/05_terraform.png)
+![07_terraform_installed](assets/aws_monitoring_observability_screenshots/07_terraform_installed.PNG)
+![08_terraform_made](assets/aws_monitoring_observability_screenshots/08_terraform_made.PNG)
+![09_terraform_plan](assets/aws_monitoring_observability_screenshots/09_terraform_plan.PNG)
 
 ---
 
 ### 🏗️ Multi-Tier VPC Cloud Architecture
 Path: `assets/aws_mult_itier_vpc_cloud_assets/`
 
-![VPC Screenshot 1](assets/aws_mult_itier_vpc_cloud_assets/screenshot1.png)
-![VPC Screenshot 2](assets/aws_mult_itier_vpc_cloud_assets/screenshot2.png)
+ls assets/aws_mult_itier_vpc_cloud_screenshots
 
 ---
 
 ### 🛡️ CloudOps GuardDuty Automation
 Path: `assets/cloudOps-guardDuty-automation-assets/`
 
-![GuardDuty Screenshot 1](assets/cloudOps-guardDuty-automation-assets/screenshot1.png)
-![GuardDuty Screenshot 2](assets/cloudOps-guardDuty-automation-assets/screenshot2.png)
-
+ls assets/cloudops-guardduty-automation-screenshots
 ---
 
 ### 🧰 Cloud Support Troubleshooting
 Path: `assets/Cloud-Support-Troubleshooting-assets/`
 
-![Support Screenshot 1](assets/Cloud-Support-Troubleshooting-assets/screenshot1.png)
-![Support Screenshot 2](assets/Cloud-Support-Troubleshooting-assets/screenshot2.png)
+![04_install_dependencies_terminal](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/04_install_dependencies_terminal.PNG)
+![05_config_editing](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/05_config_editing.PNG)
+![06_run_project_terminal](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/06_run_project_terminal.PNG)
+![08_app_running](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/08_app_running.PNG)
+
 
 ---
 
