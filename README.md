@@ -19,6 +19,19 @@ Path: `assets/Automated-Multi-Service-assets/`
 
 ### 📊 AWS Monitoring & Observability
 Folder: `assets/aws_monitoring_observability_screenshots/`
+### 🚀 Automated Multi-Service Deployment
+Path: `assets/Automated-Multi-Service-assets/`
+
+![00](assets/Automated-Multi-Service-assets/00.png)
+![01](assets/Automated-Multi-Service-assets/01.png)
+![02](assets/Automated-Multi-Service-assets/02.png)
+![03](assets/Automated-Multi-Service-assets/03.png)
+![04](assets/Automated-Multi-Service-assets/04.png)
+![05](assets/Automated-Multi-Service-assets/05.png)
+![06](assets/Automated-Multi-Service-assets/06.png)
+![07](assets/Automated-Multi-Service-assets/07.png)  <!-- optional if you add it later -->
+![08](assets/Automated-Multi-Service-assets/08.png)
+![09](assets/Automated-Multi-Service-assets/09.png)
 
 
 ---
