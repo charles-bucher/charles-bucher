@@ -1,87 +1,73 @@
-# 📸 Project Screenshots
+# Hi, I'm Charles Bucher 👋
 
-## aws_monitoring_observability_screenshots
-![00.png](assets/aws_monitoring_observability_screenshots/00.png)
-![01.PNG](assets/aws_monitoring_observability_screenshots/01.PNG)
-![02.png](assets/aws_monitoring_observability_screenshots/02.png)
-![03.PNG](assets/aws_monitoring_observability_screenshots/03.PNG)
-![04.png](assets/aws_monitoring_observability_screenshots/04.png)
-![05.PNG](assets/aws_monitoring_observability_screenshots/05.PNG)
-![06.png](assets/aws_monitoring_observability_screenshots/06.png)
-![07.PNG](assets/aws_monitoring_observability_screenshots/07.PNG)
-![08.PNG](assets/aws_monitoring_observability_screenshots/08.PNG)
-![09.PNG](assets/aws_monitoring_observability_screenshots/09.PNG)
+[![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)](https://github.com/charles-bucher)
 
-## Cloud_Support-Troubleshooting_Knowledge_screenshots
-![00.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/00.PNG)
-![01.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/01.PNG)
-![02.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/02.PNG)
-![03.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/03.PNG)
-![04.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/04.PNG)
-![05.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/05.PNG)
-![06.PNG](assets/Cloud_Support-Troubleshooting_Knowledge_screenshots/06.PNG)
+**AWS Cloud Engineer | CloudOps Automation Specialist | Tier-1 Cloud Support Focus**  
 
-## Screenshots
-![Automated-Multi-Service-screenshots](Screenshots/Automated-Multi-Service-screenshots)
-![aws_monitoring_observability_screenshots](Screenshots/aws_monitoring_observability_screenshots)
-![aws_mult_itier_vpc_cloud_screenshots](Screenshots/aws_mult_itier_vpc_cloud_screenshots)
-![cloudops-guardduty-automation-screenshots](Screenshots/cloudops-guardduty-automation-screenshots)
-![Cloud-Support-Troubleshooting-screenshots](Screenshots/Cloud-Support-Troubleshooting-screenshots)
+I build scalable, monitored, and secure cloud environments with AWS, Terraform, Python, and Bash. My work focuses on:
 
-## Automated-Multi-Service-screenshots
-![00.png](Screenshots/Automated-Multi-Service-screenshots/00.png)
-![01.png](Screenshots/Automated-Multi-Service-screenshots/01.png)
-![02.PNG](Screenshots/Automated-Multi-Service-screenshots/02.PNG)
-![03.png](Screenshots/Automated-Multi-Service-screenshots/03.png)
-![04.png](Screenshots/Automated-Multi-Service-screenshots/04.png)
-![05.png](Screenshots/Automated-Multi-Service-screenshots/05.png)
-![06.png](Screenshots/Automated-Multi-Service-screenshots/06.png)
-![07.png](Screenshots/Automated-Multi-Service-screenshots/07.png)
-![08.PNG](Screenshots/Automated-Multi-Service-screenshots/08.PNG)
+- Cloud monitoring & observability
+- Automated incident response & alerting
+- Tier-1 cloud support playbooks
+- Infrastructure as code & DevOps automation
 
-## aws_monitoring_observability_screenshots
-![00.PNG](Screenshots/aws_monitoring_observability_screenshots/00.PNG)
-![01.PNG](Screenshots/aws_monitoring_observability_screenshots/01.PNG)
-![02.PNG](Screenshots/aws_monitoring_observability_screenshots/02.PNG)
-![03.PNG](Screenshots/aws_monitoring_observability_screenshots/03.PNG)
-![04.PNG](Screenshots/aws_monitoring_observability_screenshots/04.PNG)
-![05.PNG](Screenshots/aws_monitoring_observability_screenshots/05.PNG)
+---
 
-## aws_mult_itier_vpc_cloud_screenshots
-![00.png](Screenshots/aws_mult_itier_vpc_cloud_screenshots/00.png)
-![01.sh](Screenshots/aws_mult_itier_vpc_cloud_screenshots/01.sh)
-![02.png](Screenshots/aws_mult_itier_vpc_cloud_screenshots/02.png)
+## 📁 Featured Projects
 
-## Cloud-Support-Troubleshooting-screenshots
-![00.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/00.PNG)
-![01.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/01.PNG)
-![02.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/02.PNG)
-![03.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/03.PNG)
-![04.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/04.PNG)
-![05.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/05.PNG)
-![06.PNG](Screenshots/Cloud-Support-Troubleshooting-screenshots/06.PNG)
+### 1️⃣ AWS Monitoring & Observability
+> Real-time monitoring of EC2, CloudWatch metrics, automated alerts, and anomaly detection.
 
-## cloudops-guardduty-automation-screenshots
-![00.png](Screenshots/cloudops-guardduty-automation-screenshots/00.png)
-![01.png](Screenshots/cloudops-guardduty-automation-screenshots/01.png)
-![02.png](Screenshots/cloudops-guardduty-automation-screenshots/02.png)
-![03.png](Screenshots/cloudops-guardduty-automation-screenshots/03.png)
-![04.png](Screenshots/cloudops-guardduty-automation-screenshots/04.png)
-![05.png](Screenshots/cloudops-guardduty-automation-screenshots/05.png)
-![06.png](Screenshots/cloudops-guardduty-automation-screenshots/06.png)
-![07.png](Screenshots/cloudops-guardduty-automation-screenshots/07.png)
-![08.png](Screenshots/cloudops-guardduty-automation-screenshots/08.png)
-![09.png](Screenshots/cloudops-guardduty-automation-screenshots/09.png)
-![10.png](Screenshots/cloudops-guardduty-automation-screenshots/10.png)
-![11.png](Screenshots/cloudops-guardduty-automation-screenshots/11.png)
-![12.src](Screenshots/cloudops-guardduty-automation-screenshots/12.src)
+**Screenshots:**
+![01](aws_monitoring_observability_screenshots/01.png)
+![02](aws_monitoring_observability_screenshots/02.png)
+![03](aws_monitoring_observability_screenshots/03.png)
+![04](aws_monitoring_observability_screenshots/04.png)
+![05](aws_monitoring_observability_screenshots/05.png)
+![06](aws_monitoring_observability_screenshots/06.png)
 
-## 🖼️ Screenshots
+**Repo:** [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)
 
-Below are visual examples from this project:
-){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/Automated-Multi-Service-screenshots/)
-){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/aws_monitoring_observability_screenshots/)
-){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/aws_mult_itier_vpc_cloud_screenshots/)
-){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/cloudops-guardduty-automation-screenshots/)
-){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher/screenshots/Cloud-Support-Troubleshooting-screenshots/)
+---
 
+### 2️⃣ CloudOps GuardDuty Automation
+> Automated threat detection, incident response, and secure AWS infrastructure setup with Terraform & CI/CD pipelines.
+
+**Screenshots:**
+![01](cloudops-guardduty-automation-screenshots/01.png)
+![02](cloudops-guardduty-automation-screenshots/02.png)
+![03](cloudops-guardduty-automation-screenshots/03.png)
+![04](cloudops-guardduty-automation-screenshots/04.png)
+![05](cloudops-guardduty-automation-screenshots/05.png)
+![06](cloudops-guardduty-automation-screenshots/06.png)
+![07](cloudops-guardduty-automation-screenshots/07.png)
+![08](cloudops-guardduty-automation-screenshots/08.png)
+![09](cloudops-guardduty-automation-screenshots/09.png)
+
+**Repo:** [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
+
+---
+
+## ⚡ Skills & Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-0052CC?style=flat-square)
+![CloudOps](https://img.shields.io/badge/CloudOps-FF9900?style=flat-square)
+
+---
+
+## 📈 GitHub Traffic
+[![Charles' GitHub stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical)](https://github.com/charles-bucher)
+
+---
+
+## 🚀 Contact
+- Email: quietopscb@gmail.com  
+- LinkedIn: [charles-bucher](https://www.linkedin.com/in/charles-bucher-26598728b/)  
+- Portfolio: [charles-bucher.github.io](https://charles-bucher.github.io)  
+
+---
+
+*Building hands-on cloud experience for Tier-1 cloud support, CloudOps automation, and AWS infrastructure management.*
