@@ -1,101 +1,70 @@
-# Cloud & NOC Ops Labs
+# 👋 Charles Bucher | Cloud Engineer & DevOps Specialist
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/charles-bucher/charles-bucher)
-![GitHub stars](https://img.shields.io/github/stars/charles-bucher?style=social)
-![GitHub forks](https://img.shields.io/github/forks/charles-bucher?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/charles-bucher?style=social)
-![GitHub issues](https://img.shields.io/github/issues/charles-bucher)
-![GitHub last commit](https://img.shields.io/github/last-commit/charles-bucher/charles-bucher)
+**Building production-ready AWS infrastructure with automation, security, and scalability at the core.**
 
 ---
 
-## 📑 Table of Contents
-1. [AWS Labs](#aws-labs)  
-2. [GuardDuty Labs](#guardduty-labs)  
-3. [NOC Toolkit Automation](#noc-toolkit-automation)  
-4. [Connect With Me](#connect-with-me)  
-5. [About Me](#about-me)  
+## 🎯 What I Do
+
+I design and deploy cloud infrastructure solutions that solve real-world problems. Every project here demonstrates hands-on expertise in AWS architecture, Infrastructure as Code, proactive monitoring, and security automation.
+
+**Focus Areas:**
+- **Cloud Infrastructure:** AWS (EC2, S3, CloudFront, Lambda, RDS, CloudWatch, GuardDuty)
+- **Infrastructure as Code:** Terraform, AWS CLI
+- **Monitoring & Observability:** CloudWatch Dashboards, Alarms, Metrics, SNS Notifications
+- **Security Automation:** Threat detection, incident response, compliance validation
+- **Web Hosting & Delivery:** Secure, scalable static site deployments with CDN
+- **CI/CD & Automation:** GitHub Actions, shell scripting, automated workflows
 
 ---
 
-## 📂 AWS Labs
+## 🚀 Featured Projects
 
-**1. AWS Monitoring & Observability**  
-![aws_monitoring_observability](screenshots/aws_monitoring_observability.png)  
+### [Cloud Support Troubleshooting Toolkit](https://github.com/charles-bucher/cloud-support-troubleshooting-toolkit)
+Comprehensive diagnostic toolkit for AWS cloud support engineers. Automates troubleshooting for connectivity issues, resource bottlenecks, security audits, and cost anomalies. Includes visual project structure and setup documentation.
 
-**2. AWS Clone – Cloning AWS Resources**  
-![AWS Clone – Cloning AWS resources](screenshots/AWS_Clone_Cloning_AWS_resources.png)  
+**Tech:** Python, AWS CLI, CloudWatch, IAM, Multi-cloud support
 
-**3. AWS Config – AWS Environment Configuration**  
-![AWS Config – AWS environment configuration](screenshots/AWS_Config_AWS_environment_configuration.png)  
-
-**4. AWS Confirm – Confirmation of AWS Setup**  
-![AWS Confirm – Confirmation of AWS setup](screenshots/AWS_Confirm_Confirmation_of_AWS_setup.png)  
-
-**5. AWS Terraform Confirm – Terraform Deployment Confirmation**  
-![AWS Terraform Confirm – Terraform deployment confirmation](screenshots/AWS_Terraform_Confirm_Terraform_deployment_confirmation.png)  
+**View:** [Screenshots of project architecture and setup](https://github.com/charles-bucher/cloud-support-troubleshooting-toolkit#-see-it-in-action)
 
 ---
 
-## 🔐 GuardDuty Labs
+## 🛠️ Technical Skills
 
-**6. GuardDuty Automation**  
-![cloudOps-guardDuty-automation](screenshots/cloudOps-guardDuty-automation.png)  
-
-**7. GuardDuty GitHub Push**  
-![GuardDuty GitHub Push – Pushing GuardDuty config to GitHub](screenshots/GuardDuty_GitHub_Push_Pushing_GuardDuty_config_to_GitHub.png)  
-
-**8. GuardDuty Terraform Plan**  
-![GuardDuty TFPlan – Terraform plan for GuardDuty](screenshots/GuardDuty_TFPlan_Terraform_plan_for_GuardDuty.png)  
-
-**9. GuardDuty TFPlan Confirm**  
-![GuardDuty TFPlan Confirm – Confirmation of GuardDuty Terraform deployment](screenshots/GuardDuty_TFPlan_Confirm_Confirmation_of_GuardDuty_Terraform_deployment.png)  
+| Category | Technologies |
+|----------|-------------|
+| **Cloud Platforms** | AWS (EC2, S3, Lambda, CloudFront, RDS, CloudWatch, GuardDuty, SNS) |
+| **Infrastructure as Code** | Terraform, AWS CLI, CloudFormation |
+| **Monitoring & Alerts** | CloudWatch Dashboards, Alarms, Metrics, SNS, Slack Integration |
+| **Security** | GuardDuty, IAM, Security Groups, Threat Detection, Compliance Automation |
+| **Automation** | Shell Scripting, Python, PowerShell, GitHub Actions, CI/CD |
+| **Networking** | VPC, Subnets, Route Tables, Security Groups, NACLs, VPN |
+| **Web Infrastructure** | S3 Static Hosting, CloudFront CDN, HTTPS/SSL, DNS (Route 53) |
 
 ---
 
-## 🖥️ NOC Toolkit Automation
+## 📜 Certifications
 
-**10. Monitor Script**  
-![NOC_monitor_py](screenshots/NOC_monitor_py.png)  
-
-**11. Repo Cloned**  
-![NOC_repo_cloned](screenshots/NOC_repo_cloned.png)  
-
-**12. Repo Created**  
-![NOC_repo_created](screenshots/NOC_repo_created.png)  
-
-**13. VSCode Explorer**  
-![NOC_vscode_explorer](screenshots/NOC_vscode_explorer.png)  
-
-**14. Dashboard Script**  
-![NOC_dashboard_py](screenshots/NOC_dashboard_py.png)  
-
-**15. Devices JSON**  
-![NOC_devices_json](screenshots/NOC_devices_json.png)  
-
-**16. Environment Setup**  
-![NOC_env_setup](screenshots/NOC_env_setup.png)  
-
-**17. Folder Structure**  
-![NOC_folder_structure](screenshots/NOC_folder_structure.png)  
-
-**18. Git Status**  
-![NOC_git_status](screenshots/NOC_git_status.png)  
-
-**19. Monitor Output**  
-![NOC_monitor_output](screenshots/NOC_monitor_output.png)  
+- 🎓 **AWS Solutions Architect Associate** (In Progress - Exam Early 2026)
+- 🎓 **CompTIA Security+** (Planned)
 
 ---
 
-## 🔗 Connect With Me
-- [LinkedIn](https://www.linkedin.com/in/charles-bucher/)  
-- [GitHub Repos](https://github.com/charles-bucher)  
+## 💼 Career Goals
+
+Building production-ready cloud solutions that combine **automation, security, scalability, and cost efficiency**. I focus on proactive infrastructure management—detecting and resolving issues before they become incidents.
+
+**Currently seeking:** Remote Cloud Engineer / DevOps / SRE roles | Contract-to-hire opportunities | Freelance cloud infrastructure projects
 
 ---
 
-## 👨‍💻 About Me
-Cloud Support | NOC & CloudOps | AWS Monitoring & Automation | Python / Terraform  
+## 📫 Let's Connect
 
-**Topics:** python, docker, aws, security, devops, lambda, automation, cloud monitoring, ec2, terraform, s3, vpc, cicd, cloud-support
-This keeps it:
+- 📧 **Email:** [Quietopscb@gmail.com](mailto:Quietopscb@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b)
 
+**Open to:** Remote positions | Cloud/DevOps roles | Contract-to-hire | Freelance projects
+
+---
+
+> *"Infrastructure is code. Monitoring is peace of mind. Automation is freedom."*
