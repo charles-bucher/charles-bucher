@@ -1,0 +1,7 @@
+![aws_clone](Screenshots/aws_screenshots/aws_clone.png)
+![aws_config](Screenshots/aws_screenshots/aws_config.png)
+![aws_confirm](Screenshots/aws_screenshots/aws_confirm.png)
+![aws_terraform_confirm](Screenshots/aws_screenshots/aws_terraform_confirm.png)
+![gd_github_push](Screenshots/guardduty_screenshots/gd_github_push.png)
+![gd_tfplan](Screenshots/guardduty_screenshots/gd_tfplan.png)
+![gd_tfplan_confirm](Screenshots/guardduty_screenshots/gd_tfplan_confirm.png)

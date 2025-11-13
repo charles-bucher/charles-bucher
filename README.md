@@ -1,59 +1,51 @@
-# Charles Bucher  
-**Junior Cloud Engineer | AWS | Terraform | Linux**
+# Hi there 👋, I'm Charles!
 
-Self-taught cloud engineer focused on hands-on labs, scripts, and troubleshooting for entry-level cloud support roles.
-
-
----
-
-## 🧠 AWS Monitoring & Observability
-
-| Screenshot | Description |
-|-------------|--------------|
-| ![aws-01](./aws_monitoring_observability_screenshots/aws-01.png) | CloudWatch metrics dashboard |
-| ![aws-02](./aws_monitoring_observability_screenshots/aws-02.png) | EC2 monitoring setup |
-| ![aws-03](./aws_monitoring_observability_screenshots/aws-03.png) | Log group filters |
-| ![aws-04](./aws_monitoring_observability_screenshots/aws-04.png) | Alarm configuration |
-| ![aws-05](./aws_monitoring_observability_screenshots/aws-05.png) | SNS alert notifications |
-| ![aws-06](./aws_monitoring_observability_screenshots/aws-06.png) | CloudWatch Insights query |
+I'm a **Cloud Engineer & Cloud Support Specialist** focused on building secure, automated, and cost-effective cloud solutions.  
+Currently leveling up in **AWS**, **DevOps**, and **Infrastructure Automation**.
 
 ---
 
-## 🔒 CloudOps GuardDuty Automation
-
-| Screenshot | Description |
-|-------------|--------------|
-| ![guardduty-01](./cloudops-guardduty-automation-screenshots/guardduty-01.png) | GuardDuty findings overview |
-| ![guardduty-02](./cloudops-guardduty-automation-screenshots/guardduty-02.png) | Lambda auto-remediation flow |
-| ![guardduty-03](./cloudops-guardduty-automation-screenshots/guardduty-03.png) | EventBridge trigger rule |
-| ![guardduty-04](./cloudops-guardduty-automation-screenshots/guardduty-04.png) | Security Hub integration |
-| ![guardduty-05](./cloudops-guardduty-automation-screenshots/guardduty-05.png) | Remediation log outputs |
-| ![guardduty-06](./cloudops-guardduty-automation-screenshots/guardduty-06.png) | CloudWatch alert verification |
-
-
-## Skills
-
-- **AWS:** EC2, S3, IAM, VPC, CloudWatch  
-- **Terraform:** Infrastructure as Code basics  
-- **Operating Systems:** Linux & Windows Server  
-- **Networking & Security:** VPCs, Subnets, Security Groups, IAM policies  
-- **Scripting & Automation:** Bash, Python  
-- **Monitoring & Support:** Logs, CloudWatch alerts  
+## 🛠 Technologies & Skills
+- **Cloud:** AWS (EC2, S3, IAM, GuardDuty, CloudWatch)  
+- **Automation:** Terraform, Bash, PowerShell  
+- **Version Control:** Git & GitHub  
+- **Monitoring & Security:** GuardDuty, CloudTrail, custom dashboards  
 
 ---
 
-## Projects
+## 📸 Project Screenshots
 
-- **AWS Labs:** EC2 instances, S3 automation, IAM users  
-- **Terraform Repos:** Infrastructure provisioning  
-- **Scripts:** Backups, log analysis, basic automation  
+### AWS Lab Screenshots
+Deployments, architecture, and cloud configurations:
 
-[View Repos →](https://github.com/charles-bucher?tab=repositories)
+![AWS Screenshot 1](Screenshots/aws_screenshots/aws_screenshot_1.png)  
+![AWS Screenshot 2](Screenshots/aws_screenshots/aws_screenshot_2.png)  
+![AWS Screenshot 3](Screenshots/aws_screenshots/aws_screenshot_3.png)  
+
+### GuardDuty Lab Screenshots
+Security monitoring and threat detection labs:
+
+![GuardDuty Screenshot 1](Screenshots/guardduty_screenshots/guardduty_screenshot_1.png)  
+![GuardDuty Screenshot 2](Screenshots/guardduty_screenshots/guardduty_screenshot_2.png)  
+![GuardDuty Screenshot 3](Screenshots/guardduty_screenshots/guardduty_screenshot_3.png)  
+
+> **Tip:** Rename your screenshots sequentially (`aws_screenshot_1.png`, `guardduty_screenshot_1.png`, etc.) to make linking easier.
 
 ---
 
-## Learning Next
+## 📊 Repo Traffic
+Track activity and engagement for this repo:
 
-- AWS Advanced Networking & Security  
-- CI/CD with GitHub Actions  
-- Docker fundamentals  
+![Repo views](https://img.shields.io/github/views/charles-bucher/charles-bucher?style=flat&color=blue)
+![Repo clones](https://img.shields.io/github/clones/charles-bucher/charles-bucher?style=flat&color=green)
+
+---
+
+## 📈 GitHub Stats
+![Charles' GitHub stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical)
+
+---
+
+## 🔗 Connect with me
+- [LinkedIn](https://www.linkedin.com/in/charles-bucher)  
+- [GitHub Repos](https://github.com/charles-bucher)
