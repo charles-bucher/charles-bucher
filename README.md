@@ -1,73 +1,59 @@
-# Hi, I'm Charles Bucher 👋
+# Charles Bucher  
+**Junior Cloud Engineer | AWS | Terraform | Linux**
 
-[![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)](https://github.com/charles-bucher)
+Self-taught cloud engineer focused on hands-on labs, scripts, and troubleshooting for entry-level cloud support roles.
 
-**AWS Cloud Engineer | CloudOps Automation Specialist | Tier-1 Cloud Support Focus**  
-
-I build scalable, monitored, and secure cloud environments with AWS, Terraform, Python, and Bash. My work focuses on:
-
-- Cloud monitoring & observability
-- Automated incident response & alerting
-- Tier-1 cloud support playbooks
-- Infrastructure as code & DevOps automation
 
 ---
 
-## 📁 Featured Projects
+## 🧠 AWS Monitoring & Observability
 
-### 1️⃣ AWS Monitoring & Observability
-> Real-time monitoring of EC2, CloudWatch metrics, automated alerts, and anomaly detection.
-
-**Screenshots:**
-![01](aws_monitoring_observability_screenshots/01.png)
-![02](aws_monitoring_observability_screenshots/02.png)
-![03](aws_monitoring_observability_screenshots/03.png)
-![04](aws_monitoring_observability_screenshots/04.png)
-![05](aws_monitoring_observability_screenshots/05.png)
-![06](aws_monitoring_observability_screenshots/06.png)
-
-**Repo:** [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)
+| Screenshot | Description |
+|-------------|--------------|
+| ![aws-01](./aws_monitoring_observability_screenshots/aws-01.png) | CloudWatch metrics dashboard |
+| ![aws-02](./aws_monitoring_observability_screenshots/aws-02.png) | EC2 monitoring setup |
+| ![aws-03](./aws_monitoring_observability_screenshots/aws-03.png) | Log group filters |
+| ![aws-04](./aws_monitoring_observability_screenshots/aws-04.png) | Alarm configuration |
+| ![aws-05](./aws_monitoring_observability_screenshots/aws-05.png) | SNS alert notifications |
+| ![aws-06](./aws_monitoring_observability_screenshots/aws-06.png) | CloudWatch Insights query |
 
 ---
 
-### 2️⃣ CloudOps GuardDuty Automation
-> Automated threat detection, incident response, and secure AWS infrastructure setup with Terraform & CI/CD pipelines.
+## 🔒 CloudOps GuardDuty Automation
 
-**Screenshots:**
-![01](cloudops-guardduty-automation-screenshots/01.png)
-![02](cloudops-guardduty-automation-screenshots/02.png)
-![03](cloudops-guardduty-automation-screenshots/03.png)
-![04](cloudops-guardduty-automation-screenshots/04.png)
-![05](cloudops-guardduty-automation-screenshots/05.png)
-![06](cloudops-guardduty-automation-screenshots/06.png)
-![07](cloudops-guardduty-automation-screenshots/07.png)
-![08](cloudops-guardduty-automation-screenshots/08.png)
-![09](cloudops-guardduty-automation-screenshots/09.png)
+| Screenshot | Description |
+|-------------|--------------|
+| ![guardduty-01](./cloudops-guardduty-automation-screenshots/guardduty-01.png) | GuardDuty findings overview |
+| ![guardduty-02](./cloudops-guardduty-automation-screenshots/guardduty-02.png) | Lambda auto-remediation flow |
+| ![guardduty-03](./cloudops-guardduty-automation-screenshots/guardduty-03.png) | EventBridge trigger rule |
+| ![guardduty-04](./cloudops-guardduty-automation-screenshots/guardduty-04.png) | Security Hub integration |
+| ![guardduty-05](./cloudops-guardduty-automation-screenshots/guardduty-05.png) | Remediation log outputs |
+| ![guardduty-06](./cloudops-guardduty-automation-screenshots/guardduty-06.png) | CloudWatch alert verification |
 
-**Repo:** [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
----
+## Skills
 
-## ⚡ Skills & Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![DevOps](https://img.shields.io/badge/DevOps-0052CC?style=flat-square)
-![CloudOps](https://img.shields.io/badge/CloudOps-FF9900?style=flat-square)
+- **AWS:** EC2, S3, IAM, VPC, CloudWatch  
+- **Terraform:** Infrastructure as Code basics  
+- **Operating Systems:** Linux & Windows Server  
+- **Networking & Security:** VPCs, Subnets, Security Groups, IAM policies  
+- **Scripting & Automation:** Bash, Python  
+- **Monitoring & Support:** Logs, CloudWatch alerts  
 
 ---
 
-## 📈 GitHub Traffic
-[![Charles' GitHub stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical)](https://github.com/charles-bucher)
+## Projects
+
+- **AWS Labs:** EC2 instances, S3 automation, IAM users  
+- **Terraform Repos:** Infrastructure provisioning  
+- **Scripts:** Backups, log analysis, basic automation  
+
+[View Repos →](https://github.com/charles-bucher?tab=repositories)
 
 ---
 
-## 🚀 Contact
-- Email: quietopscb@gmail.com  
-- LinkedIn: [charles-bucher](https://www.linkedin.com/in/charles-bucher-26598728b/)  
-- Portfolio: [charles-bucher.github.io](https://charles-bucher.github.io)  
+## Learning Next
 
----
-
-*Building hands-on cloud experience for Tier-1 cloud support, CloudOps automation, and AWS infrastructure management.*
+- AWS Advanced Networking & Security  
+- CI/CD with GitHub Actions  
+- Docker fundamentals  
