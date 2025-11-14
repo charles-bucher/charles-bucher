@@ -1,4 +1,4 @@
-name: Terraform Apply GuardDuty Lab
+name: Terraform Apply Main Repo
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   terraform:
-    name: Terraform Apply
+    name: Terraform Apply Main Repo
     runs-on: ubuntu-latest
 
     steps:
