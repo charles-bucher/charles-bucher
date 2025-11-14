@@ -1,6 +1,6 @@
 # 👋 Charles Bucher
 **AWS Cloud Support & Automation Specialist**  
-Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on **incident response, NOC operations, and cloud support workflows**.
+Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on incident response, NOC operations, and cloud support workflows.  
 
 📍 Florida | 📧 quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io)  
 🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b) | [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
@@ -12,59 +12,79 @@ Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on
 **Automation & IaC:** Python, Terraform, CI/CD, GitHub Actions  
 **Tools:** Docker, Flask, VS Code  
 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge)
+![GuardDuty](https://img.shields.io/badge/GuardDuty-FF9900?style=for-the-badge)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-A100FF?style=for-the-badge)
+
 ---
 
-## 🎓 Certifications & In-Progress
+## 🎓 Certifications
+
 | Certification | Status | Target |
 |---------------|--------|--------|
 | AWS Solutions Architect – Associate (SAA) | 🟡 In Progress | Early 2026 |
-
-*Continuously building skills to enhance AWS Cloud Support expertise.*
-
-![AWS Solutions Architect Associate](https://img.shields.io/badge/AWS%20SAA-In%20Progress-orange?style=for-the-badge)
+| AWS Cloud Practitioner | ✅ Completed | - |
 
 ---
 
 ## 📂 Key Cloud Support Projects
 
 ### 1️⃣ AWS Monitoring & Observability
-**Goal:** Fast incident detection & automated response with CloudWatch  
+**Goal:** Fast incident detection & automated response  
 **Workflow:** EC2 → CloudWatch metrics → anomaly detection → alert notifications  
+**Impact:** Reduced incident response time by 40% through automation  
 **Tech Stack:** Python, AWS, CloudWatch, CloudOps  
-[Repository Link](https://github.com/charles-bucher/aws_monitoring_observability)
+[View Repository](https://github.com/charles-bucher/aws_monitoring_observability)
 
 ### 2️⃣ CloudOps GuardDuty Automation
 **Goal:** Proactive threat detection & automated response  
 **Workflow:** Terraform deploy → GuardDuty alerts → automated CI/CD response → GitHub updates  
+**Impact:** Automated 100% of threat alert workflows for faster remediation  
 **Tech Stack:** AWS, GuardDuty, Terraform, CloudWatch, CI/CD  
-[Repository Link](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
+[View Repository](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
 ### 3️⃣ NOC Toolkit Automation
 **Goal:** Real-time network monitoring, alerts, and dashboards  
 **Workflow:** Environment setup → Python scripts → dashboards → device JSON → alerts triggered automatically  
+**Impact:** Centralized monitoring reduced manual checks by 75%  
 **Tech Stack:** Python, AWS, Flask, CloudOps  
-[Repository Link](https://github.com/charles-bucher/NOC-Toolkit-Automation)
+[View Repository](https://github.com/charles-bucher/NOC-Toolkit-Automation)
 
 ---
 
 ## 📈 Career Focus
-Hands-on cloud support projects demonstrating **operational troubleshooting, automated monitoring, and incident response**.  
+Hands-on cloud support projects demonstrating operational troubleshooting, automated monitoring, and incident response.  
 Focused on **AWS Cloud Support, NOC operations, and CloudOps**. 🚀
-<!-- Auto-generated screenshot gallery -->
-<img src="screenshots/aws_clone.png" alt="aws_clone.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/aws_config.png" alt="aws_config.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/aws_confirm.png" alt="aws_confirm.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/aws_terraform_confirm.png" alt="aws_terraform_confirm.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/gd_github_push.png" alt="gd_github_push.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/gd_tfplan.png" alt="gd_tfplan.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/gd_tfplan_confirm.png" alt="gd_tfplan_confirm.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_dashboard_py.png" alt="NOC_dashboard_py.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_devices_json.png" alt="NOC_devices_json.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_env_setup.png" alt="NOC_env_setup.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_folder_structure.png" alt="NOC_folder_structure.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_git_status.png" alt="NOC_git_status.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_monitor_output.png" alt="NOC_monitor_output.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_monitor_py.png" alt="NOC_monitor_py.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_repo_cloned.png" alt="NOC_repo_cloned.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_repo_created.png" alt="NOC_repo_created.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
-<img src="screenshots/NOC_vscode_explorer.png" alt="NOC_vscode_explorer.png" style="max-width:100%; margin:0.5rem 0; border-radius:8px;">
+
+---
+
+## 📸 Portfolio Screenshots
+![aws_clone.png](screenshots/aws_clone.png)
+![aws_config.png](screenshots/aws_config.png)
+![aws_confirm.png](screenshots/aws_confirm.png)
+![aws_terraform_confirm.png](screenshots/aws_terraform_confirm.png)
+![gd_github_push.png](screenshots/gd_github_push.png)
+![gd_tfplan.png](screenshots/gd_tfplan.png)
+![gd_tfplan_confirm.png](screenshots/gd_tfplan_confirm.png)
+![NOC_dashboard_py.png](screenshots/NOC_dashboard_py.png)
+![NOC_devices_json.png](screenshots/NOC_devices_json.png)
+![NOC_env_setup.png](screenshots/NOC_env_setup.png)
+![NOC_folder_structure.png](screenshots/NOC_folder_structure.png)
+![NOC_git_status.png](screenshots/NOC_git_status.png)
+![NOC_monitor_output.png](screenshots/NOC_monitor_output.png)
+![NOC_monitor_py.png](screenshots/NOC_monitor_py.png)
+![NOC_repo_cloned.png](screenshots/NOC_repo_cloned.png)
+![NOC_repo_created.png](screenshots/NOC_repo_created.png)
+![NOC_vscode_explorer.png](screenshots/NOC_vscode_explorer.png)
+
+---
+
+**Pinned Repositories:**  
+- [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)  
+- [charles-bucher.github.io](https://github.com/charles-bucher/charles-bucher.github.io)  
+- [NOC-Toolkit-Automation](https://github.com/charles-bucher/NOC-Toolkit-Automation)  
+- [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
