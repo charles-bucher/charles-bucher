@@ -1,3 +1,4 @@
+![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue)
 # Charles Bucher 👋
 **AWS Cloud Engineer | Infrastructure Automation Specialist**  
 Building cost-effective, reliable cloud solutions that prevent downtime and save money.  
