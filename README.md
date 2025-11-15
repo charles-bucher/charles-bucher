@@ -1,11 +1,11 @@
-👋 Charles Bucher
+﻿ðŸ‘‹ Charles Bucher
 AWS Cloud Support & Automation Specialist
 Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on incident response, NOC operations, and CloudOps workflows.
 
-📍 Florida | 📧  | 🌐 Portfolio
-🔗 LinkedIn | Indeed
+ðŸ“ Florida | ðŸ“§  | ðŸŒ Portfolio
+ðŸ”— LinkedIn | Indeed
 
-🔧 Key Skills & Technologies
+ðŸ”§ Key Skills & Technologies
 
 Python
 Terraform
@@ -13,46 +13,46 @@ Terraform
 
 Flask
 
-🎓 Certifications
-AWS Solutions Architect – Associate (SAA) – Target: Early 2026
+ðŸŽ“ Certifications
+AWS Solutions Architect â€“ Associate (SAA) â€“ Target: Early 2026
 
-📂 Key Cloud Support Projects
-1️⃣ AWS Monitoring & Observability
+ðŸ“‚ Key Cloud Support Projects
+1ï¸âƒ£ AWS Monitoring & Observability
 
-Automated EC2 → CloudWatch metrics → anomaly detection → alert notifications
+Automated EC2 â†’ CloudWatch metrics â†’ anomaly detection â†’ alert notifications
 
-⚡ Impact: Reduced incident response time by 40%
+âš¡ Impact: Reduced incident response time by 40%
 
-🛠️ Tech: Python, AWS, CloudWatch, CloudOps
-
-View Repository
-
-2️⃣ CloudOps GuardDuty Automation
-
-Terraform deploy → GuardDuty alerts → automated CI/CD response → GitHub updates
-
-⚡ Impact: Automated 100% of threat alert workflows
-
-🛠️ Tech: AWS, GuardDuty, Terraform, CloudWatch, CI/CD
+ðŸ› ï¸ Tech: Python, AWS, CloudWatch, CloudOps
 
 View Repository
 
-3️⃣ NOC Toolkit Automation
+2ï¸âƒ£ CloudOps GuardDuty Automation
 
-Real-time network monitoring: Python dashboards → device JSON → auto alerts
+Terraform deploy â†’ GuardDuty alerts â†’ automated CI/CD response â†’ GitHub updates
 
-⚡ Impact: Centralized monitoring reduced manual checks by 75%
+âš¡ Impact: Automated 100% of threat alert workflows
 
-🛠️ Tech: Python, AWS, Flask, CloudOps
+ðŸ› ï¸ Tech: AWS, GuardDuty, Terraform, CloudWatch, CI/CD
 
 View Repository
 
-📌 Pinned Repositories
-aws_monitoring_observability – Fast incident detection & alerts
+3ï¸âƒ£ NOC Toolkit Automation
 
-charles-bucher.github.io – Portfolio & CloudOps showcase
+Real-time network monitoring: Python dashboards â†’ device JSON â†’ auto alerts
 
-NOC-Toolkit-Automation – NOC dashboards & automated alerts
+âš¡ Impact: Centralized monitoring reduced manual checks by 75%
 
-cloudOps-guardDuty-automation – GuardDuty automation & CI/CD
+ðŸ› ï¸ Tech: Python, AWS, Flask, CloudOps
+
+View Repository
+
+ðŸ“Œ Pinned Repositories
+aws_monitoring_observability â€“ Fast incident detection & alerts
+
+charles-bucher.github.io â€“ Portfolio & CloudOps showcase
+
+NOC-Toolkit-Automation â€“ NOC dashboards & automated alerts
+
+cloudOps-guardDuty-automation â€“ GuardDuty automation & CI/CD
 
