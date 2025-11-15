@@ -1,58 +1,36 @@
-﻿ðŸ‘‹ Charles Bucher
-AWS Cloud Support & Automation Specialist
-Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on incident response, NOC operations, and CloudOps workflows.
+# 👋 Hey, I'm Charles
 
-ðŸ“ Florida | ðŸ“§  | ðŸŒ Portfolio
-ðŸ”— LinkedIn | Indeed
+I’m working toward becoming a Cloud Support Engineer with a heavy focus on AWS, Linux, monitoring, troubleshooting, and real-world incident response.  
+No shortcuts — I’m building everything from scratch, learning by doing, and putting every project on this GitHub so employers can see the receipts.
 
-ðŸ”§ Key Skills & Technologies
+## 🔧 What I'm Working On
+- **AWS Monitoring & Observability project**  
+  CloudWatch dashboards, alarms, logs, EC2 monitoring, SNS notifications, and automated response workflows.
+- **Linux fundamentals + scripting**  
+  Bash and PowerShell automation for day-to-day support tasks.
+- **Common cloud support scenarios**  
+  Break/fix labs, EC2 debugging, IAM access issues, S3 troubleshooting, network misconfigurations, and performance tuning.
 
-Python
-Terraform
+## 📚 What I'm Learning
+- AWS Cloud Practitioner (in progress)  
+- Real-world cloud support case studies  
+- Infrastructure troubleshooting  
+- Git/GitHub version control  
+- Building consistent documentation and clean repos
 
+## 🎯 My Goal
+Land a remote Cloud Support role (Tier 1 or Tier 2), keep leveling up, and eventually move into cloud operations or SRE work.  
+Long-term, I want to take this career and build financial stability for my family — one cert, one project, one opportunity at a time.
 
-Flask
+## 🧰 Tech Stack
+**Cloud:** AWS  
+**Languages:** Bash, PowerShell, Python (beginner)  
+**Tools:** GitHub, CloudWatch, IAM, EC2, S3  
+**Platforms:** Linux (Ubuntu, Amazon Linux), Windows  
 
-ðŸŽ“ Certifications
-AWS Solutions Architect â€“ Associate (SAA) â€“ Target: Early 2026
+## 💬 Why I'm Doing This
+I started from zero and built everything myself. My background isn’t traditional, but my drive is real. I’m committed, consistent, and not afraid to take on hard problems. Everything on this page is part of the journey.
 
-ðŸ“‚ Key Cloud Support Projects
-1ï¸âƒ£ AWS Monitoring & Observability
-
-Automated EC2 â†’ CloudWatch metrics â†’ anomaly detection â†’ alert notifications
-
-âš¡ Impact: Reduced incident response time by 40%
-
-ðŸ› ï¸ Tech: Python, AWS, CloudWatch, CloudOps
-
-View Repository
-
-2ï¸âƒ£ CloudOps GuardDuty Automation
-
-Terraform deploy â†’ GuardDuty alerts â†’ automated CI/CD response â†’ GitHub updates
-
-âš¡ Impact: Automated 100% of threat alert workflows
-
-ðŸ› ï¸ Tech: AWS, GuardDuty, Terraform, CloudWatch, CI/CD
-
-View Repository
-
-3ï¸âƒ£ NOC Toolkit Automation
-
-Real-time network monitoring: Python dashboards â†’ device JSON â†’ auto alerts
-
-âš¡ Impact: Centralized monitoring reduced manual checks by 75%
-
-ðŸ› ï¸ Tech: Python, AWS, Flask, CloudOps
-
-View Repository
-
-ðŸ“Œ Pinned Repositories
-aws_monitoring_observability â€“ Fast incident detection & alerts
-
-charles-bucher.github.io â€“ Portfolio & CloudOps showcase
-
-NOC-Toolkit-Automation â€“ NOC dashboards & automated alerts
-
-cloudOps-guardDuty-automation â€“ GuardDuty automation & CI/CD
+## 📫 Connect With Me
+Let’s connect on LinkedIn or talk cloud projects, career moves, or hands-on learning paths.
 
