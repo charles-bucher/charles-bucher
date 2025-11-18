@@ -1,8 +1,7 @@
 # 👋 Hi, I’m Charles Bucher
 
 **AWS Cloud Support Engineer | CloudOps | NOC | Python Automation**  
-📍 Florida | ✉️ quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io/) | GitHub: [github.com/charles-bucher](https://github.com/charles-bucher) |[LinkedIn: [linkedin.com/in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b/)
-](https://www.linkedin.com/in/charles-bucher-26598728b/)  
+📍 Florida | ✉️ quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io/) | GitHub: [charles-bucher](https://github.com/charles-bucher/charles-bucher) | LinkedIn: [linkedin.com/in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b/)
 
 ---
 
@@ -69,7 +68,12 @@ I focus on solving problems fast, automating repetitive tasks, and keeping cloud
 ---
 
 ## 📌 Let’s Connect
-If you’re looking for someone who can take **CloudOps and NOC operations off your plate**, automate workflows, and deliver **fast, reliable results**, reach out. I’m actively seeking **remote Cloud Support / NOC / CloudOps roles**.  
+Reach out if you’re looking for someone who can take **CloudOps and NOC operations off your plate**, automate workflows, and deliver **fast, reliable results**.  
+
+- 📧 quietopscb@gmail.com  
+- 🌐 [Portfolio](https://charles-bucher.github.io/)  
+- GitHub: [charles-bucher](https://github.com/charles-bucher/charles-bucher)  
+- LinkedIn: [linkedin.com/in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b/)
 
 ---
 
