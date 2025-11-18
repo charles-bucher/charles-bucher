@@ -1,96 +1,97 @@
-# 👋 Charles Bucher
-**AWS Cloud Support Engineer | Tier 1/2 | CloudOps & Monitoring**
+# 👋 Charles Bucher  
+**AWS Cloud Support Engineer | CloudOps Automation | Monitoring & Security**
 
-Hands-on Cloud Support & NOC engineer with practical experience turning AWS environments into fully monitored, automated, and resilient systems. Skilled in incident response, troubleshooting, and cloud automation.
+Self-taught AWS engineer with 300+ GitHub contributions building monitoring, security automation, and troubleshooting solutions. Learning in public through hands-on projects with Python, Terraform, and AWS services.  
 
-📍 Pinellas Park, FL (Remote)  
-📧 [charles.bucher.cloud@gmail.com](mailto:charles.bucher.cloud@gmail.com)  
-🌐 [Portfolio](https://charles-bucher.github.io)  
-🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher/) | 📋 [Indeed](https://www.indeed.com/)
+📍 Pinellas Park, Florida (Remote) | 📧 charles.bucher.cloud@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io)  
+🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher85813/) | 📋 [Indeed Profile](#)
 
 ---
 
 ## 🎯 About Me
-I learn by **building, breaking, fixing, and documenting**. My labs simulate real Tier 1 & 2 support workflows, monitoring pipelines, and incident response. I don’t just follow tutorials—I create real AWS infrastructure, debug issues, and automate repetitive tasks.
+Hands-on Cloud Support Engineer practicing real-world AWS scenarios. I break things, troubleshoot, automate, and document solutions. Every project in my portfolio demonstrates problem-solving, error-driven learning, and operational experience.
 
-**Core Skills:**
-- ⚡ AWS: EC2, S3, Lambda, CloudWatch, IAM, GuardDuty, RDS, VPC, SNS, EventBridge  
-- 🤖 Python automation: boto3, AWS CLI  
-- 🏗️ Infrastructure-as-Code: Terraform, CI/CD pipelines, GitHub Actions  
-- 📊 Monitoring & Ops: dashboards, alerting, SOPs, runbooks  
-- 🔧 Root cause analysis & error-driven learning  
-- 🏠 Remote-ready, self-motivated, independent problem-solver  
+**Skills & Strengths:**
+- ⚡ AWS: EC2, S3, Lambda, CloudWatch, IAM, GuardDuty, RDS, VPC, SNS, EventBridge, ECS  
+- 🤖 Automation: Python (boto3), Bash, Terraform, AWS CLI, CI/CD pipelines  
+- 📊 Monitoring & Operations: Dashboards, alerting workflows, incident response, documentation  
+- 🏠 Remote-ready: Self-motivated, independent, and fast learner  
+
+---
+
+## 📂 Projects
+
+### 🔹 [charles-bucher](https://github.com/charles-bucher/charles-bucher)
+**GitHub Profile README | Cloud Support Portfolio**  
+Professional overview of my journey, skills matrix, active projects, and career transition story.
+
+---
+
+### 🔹 [charles-bucher.github.io](https://charles-bucher.github.io)
+**Professional Portfolio | Project Showcase**  
+Showcases CloudOps projects with screenshots, deployments, and automated pipelines. Demonstrates hands-on AWS, web development, and documentation skills.
+
+---
+
+### 🔹 [AWS_Troubleshooting_Lab](https://github.com/charles-bucher/AWS_Troubleshooting_Lab)
+**Real-World AWS Support Scenarios**  
+Step-by-step documentation of real AWS issues I’ve solved (EC2, S3, Lambda, IAM). Focus on troubleshooting, root cause analysis, and automation.
+
+---
+
+### 🔹 [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)
+**Real-Time Monitoring Pipeline**  
+Automated monitoring and alerting for EC2 instances via CloudWatch and SNS. Includes Terraform provisioning and CI/CD pipelines.
+
+---
+
+### 🔹 [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
+**Automated Security Threat Detection**  
+AWS GuardDuty + EventBridge + SNS pipeline for security alerts. Includes Terraform, Python automation, and incident response documentation.
+
+---
+
+## 💼 Work Experience
+
+**Personal Cloud Lab (Self-Directed Training)** — *Freelance | May 2025 – Present*  
+- Built and maintained AWS cloud environments (EC2, S3, Lambda, CloudWatch, IAM, VPC)  
+- Practiced Tier 1/2 support workflows and incident triage  
+- Developed Python scripts for automation, monitoring, and log parsing  
+- Documented troubleshooting guides and SOPs  
+
+**Delivery Operations Coordinator** — *Jotos Pizza | Oct 2015 – Nov 2025*  
+- Managed high-volume delivery ops with time-sensitive SLAs  
+- Optimized routes, reduced errors, and improved operational efficiency  
+- Applied critical thinking and SOPs similar to NOC workflows  
+
+**Assistant Manager** — *Domino's | Jan 2010 – Oct 2015*  
+- Led 15+ staff, improved scheduling, accountability, and store performance  
+- Troubleshot hardware, software, and network issues  
+- Developed SOPs and training guides for team onboarding  
 
 ---
 
 ## 🛠️ Technical Skills
-**Cloud Platforms:** AWS, Linux basics  
-**Automation & Scripting:** Python, Bash, Terraform, AWS CLI, GitHub Actions  
-**CloudOps & Monitoring:** Real-time monitoring, alerting, incident response, root cause analysis  
-**Security & Observability:** GuardDuty, log analysis, IAM troubleshooting  
-**Development Tools:** Git, VS Code, Docker, Flask, Markdown, YAML/JSON  
+
+- **Cloud Platforms:** AWS (EC2, S3, Lambda, CloudWatch, GuardDuty, IAM, VPC, RDS, SNS, EventBridge, ECS)  
+- **Automation & Scripting:** Python (boto3), Bash, Terraform, AWS CLI, GitHub Actions, CI/CD  
+- **Monitoring & CloudOps:** Incident response, dashboards, alerting workflows, runbooks, documentation  
+- **Security & Observability:** GuardDuty, log analysis, dashboard creation, IAM troubleshooting  
+- **Development Tools:** Git, VS Code, Docker, Flask, Markdown, YAML/JSON  
 
 ---
 
-## 📂 Featured Projects
+## 📈 Goals
+Seeking remote roles as:  
+- Cloud Support Engineer  
+- CloudOps Engineer  
+- AWS Technical Support (Tier 1/2)  
 
-### [AWS_Troubleshooting_Lab](https://github.com/charles-bucher/AWS_Troubleshooting_Lab)
-Step-by-step documentation of real AWS support scenarios: EC2 connectivity, S3 access, IAM issues, Lambda debugging, CloudWatch analysis.
-
-### [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)
-Automated CloudWatch monitoring, SNS alerts, dashboards, and Terraform CI/CD pipelines for operational support.
-
-### [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
-Automated GuardDuty threat detection with EventBridge, SNS notifications, Terraform provisioning, and Python automation.
-
-### [Portfolio Website](https://charles-bucher.github.io)
-Professional CloudOps portfolio with 17+ screenshots, project showcases, automated GitHub Pages deployment, and responsive design.
+Available nights/weekends/on-call. I thrive in environments that value self-taught engineers, proactive problem-solving, and continuous learning.
 
 ---
 
-## 💼 Experience
-
-**Personal Cloud Lab (Self-Directed Training)** | Freelance | May 2025 – Present  
-- Built & maintained AWS environments (EC2, S3, Lambda, VPC, IAM, CloudWatch)  
-- Practiced Tier 1/2 support workflows: incident triage, break/fix, permissions, and ticketing  
-- Automated monitoring & alerts using Python, Terraform, CloudWatch, SNS  
-- Documented root cause analyses and SOPs for knowledge sharing  
-
-**Delivery Operations Coordinator** | Jotos Pizza | Oct 2015 – Nov 2025  
-- Managed high-volume delivery ops, SLA fulfillment, performance metrics  
-- Developed operational SOPs and escalations  
-- Applied problem-solving & data tracking for efficiency and accuracy  
-
-**Assistant Manager** | Domino's | Jan 2010 – Oct 2015  
-- Led 15+ staff, improved scheduling & workflow efficiency  
-- Troubleshot hardware, software, and network issues  
-- Created SOPs and trained staff to 95%+ competency  
-
----
-
-## 📈 Career Goals
-**Roles:** Cloud Support Engineer, CloudOps Engineer, AWS Technical Support (Tier 1/2)  
-**Location:** Remote | **Availability:** Full-time, nights/weekends, on-call  
-
-**What I Offer:**  
-- Real AWS experience across 4+ active repos  
-- Problem-solving through debugging & automation  
-- Error-driven learning with full documentation  
-- Self-motivated and remote-ready  
-
----
-
-## 📧 Contact
-- Email: [charles.bucher.cloud@gmail.com](mailto:charles.bucher.cloud@gmail.com)  
-- GitHub: [https://github.com/charles-bucher](https://github.com/charles-bucher)  
-- Portfolio: [https://charles-bucher.github.io](https://charles-bucher.github.io)  
-- LinkedIn: [https://www.linkedin.com/in/charles-bucher/](https://www.linkedin.com/in/charles-bucher/)  
-- Indeed: [https://www.indeed.com/](https://www.indeed.com/)  
-
----
-
-## 📌 Pinned Projects
-- [aws_monitoring_observability](https://github.com/charles-bucher/aws_monitoring_observability)  
-- [Portfolio Website](https://charles-bucher.github.io)  
-- [cloudOps-guardDuty-automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)  
-- [AWS_Troubleshooting_Lab](https://github.com/charles-bucher/AWS_Troubleshooting_Lab)
+📧 Contact: charles.bucher.cloud@gmail.com  
+🌐 Portfolio: [charles-bucher.github.io](https://charles-bucher.github.io)  
+🔗 LinkedIn: [https://www.linkedin.com/in/charles-bucher85813/](https://www.linkedin.com/in/charles-bucher85813/)  
+💻 GitHub: [4 Public Repositories](https://github.com/charles-bucher) | 300+ contributions
