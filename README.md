@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Charles Bucher
 
 **AWS Cloud Support Engineer | CloudOps | NOC | Python Automation**  
-📍 Florida | ✉️ quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io/) | GitHub: [github.com/charles-bucher](https://github.com/charles-bucher) | LinkedIn: [in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b/)  
+📍 Florida | ✉️ quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io/) | GitHub: [github.com/charles-bucher](https://github.com/charles-bucher) | LinkedIn: [www.linkedin.com/in/charles-bucher85813](https://www.linkedin.com/in/charles-bucher-26598728b/)  
 
 ---
 
