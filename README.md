@@ -1,51 +1,36 @@
-👋 Charles Bucher | AWS Cloud Support Engineer | CloudOps Automation | Monitoring & Security
+# 🚀 Charles Bucher – Cloud Support & NOC Engineer
 
-Self-taught AWS engineer with 300+ GitHub contributions building monitoring, security automation, and troubleshooting solutions. Learning in public through hands-on projects with Python, Terraform, and AWS services.
-
-📍 Pinellas Park, Florida (Remote) | 📧 quietopscb@gmail.com | 🌐 [Portfolio](charles-bucher.github.io) | 🔗 [LinkedIn](https://in/charles-bucher-26598728b) | 📋 [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
+Hands-on Cloud Support & NOC Engineer turning AWS environments into fully monitored, automated, and resilient systems. Skilled in Tier 1 & Tier 2 support, incident response, and cloud automation. Proficient in Python, Bash, and Terraform for operational automation and CI/CD deployment.
 
 ---
 
-## 📂 Projects with Screenshots
-
-### 🔹 AWS Monitoring & Observability Real-Time Monitoring Pipeline
-Automated monitoring and alerting for EC2 instances via CloudWatch and SNS. Includes Terraform provisioning and CI/CD pipelines.
-
-#### Screenshots
-![00](screenshots/AWS_monitoring_observability_screenshots/00.png)
-![01](screenshots/AWS_monitoring_observability_screenshots/01.png)
-![01 Confirm](screenshots/AWS_monitoring_observability_screenshots/01_Confirm.png)
-![02](screenshots/AWS_monitoring_observability_screenshots/02.png)
-![02 Alerts](screenshots/AWS_monitoring_observability_screenshots/02_Alerts.png)
-![03 CPU](screenshots/AWS_monitoring_observability_screenshots/03_CPU.png)
-![04 Terraform](screenshots/AWS_monitoring_observability_screenshots/04_Terraform.png)
-![05 Terraform Confirm AWS Config](screenshots/AWS_monitoring_observability_screenshots/05_Terraform_Confirm_AWS_Config.png)
+## 🛠 Skills & Tools
+- ☁️ **Cloud:** AWS EC2, S3, Lambda, CloudWatch, GuardDuty, RDS  
+- 💻 **Automation & Scripting:** Python, Bash, Terraform  
+- 📊 **Monitoring & Support:** Incident response, alerts, log analysis, NOC operations  
+- ⚙️ **CI/CD:** Terraform deployments and automated pipelines  
 
 ---
 
-### 🔹 AWS Troubleshooting Lab
-Step-by-step documentation of real AWS issues (EC2, S3, Lambda, IAM).
+## 📂 Projects & Demonstrations
 
-#### Screenshots
-![Config Requirements Check](screenshots/AWS_Troubleshooting_Lab_screenshots/Config_Requirements_Check.png)
+### ⚡ AWS Monitoring & Automation
+- Implemented automated monitoring & alerting for EC2, RDS, Lambda using CloudWatch.  
+- Configured GuardDuty for proactive security monitoring.  
+- Automated deployments with Terraform for reproducible environments.
+
+**Screenshots & Demos:**  
+![CloudWatch Alarm](screenshots/AWS_troubleshooting_config.png) ![Badge](https://img.shields.io/badge/Monitoring-CloudWatch-blue?style=for-the-badge)  
+*🚨 CloudWatch alarms triggered during simulated EC2 failures.*
+
+![Requirements Check](screenshots/AWS_troubleshooting_requirements_check.png) ![Badge](https://img.shields.io/badge/Validation-Check-green?style=for-the-badge)  
+*✅ Environment validation and compliance checks.*
+
+### 🔧 Additional Projects
+- [Terraform Web App Deployment](#) ![Badge](https://img.shields.io/badge/Terraform-Automation-blue?style=for-the-badge)  
+- [Python & Bash Scripts](#) ![Badge](https://img.shields.io/badge/Scripting-Automation-yellow?style=for-the-badge)  
 
 ---
 
-### 🔹 CloudOps GuardDuty Automation
-Automated Security Threat Detection using AWS GuardDuty + EventBridge + SNS.
-
-#### Screenshots
-![GD Push](screenshots/cloudOps-guardDuty-automation_screenshots/GD_Push.png)
-![TF Plan](screenshots/cloudOps-guardDuty-automation_screenshots/TF_Plan.png)
-![TF Plan Confirm](screenshots/cloudOps-guardDuty-automation_screenshots/TF_Plan_Confirm.png)
-
----
-
-✅ **Folder structure reminder:**
-
-charles-bucher/
-├─ README.md
-├─ screenshots/
-│ ├─ AWS_monitoring_observability_screenshots/
-│ ├─ AWS_Troubleshooting_Lab_screenshots/
-│ └─ cloudOps-guardDuty-automation_screenshots/
+## 🌐 GitHub
+Explore more projects: [https://github.com/charles-bucher](https://github.com/charles-bucher)
