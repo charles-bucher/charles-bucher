@@ -1,61 +1,63 @@
 # 🚀 Charles Bucher – Cloud Support & NOC Engineer
 
-Hands-on Cloud Support & NOC Engineer turning AWS environments into fully monitored, automated, and resilient systems. Skilled in Tier 1 & Tier 2 support, incident response, and cloud automation. Proficient in Python, Bash, and Terraform for operational automation and CI/CD deployment.
+Hands-on Cloud Support & NOC Engineer transforming AWS environments into fully monitored, automated, and resilient systems. Skilled in Tier 1 & Tier 2 support, incident response, and cloud automation. Proficient in **Python**, **Bash**, and **Terraform** for operational automation and CI/CD deployment.  
 
 ---
 
 ## 🛠 Skills & Tools
 
-- **Cloud:** AWS EC2, S3, Lambda, CloudWatch, GuardDuty, RDS  
-- **Automation & Scripting:** Python, Bash, Terraform  
-- **Monitoring & Support:** Incident response, alerts, log analysis, NOC operations  
-- **CI/CD:** Terraform deployments and automated pipelines  
+**Cloud:**  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900) EC2, S3, Lambda, CloudWatch, GuardDuty, RDS  
+
+**Automation & Scripting:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) Python | Bash | Terraform  
+
+**Monitoring & Support:**  
+Incident response | Alerts | Log analysis | NOC operations  
+
+**CI/CD & Automation:**  
+Terraform deployments | Automated pipelines | GuardDuty response workflows  
 
 ---
 
 ## 📂 Projects & Demonstrations
 
-### ⚡ AWS Troubleshooting Lab
-**EC2 Alert Badge**  
-![EC2 Alert](AWS_Troubleshooting_Lab/screenshots/01_AWS_troubleshooting_config.png)  
-Simulated EC2 failure triggers CloudWatch alarm.  
+**⚡ AWS Troubleshooting Lab**  
+- Simulated EC2 failure triggers CloudWatch alarm.  
+- Environment validation & compliance checks automated with scripts.  
 
-**Requirements Check Badge**  
-![Requirements Check](AWS_Troubleshooting_Lab/screenshots/02_AWS_troubleshooting_requirements_check.png)  
-Environment validation and compliance screenshot.
+**📊 AWS Monitoring & Observability**  
+- CloudWatch dashboards visualizing EC2 metrics & Lambda invocations.  
+- Metrics and alerts for rapid incident response.  
 
----
-
-### 📊 AWS Monitoring & Observability
-**Monitoring Dashboard**  
-![CloudWatch Dashboard](AWS_monitoring_observability/screenshots/00_aws_obv_access.png)  
-CloudWatch dashboard visualizing key EC2 metrics.  
-
-**Lambda Metrics**  
-![Lambda Metrics](AWS_monitoring_observability/screenshots/03_aws_obv_cpu.png)  
-Lambda invocation and error tracking.
+**🔒 GuardDuty & CloudOps Automation**  
+- Terraform-based workflows to remediate GuardDuty alerts automatically.  
+- Automated security response for cloud infrastructure.  
 
 ---
 
-### 🔒 GuardDuty & CloudOps Automation
-**GuardDuty Findings**  
-![GuardDuty Finding](cloudOps-guardDuty-automation/screenshots/01_gd_github_push.png)  
-Suspicious activity detected in GuardDuty.  
+## 🌐 Links
 
-**Automation Workflow**  
-![Automation Workflow](cloudOps-guardDuty-automation/screenshots/02_gd_tfplan.png)  
-Terraform-based workflow remediating GuardDuty alerts automatically.
-
----
-
-## 🌐 GitHub
-Explore more projects: [https://github.com/charles-bucher](https://github.com/charles-bucher)
+- Portfolio & Repos: [GitHub](https://github.com/charles-bucher)  
+- Personal Site: [charles-bucher.github.io](https://charles-bucher.github.io)  
+- LinkedIn: [in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b)  
+- Indeed Profile: [profile.indeed.com](https://profile.indeed.com/p/charlesb-x0xr5fx)  
 
 ---
 
 ## 📌 Summary
 
-- ✅ Experienced in troubleshooting and cloud automation  
-- ✅ Built hands-on labs and observability dashboards  
-- ✅ Automated security responses with Terraform & GuardDuty  
+✅ Experienced in troubleshooting complex AWS environments  
+✅ Built hands-on labs and operational dashboards  
+✅ Automated security and monitoring workflows with Terraform & GuardDuty  
+✅ Self-taught, practical, and results-driven  
 
+---
+
+## 📈 Contributions
+
+375 contributions in the last year across multiple cloud automation and monitoring projects. Actively updating labs, dashboards, and cloud automation workflows.
+
+---
+
+💡 **Tip:** My repos are the full demonstrations—everything you need to see my work in action lives there.
