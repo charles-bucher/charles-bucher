@@ -1,0 +1,1 @@
+# Placeholder GuardDuty enable script

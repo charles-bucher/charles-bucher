@@ -1,0 +1,1 @@
+# Placeholder findings monitor script
