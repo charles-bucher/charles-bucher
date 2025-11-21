@@ -60,7 +60,7 @@ Hands-on **Cloud Support Engineer** & **NOC Specialist** turning AWS environment
 
 - GitHub: [https://github.com/charles-bucher](https://github.com/charles-bucher)  
 - Portfolio: [charles-bucher.github.io](https://charles-bucher.github.io)  
-- LinkedIn: [https://www.linkedin.com/in/charles-bucher](https://www.linkedin.com/in/charles-bucher)  
+- LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud](https://www.linkedin.com/in/charles-bucher-cloud)  
 - Indeed: [https://profile.indeed.com/p/charlesb-x0xr5fx](https://profile.indeed.com/p/charlesb-x0xr5fx)  
 
 ---
