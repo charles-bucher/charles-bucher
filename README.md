@@ -69,9 +69,7 @@ Hands-on AWS lab for deploying and troubleshooting multi-tier apps.
 
 ### 📊 AWS Monitoring & Observability
 [Repo Link](https://github.com/charles-bucher/aws_monitoring_observability)  
-Production-ready CloudWatch monitoring with automated alerting.
 
-- **Impact:** 40% faster incident response time  
 - **Tech:** CloudWatch, SNS, EC2, Terraform, Python  
 - **Skills:** Alarm tuning, SNS integration, alert management  
 
