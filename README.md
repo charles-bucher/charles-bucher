@@ -1,41 +1,72 @@
 # 🚀 Charles Bucher – Cloud Support & NOC Engineer
 
-Self-taught Cloud Support & NOC Engineer with 10+ years in operations and technical troubleshooting. Hands-on AWS experience including **EC2, RDS, Lambda, S3, VPC, CloudWatch, GuardDuty, IAM**, and **Terraform**. Built multi-tier labs, monitoring pipelines, and automated incident response workflows. Skilled in **troubleshooting, documentation, automation, and fast incident resolution**.  
-
-💼 **Seeking:** Remote Cloud Support Engineer, CloudOps Analyst, or NOC Technician roles to apply operational expertise and hands-on cloud skills immediately.  
-
----
-
-## 🛠 Tech Stack & Core Skills
-
-- **Cloud Platforms:** AWS (EC2, RDS, Lambda, S3, VPC, CloudWatch, GuardDuty, IAM)  
-- **Automation & Scripting:** Python, Bash, PowerShell, Terraform, CI/CD pipelines  
-- **Monitoring & Observability:** CloudWatch dashboards, SNS alerts, log analysis, proactive incident detection  
-- **Security & Compliance:** IAM roles, least-privilege policies, GuardDuty automation, security group hardening  
-- **Operations:** Multi-tier troubleshooting, incident response, SLA management, documentation  
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Charles_Bucher-blue?logo=linkedin&style=flat-square)
+![Portfolio](https://img.shields.io/badge/Portfolio-Website-brightgreen?style=flat-square)
+![GitHub Followers](https://img.shields.io/github/followers/charles-bucher?label=Followers&style=social)
 
 ---
 
-## 📂 Featured Projects
+## 💡 About Me
+I’m a **self-taught CloudOps & Cloud Support Engineer**, transitioning from 15+ years in high-volume operational environments to hands-on AWS cloud operations.  
 
-### 🔧 Multi-Tier App Troubleshooting Playground
-Hands-on AWS lab for deploying and troubleshooting multi-tier applications with simulated production incidents.  
-**Tech:** EC2, VPC, RDS, Terraform, Apache, Node.js, PostgreSQL  
-**Skills:** IAM troubleshooting, network debugging, root cause analysis  
+All my projects are **real labs**, not tutorials. I **build, break, fix, and document** AWS environments to learn exactly how systems fail—and how to fix them.  
 
-### 📊 AWS Monitoring & Observability
-Automated monitoring and alerting pipelines to track metrics, detect anomalies, and trigger SNS notifications.  
-**Tech:** CloudWatch, SNS, EC2, Terraform, Python  
-**Skills:** Dashboard design, alert tuning, incident response  
-
-### 🛡 GuardDuty CloudOps Automation
-Terraform-based automated threat detection and incident response workflows.  
-**Tech:** GuardDuty, Terraform, Lambda, EventBridge, SNS, Python  
-**Skills:** Security automation, proactive threat remediation, cloud compliance  
+- Multi-tier apps: EC2, RDS, VPC, ALB, S3  
+- Monitoring & alerting: CloudWatch, SNS, Lambda  
+- Security automation: GuardDuty, IAM, Terraform, Security Hub  
+- Infrastructure as Code: Terraform & CloudFormation  
+- End-to-end incident simulations & Python automation  
 
 ---
 
-## 🌐 Connect With Me
-- GitHub Portfolio: [charles-bucher.github.io](https://charles-bucher.github.io)  
-- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher-cloud)  
-- Email: quietopscb@gmail.com
+## 🛠 Featured Projects
+
+| Project | Description | Tech / Skills | Link |
+|---------|-------------|---------------|------|
+| **Multi-Tier App Troubleshooting Playground** | Deploy, break, and troubleshoot multi-tier AWS apps | EC2, RDS, VPC, ALB, S3, IAM, Networking, DB Errors | [GitHub](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground) |
+| **AWS Monitoring & Observability** | Monitor EC2 metrics, CloudWatch logs, detect anomalies, automate alerts | CloudWatch, SNS, Python, Terraform | [GitHub](https://github.com/charles-bucher/aws_monitoring_observability) |
+| **CloudOps GuardDuty Automation** | Automated threat detection & incident response | GuardDuty, Lambda, Terraform, EventBridge | [GitHub](https://github.com/charles-bucher/cloudOps-guardDuty-automation) |
+| **Portfolio Website** | Hands-on CloudOps & NOC simulations, monitoring pipelines, alert workflows | Jekyll, GitHub Pages, AWS | [Website](https://charles-bucher.github.io/) |
+
+---
+
+## 🌟 Skills & Tools
+
+![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazon-aws)
+![Terraform](https://img.shields.io/badge/Terraform-blue?style=for-the-badge&logo=terraform)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-yellow?style=for-the-badge&logo=amazon-aws)
+![SNS](https://img.shields.io/badge/SNS-purple?style=for-the-badge&logo=amazon-aws)
+![GuardDuty](https://img.shields.io/badge/GuardDuty-red?style=for-the-badge&logo=amazon-aws)
+![IAM](https://img.shields.io/badge/IAM-blue?style=for-the-badge&logo=amazon-aws)
+![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows)
+![CI/CD](https://img.shields.io/badge/CI-CD-green?style=for-the-badge)
+
+---
+
+## ⚡ Operational Strengths
+- Calm, systematic troubleshooting under SLA pressure  
+- Rapid triage & root cause analysis  
+- Clear communication during outages  
+- Strong documentation, runbooks, escalation workflows  
+- Teaching & supporting teams on complex systems  
+
+---
+
+## 📊 GitHub Stats
+
+![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical)
+
+---
+
+## 🎯 Career Goals
+Targeting **entry-level Cloud Support / NOC / CloudOps roles** to combine hands-on AWS skills with operational experience. Ready to deliver **real value from day one**, keep learning, and grow into a long-term CloudOps career.
+
+---
+
+### 📬 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud)  
+- [Portfolio](https://charles-bucher.github.io/)  
+- [GitHub](https://github.com/charles-bucher)
