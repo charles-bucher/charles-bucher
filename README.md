@@ -1,84 +1,76 @@
-# Charles Bucher
-**Cloud Support & NOC Engineer | AWS CloudOps | Automation & Monitoring**
+Charles Bucher
 
-📍 Pinellas Park, FL | 📧 quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io) | [LinkedIn](https://in/charles-bucher-cloud) | [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
+Cloud Support & NOC Engineer | AWS CloudOps | Automation & Monitoring
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
-![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-0099F7?style=for-the-badge&logo=powershell&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+📍 Pinellas Park, FL
+📧 quietopscb@gmail.com
 
----
+🌐 Portfolio: https://charles-bucher.github.io
 
-## About Me
-Career-changer and self-taught Cloud Support Engineer leveraging **AI-driven, error-based learning** to rapidly develop practical skills in AWS CloudOps, automation, and multi-tier troubleshooting. I build, break, and fix cloud environments to learn from mistakes, simulating real-world operational scenarios in my GitHub projects.  
+🔗 LinkedIn: https://www.linkedin.com/https://www.linkedin.com/in/charles-bucher-cloud//
 
-💡 Focused on transitioning into high-impact remote CloudOps roles while applying hands-on, mistake-driven problem solving to improve system reliability and automation.
+📄 Indeed: https://profile.indeed.com/p/charlesb-x0xr5fx
 
-![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue)
+🐙 GitHub: https://github.com/charles-bucher
 
----
+About Me
 
-## Core Skills / Tools
-**Cloud Platforms:** AWS (EC2, VPC, S3, CloudWatch, Lambda)  
-**Infrastructure as Code:** Terraform, CloudFormation  
-**Automation & Scripting:** Python, PowerShell  
-**Monitoring & Observability:** CloudWatch, SNS, Lambda, Prometheus, Grafana  
-**Networking & Security:** VPN, Security Groups, IAM, NACLs  
-**Version Control & CI/CD:** Git, GitHub Actions, Docker  
-**Learning Approach:** AI error-driven, hands-on troubleshooting, scenario simulations  
+Career-changer and self-taught Cloud Support Engineer using AI-driven, error-based learning to accelerate CloudOps skills. I build, break, and repair cloud environments daily, simulating real-world AWS incidents and operational pressure to sharpen decision-making and automation workflows.
 
----
+Focused on remote Cloud Support, NOC, and CloudOps roles where hands-on troubleshooting, infrastructure automation, and real monitoring experience directly translate into uptime and reliability.
 
-## Projects
+Core Skills / Tools
 
-### [AWS_Cloud_Support_Sim](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
-![Repo](https://img.shields.io/badge/Repo-AWS_Cloud_Support_Sim-blue)  
-Simulates a Cloud Support workflow, documenting real-world AWS troubleshooting scenarios. Each case follows the support ticket lifecycle from initial report to resolution.  
+Cloud: AWS (EC2, VPC, S3, CloudWatch, Lambda)
 
-**Tech Stack:** AWS, Python, Terraform  
-**Key Skills Demonstrated:** Incident response, operational troubleshooting, CI/CD, infrastructure-as-code, cloud security, error-driven learning
+IaC: Terraform, CloudFormation
 
-### [AWS_Cloudops_Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
-![Repo](https://img.shields.io/badge/Repo-AWS_Cloudops_Suite-green)  
-Full-stack AWS CloudOps: monitoring, automated alerts, Terraform workflows, and GuardDuty security—all in one hands-on repo for proactive observability and incident response.  
+Automation: Python, PowerShell
 
-**Tech Stack:** AWS, Terraform, Python, CloudFormation  
-**Key Features:** Automated monitoring dashboards, alerting pipelines, IAM & security automation, AI-guided troubleshooting
+Monitoring & Observability: CloudWatch, SNS, Lambda, Prometheus, Grafana
 
-### [charles-bucher.github.io](https://github.com/charles-bucher/charles-bucher.github.io)
-![Repo](https://img.shields.io/badge/Repo-Portfolio-orange)  
-Hands-on CloudOps & NOC portfolio showcasing automated monitoring pipelines using Python, AWS CloudWatch, Lambda, and CI/CD automation.  
+Security: IAM, SGs, NACLs, GuardDuty
 
-**Tech Stack:** Python, Jekyll, GitHub Pages, AWS  
-**Highlights:** Portfolio of CloudOps projects, automation demos, real-world scenario simulations
+DevOps: Git, GitHub Actions, Docker
 
-### [Multi-Tier-App-Troubleshooting-Playground](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
-![Repo](https://img.shields.io/badge/Repo-Multi-Tier_App_Playground-red)  
-AWS CloudOps lab: deploy, monitor, and troubleshoot multi-tier web apps using EC2, VPC, load balancers, Terraform & CloudFormation.  
+Learning Style: error-driven, scenario simulations, AI-assisted deep learning
 
-**Tech Stack:** AWS, Terraform, CloudFormation, Python  
-**Focus:** Operational troubleshooting, incident response, AI/error-driven learning, multi-tier app deployment
+Projects
+AWS_Cloud_Support_Sim — Repo
 
-### [charles-bucher](https://github.com/charles-bucher/charles-bucher)
-![Repo](https://img.shields.io/badge/Repo-CloudOps_Tools-blueviolet)  
-Cloud Support | NOC & CloudOps repository showcasing Python automation, Docker setups, AWS monitoring scripts, and security workflows.  
+Simulates a Cloud Support workflow with realistic AWS incidents and ticket-style resolutions.
+Skills: incident response, troubleshooting, IaC, monitoring, cloud security
 
-**Tech Stack:** Python, Docker, AWS  
-**Skills Demonstrated:** Automation, monitoring, security, CI/CD pipelines, mistake-driven learning
+AWS_Cloudops_Suite — Repo
 
----
+Full CloudOps stack: monitoring, alerting, Terraform workflows, GuardDuty automation, dashboards.
+Skills: observability, automation, IAM, proactive cloud operations
 
-## Certifications
-![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+charles-bucher.github.io — Repo
 
----
+Live CloudOps portfolio showcasing monitoring pipelines, Lambda automation, scenario walkthroughs.
+Skills: GitHub Pages, Python, CI/CD, documentation
 
-## Contact
-📬 Open to remote Cloud Support & CloudOps opportunities  
+Multi-Tier-App-Troubleshooting-Playground — Repo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in/charles-bucher-cloud)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-00C8FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://charles-bucher.github.io)  
-[![Indeed](https://img.shields.io/badge/Indeed-FF0000?style=for-the-badge&logo=indeed&logoColor=white)](https://profile.indeed.com/p/charlesb-x0xr5fx)
+Deploy, monitor, and troubleshoot a multi-tier AWS stack using IaC and real incident patterns.
+Skills: networking, ELB, RDS, EC2, event-driven automation
+
+charles-bucher — Repo
+
+General CloudOps scripting, Docker labs, AWS monitoring scripts, CI/CD workflows.
+
+Certifications
+
+AWS Certified Cloud Practitioner
+
+Contact
+
+📬 Open to remote Cloud Support, NOC, and CloudOps roles.
+
+🔗 LinkedIn: https://www.linkedin.com/https://www.linkedin.com/in/charles-bucher-cloud//
+
+🌐 Portfolio: https://charles-bucher.github.io
+
+📄 Indeed: https://profile.indeed.com/p/charlesb-x0xr5fx
+
