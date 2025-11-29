@@ -1,96 +1,61 @@
-🎯 Charles Bucher — Cloud Support & NOC Engineer
+﻿# 🎯 Charles Bucher — Cloud Support & CloudOps Engineer
 
-AI-Accelerated Career Change | Error-Driven Learning | Real-World CloudOps Projects
+[![GitHub followers](https://img.shields.io/github/followers/charles-bucher?style=flat&logo=github)](https://github.com/charles-bucher)
+[![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue)](https://github.com/charles-bucher)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/charles-bucher-cloud)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-green?logo=vercel)](https://charles-bucher.github.io)
+[![AWS](https://img.shields.io/badge/AWS-CloudOps-orange?logo=amazonaws)](https://aws.amazon.com)
 
+## 🚀 About Me
+Cloud Support & NOC Engineer focused on AWS operations, troubleshooting, automation, and real-world break/fix work.
 
+Transitioning into cloud engineering through **error-driven learning**:
+- Break systems  
+- Analyze failure  
+- Fix it  
+- Automate it  
+- Document everything  
 
+Building a portfolio designed for hiring managers who want **doers, not certificate collectors**.
 
+## 🏗️ Flagship Projects
 
+### 🔧 AWS_Cloudops_Suite
+Full CloudOps toolkit for real troubleshooting and incident-response workflows.  
+Repo: https://github.com/charles-bucher/AWS_Cloudops_Suite
 
+### 🛠 Multi_Tier_App_Troubleshooting_Playground
+Broken multi-tier web app for real AWS troubleshooting (EC2, VPC, ELB, RDS).  
+Repo: https://github.com/charles-bucher/Multi_Tier_App_Troubleshooting_Playground
 
+### 🌐 Portfolio Website
+Clean, employer-ready CloudOps portfolio.  
+Live: https://charles-bucher.github.io
 
+## 📦 Tech Stack
 
+| Area | Tools |
+|------|-------|
+| Cloud | AWS (EC2, VPC, IAM, S3, CloudWatch) |
+| Automation | PowerShell, Bash, Terraform |
+| Monitoring | Logs, metrics, alarms, dashboards |
+| Networking | Subnets, routing, NAT, Security Groups |
+| Ops | Break/fix, triage, incident response |
 
+## 🔥 Career Direction
+Pursuing a **CloudOps / NOC hybrid role**, fully remote.
 
+Focusing on:
+- Hands-on troubleshooting  
+- Automation  
+- Documentation  
+- Real project output  
 
-🚀 About Me
+Goal: **+ household income** through CloudOps and remote tech.
 
-I’m in a full-force transition into Cloud Support / NOC Engineering, specializing in:
-
-AWS CloudOps
-
-Infrastructure troubleshooting
-
-Automation & monitoring
-
-Reproducible labs & real break/fix scenarios
-
-My learning style is simple:
-I break things, study the error, fix it, automate it, and document the entire path.
-AI accelerates the loop, but the mistakes sharpen the edge.
-
-I’m building a portfolio that proves skill > theory.
-
-🏗️ Flagship Projects
-🔧 AWS_Cloudops_Suite
-
-Full CloudOps toolkit with break/fix workflows, documentation, CLI utilities, and troubleshooting labs.
-Goal: Show real Cloud Support thinking, not textbook fluff.
-
-🔗 Repo: https://github.com/charles-bucher/AWS_Cloudops_Suite
-
-🛠️ Multi_Tier_App_Troubleshooting_Playground
-
-A purposely broken multi-tier web application for hands-on troubleshooting across:
-
-EC2
-
-VPC networking
-
-Load balancing
-
-Databases
-
-Scaling and failures
-
-🔗 Repo: https://github.com/charles-bucher/Multi_Tier_App_Troubleshooting_Playground
-
-🌐 charles-bucher.github.io
-
-My CloudOps portfolio site — clean, simple, employer-ready.
-🔗 https://charles-bucher.github.io
-
-📦 Tech Stack
-Area	Tools
-Cloud	AWS EC2, VPC, IAM, S3, CloudWatch
-Automation	PowerShell, Bash, IaC fundamentals
-Monitoring	Logs, metrics, alarms, dashboards
-Networking	Subnets, routing, security groups
-Ops Skills	Break/fix, incident response, triage
-🔥 Career Direction
-
-I’m pushing toward a Cloud/NOC hybrid role, fully remote, leaning on:
-
-Hands-on troubleshooting
-
-Fast learning from failure
-
-Automation
-
-Clear documentation
-
-Real project output
-
-Income target: $100k+ combined household income through CloudOps + remote tech roles.
-The path is unconventional, but the results are real.
-
-📞 Contact
-
-📬 quietopscb@gmail.com
-
-🔗 GitHub: https://github.com/charles-bucher
-
-🌐 Portfolio: https://charles-bucher.github.io
-
-📈 GitHub Stats
-
+## 📞 Contact
+Email: quietopscb@gmail.com  
+GitHub: https://github.com/charles-bucher  
+Portfolio: https://charles-bucher.github.io  
+LinkedIn: https://linkedin.com/in/charles-bucher-cloud  
+Indeed: https://profile.indeed.com/p/charlesb-x0xr5fx
