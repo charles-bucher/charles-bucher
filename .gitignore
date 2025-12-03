@@ -1,0 +1,8 @@
+# Ignore sibling folders and parent-relative paths
+../*
+../../*
+
+# Ignore temp files
+*.log
+*.tmp
+*.swp
