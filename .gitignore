@@ -1,8 +1,12 @@
-# Ignore sibling folders and parent-relative paths
+# Ignore sibling repos and parent folders
 ../*
-../../*
 
-# Ignore temp files
+# Ignore OS/temp files
 *.log
 *.tmp
 *.swp
+*.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
