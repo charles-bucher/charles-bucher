@@ -1,352 +1,161 @@
-# 👋 Charles Bucher
-
+# Charles Bucher
 **Self-Taught Cloud Engineer | AWS | Python | Terraform**
 
-📍 Pinellas Park, Florida  
-✉️ quietopscb@gmail.com  
-🔗 [GitHub](https://github.com/charles-bucher) • [LinkedIn](https://linkedin.com/in/charles-bucher-cloud)
+📍 Pinellas Park, Florida | 📧 quietopscb@gmail.com  
+🔗 [GitHub](https://github.com/charles-bucher) • [LinkedIn](https://linkedin.com/in/charles-bucher-cloud) • [Portfolio](https://charles-bucher.github.io)
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm building cloud infrastructure skills through hands-on AWS projects. Coming from a non-traditional background, I'm self-teaching cloud engineering, DevOps practices, and automation to transition into tech.
+Cloud engineer building practical AWS solutions through hands-on projects. Self-taught and focused on infrastructure automation, troubleshooting, and DevOps practices. Transitioning from non-traditional background into cloud support and operations roles.
 
-**What I'm Learning:**
-- AWS core services (EC2, S3, VPC, CloudFormation, Lambda, GuardDuty)
-- Infrastructure as Code with Terraform and CloudFormation
-- Python automation and Boto3 SDK
-- Cloud security and monitoring practices
+**Currently Learning:**
+- AWS Services: EC2, S3, VPC, CloudFormation, Lambda, GuardDuty, CloudWatch
+- Infrastructure as Code: Terraform, CloudFormation
+- Automation: Python, Boto3 SDK, Bash scripting
+- Security: IAM, Security Groups, compliance monitoring
 
-**Current Focus:** Building portfolio projects that demonstrate practical AWS troubleshooting and automation skills for Cloud Support and DevOps roles.
-
----
-
-## 🛠️ Technical Skills
-
-**Cloud Platform:** AWS (EC2, S3, VPC, CloudFormation, CloudWatch, GuardDuty, Security Groups, IAM)
-
-**Infrastructure as Code:** Terraform • CloudFormation
-
-**Languages & Scripting:** Python • Bash • PowerShell
-
-**Tools & Platforms:** Git • VS Code • AWS CLI • Linux • Windows Server
-
-**Learning:** Docker • Kubernetes • CI/CD pipelines
+**Goal:** Cloud Support Engineer or Junior DevOps role (remote)
 
 ---
 
-## 📂 Featured Projects
+## Technical Skills
 
-### 🔧 [AWS_Cloud_Support_Sim](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+**Cloud:** AWS (EC2, S3, VPC, CloudFormation, CloudWatch, GuardDuty, IAM, Lambda, RDS)  
+**Infrastructure as Code:** Terraform, CloudFormation, AWS CDK  
+**Languages:** Python, Bash, PowerShell  
+**Tools:** Git, AWS CLI, VS Code, Docker (learning), Kubernetes (learning)  
+**Operating Systems:** Linux, Windows Server  
 
-Hands-on AWS troubleshooting scenarios simulating cloud support workflows.
+---
 
-**What I Built:**
-- EC2 network connectivity diagnostics
-- Security group configuration and management
-- CloudFormation infrastructure deployment
+## Featured Projects
+
+### AWS Cloud Support Sim
+**Hands-on AWS troubleshooting scenarios simulating real cloud support workflows**
+
+Built practical troubleshooting tools for common cloud support scenarios:
+- EC2 network connectivity diagnostics and resolution
+- Security group configuration and troubleshooting
+- CloudFormation infrastructure deployment and debugging
 - GuardDuty security monitoring with Python automation
-- CloudWatch metrics and alerting
+- CloudWatch metrics, dashboards, and alerting
 
-**Tech Stack:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty, CloudWatch) • Python • Boto3 • Git
+**Tech:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty, CloudWatch), Python, Boto3
 
-<details>
-<summary>🏗️ Architecture Diagram</summary>
+![EC2 Network Tester](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
+![Security Group Manager](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_02_EC2-Security-Group-Manager.png)
+![CloudFormation Stack](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)
 
-```mermaid
-graph TB
-    subgraph "AWS Cloud Support Simulation"
-        A[Customer Report] --> B[Troubleshooting Start]
-        B --> C{Issue Type?}
-        
-        C -->|Network| D[VPC/Security Group Check]
-        C -->|Security| E[GuardDuty Findings]
-        C -->|Infrastructure| F[CloudFormation Stack]
-        
-        D --> G[EC2 Connectivity Tests]
-        G --> H[Route Tables/IGW]
-        H --> I[Resolution Applied]
-        
-        E --> J[Python Automation]
-        J --> K[Alert Notifications]
-        K --> I
-        
-        F --> L[Stack Deployment]
-        L --> M[Resource Validation]
-        M --> I
-        
-        I --> N[Documentation]
-        N --> O[Screenshots Captured]
-    end
-    
-    style A fill:#ff6b6b
-    style I fill:#51cf66
-    style O fill:#4dabf7
-```
-
-</details>
-
-<details>
-<summary>📸 Implementation Screenshots</summary>
-
-#### EC2 Network Connectivity Testing
-![Network Testing](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
-*Validated VPC configuration, route tables, and Internet Gateway with ping diagnostics (59ms avg latency)*
+[View Repository →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 
 ---
 
-#### Security Group Configuration
-![Security Groups](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_02_EC2-Security-Group-Manager.png)
-*Configured inbound rules for HTTPS (443) and SSH (22) with least-privilege access*
+### AWS CloudOps Suite
+**Full CloudOps pipeline with monitoring, alerting, and infrastructure provisioning**
+
+Production-ready monitoring and operations platform:
+- Automated incident monitoring and alerting workflows
+- Terraform infrastructure provisioning and management
+- CloudWatch dashboards with custom metrics
+- GuardDuty security scanning and automated responses
+- S3 bucket policy management and compliance
+
+**Tech:** Terraform, AWS CloudWatch, Python, GuardDuty, Lambda, S3
+
+![CloudWatch Dashboard](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_05_cloudwatch.png)
+![Lambda Functions](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_10_lambda_functions.png)
+![Terraform Deployment](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_17_terraform_confirm.png)
+
+[View Repository →](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 
 ---
 
-#### CloudFormation Stack Deployment
-![CloudFormation](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_03_CloudFormation-Troubleshooting-Stack%20-.png)
-*Deployed EC2 troubleshooting environment with CloudFormation (CREATE_COMPLETE status)*
+### Multi-Tier App Troubleshooting Playground
+**Simulated broken application environment for practicing troubleshooting skills**
 
----
-
-#### Git Version Control Workflow
-![Git Workflow](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_04_AWS-Cloud-Support-Portfolio.png)
-*Established professional Git repository with Python virtual environment and modular structure*
-
----
-
-#### GuardDuty Security Monitoring
-![GuardDuty](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_05_Python-AWS-Project-Template%20.png)
-*Automated security findings monitoring with Python and Boto3 SDK*
-
-</details>
-
----
-
-### 🔧 [AWS_CloudOps_Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
-
-Full CloudOps pipeline with monitoring, alerting, and Terraform provisioning.
-
-**What I Built:**
-- Automated incident monitoring and alerting
-- Terraform infrastructure provisioning
-- CloudWatch dashboards and metrics
-- Security scanning with GuardDuty
-
-**Tech Stack:** Terraform • AWS CloudWatch • Python • GuardDuty • S3
-
-<details>
-<summary>🏗️ CloudOps Workflow Diagram</summary>
-
-```mermaid
-graph LR
-    subgraph "CloudOps Monitoring Pipeline"
-        A[CloudWatch Metrics] --> B[Threshold Detection]
-        B --> C{Alert Triggered?}
-        
-        C -->|Yes| D[SNS Notification]
-        C -->|No| A
-        
-        D --> E[Lambda Function]
-        E --> F[Auto-Remediation]
-        
-        G[GuardDuty] --> H[Security Findings]
-        H --> I[Python Monitor Script]
-        I --> J[S3 Findings Bucket]
-        J --> K[Email Alert]
-        
-        L[Terraform] --> M[Infrastructure Provisioning]
-        M --> N[EC2/VPC/S3]
-        N --> A
-        
-        F --> O[Incident Logged]
-        K --> O
-        O --> P[CloudWatch Dashboard]
-    end
-    
-    style D fill:#ffd43b
-    style F fill:#51cf66
-    style K fill:#ff6b6b
-    style P fill:#4dabf7
-```
-
-</details>
-
-<details>
-<summary>📸 Implementation Screenshots</summary>
-
-#### CloudWatch Monitoring Dashboard
-![CloudWatch](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_01_CloudWatch-Monitoring.png)
-*Real-time CPU utilization monitoring with custom metrics and alarms*
-
----
-
-#### GuardDuty Automated Findings Monitor
-![GuardDuty](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_02_GuardDuty-Automation.png)
-*Python script continuously monitors GuardDuty for security findings with email alerts*
-
----
-
-#### S3 Bucket Management
-![S3 Buckets](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_03_S3-Bucket-Management.png)
-*Configured S3 buckets for Terraform state and GuardDuty findings storage*
-
----
-
-#### Terraform Infrastructure State
-![Terraform](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_04_Terraform-State.png)
-*Terraform v1.13.2 managing infrastructure state for reproducible deployments*
-
-</details>
-
----
-
-### 🔧 [Multi-Tier-App-Troubleshooting-Playground](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
-
-Simulates a broken multi-tier application for troubleshooting practice.
-
-**What I Built:**
+Built intentionally misconfigured multi-tier application for learning:
 - Frontend, backend, and database layer deployment
-- Intentional misconfigurations for troubleshooting scenarios
-- Step-by-step resolution documentation
+- Common misconfigurations (security groups, IAM, networking)
+- Step-by-step troubleshooting documentation
+- Real-world debugging scenarios
 
-**Tech Stack:** AWS (EC2, RDS, VPC) • CloudFormation • Python • MySQL
+**Tech:** AWS (EC2, RDS, VPC), Terraform, Python, MySQL
 
-<details>
-<summary>🏗️ Multi-Tier Architecture Diagram</summary>
+![User Login Interface](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_01_UserLogin.png)
+![Dashboard View](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_02_MainDashboard.png)
+![Error Logs](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_03_ErrorLogsView.png)
 
-```mermaid
-graph TB
-    subgraph "Multi-Tier Application Architecture"
-        A[User Request] --> B[Load Balancer]
-        B --> C[Frontend EC2]
-        C --> D[Backend API EC2]
-        D --> E[RDS MySQL Database]
-        
-        F[Troubleshooting Scenarios]
-        F --> G[❌ Security Group Misconfiguration]
-        F --> H[❌ Backend API Connection Failure]
-        F --> I[❌ Database Credentials Error]
-        
-        G --> J[Fix: Update SG Rules]
-        H --> K[Fix: Correct API Endpoint]
-        I --> L[Fix: Update Connection String]
-        
-        J --> M[✅ Traffic Flows]
-        K --> M
-        L --> M
-        
-        M --> N[Application Working]
-    end
-    
-    style C fill:#339af0
-    style D fill:#339af0
-    style E fill:#f08c00
-    style G fill:#ff6b6b
-    style H fill:#ff6b6b
-    style I fill:#ff6b6b
-    style N fill:#51cf66
-```
-
-</details>
-
-<details>
-<summary>📸 Implementation Screenshots</summary>
-
-#### Multi-Tier Application Architecture
-![Architecture](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/MultiTier_01_Architecture.png)
-*Three-tier application deployed across frontend, backend, and database layers*
+[View Repository →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
 ---
 
-#### Troubleshooting Workflow
-![Troubleshooting](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/MultiTier_02_Troubleshooting.png)
-*Systematic approach to identifying root cause across application tiers*
+## Current Focus
 
----
-
-#### Resolution Applied
-![Resolution](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/MultiTier_03_Resolution.png)
-*Application restored to working state after fixing misconfigurations*
-
-</details>
-
----
-
-## 📊 GitHub Stats
-
-![Charles's GitHub stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark)
-
----
-
-## 🎯 Current Goals
-
-**Short-term (Next 3 months):**
+**Short-term (Next 90 days):**
 - Complete AWS Solutions Architect Associate certification
 - Build automated cost optimization tool
-- Add CI/CD pipeline with GitHub Actions
+- Implement CI/CD pipeline with GitHub Actions
 - Contribute to open-source AWS projects
 
 **Medium-term (6-12 months):**
-- Land first Cloud Support Engineer or Junior DevOps role
-- Build production-ready monitoring solutions
-- Implement disaster recovery automation
-- Expand portfolio with serverless projects (Lambda, API Gateway)
+- Secure Cloud Support Engineer or Junior DevOps position
+- Build production monitoring and alerting solutions
+- Develop disaster recovery automation
+- Expand serverless portfolio (Lambda, API Gateway, Step Functions)
 
 ---
 
-## 📚 Learning Journey
+## Learning Approach
 
-I'm documenting everything I learn through practical projects. Each repository includes:
+Every project includes:
 - Working code with clear documentation
 - Screenshots proving implementations work
 - Architecture diagrams showing system design
 - Setup instructions for reproducibility
-- Real troubleshooting scenarios
+- Real troubleshooting scenarios with solutions
 
 **Current Study Plan:**
-- AWS Solutions Architect Associate prep (Adrian Cantrill course)
+- AWS Solutions Architect Associate (Adrian Cantrill course)
 - Python automation for AWS (Boto3 SDK)
 - Terraform infrastructure patterns
-- Cloud security best practices
+- Cloud security and compliance best practices
 
 ---
 
-## 🤝 Let's Connect
+## Open to Opportunities
 
-I'm actively looking for opportunities in:
+**Seeking roles in:**
 - Cloud Support Engineering
 - Junior DevOps Engineering  
-- IT Infrastructure roles
-- AWS technical support
+- IT Infrastructure (cloud-focused)
+- AWS Technical Support
+- Remote positions preferred
 
-**Open to:** Entry-level positions, apprenticeships, contract work, remote opportunities
-
-📧 **Email:** quietopscb@gmail.com  
-💼 **LinkedIn:** [charles-bucher-cloud](https://linkedin.com/in/charles-bucher-cloud)  
-🐙 **GitHub:** [charles-bucher](https://github.com/charles-bucher)
-
----
-
-## 📝 Recent Activity
-
-- 🔨 Building GuardDuty automated security monitoring
-- 📖 Studying for AWS Solutions Architect certification
-- 🐍 Writing Python scripts for AWS automation
-- 📚 Learning Terraform infrastructure patterns
-- 💻 Documenting troubleshooting scenarios with screenshots
+**Contact:**  
+📧 quietopscb@gmail.com  
+💼 [LinkedIn: charles-bucher-cloud](https://linkedin.com/in/charles-bucher-cloud)  
+🔗 [Portfolio: charles-bucher.github.io](https://charles-bucher.github.io)
 
 ---
 
-## 💡 Philosophy
+## Recent Activity
 
-**Learning by doing.** Every project is hands-on, reproducible, and documented. I focus on building practical solutions that demonstrate real-world cloud support skills. No fluff, just working code and clear documentation.
-
-**Why I'm different:** I'm not coming from a traditional CS background. I'm bringing problem-solving skills, self-motivation, and the ability to learn quickly. Every commit represents something I've actually built and tested.
-
----
-
-*"The best way to learn cloud engineering is to break things, fix them, and document the process."*
+- Building GuardDuty automated security monitoring
+- Studying for AWS Solutions Architect certification  
+- Writing Python scripts for AWS automation
+- Learning Terraform infrastructure patterns
+- Documenting troubleshooting scenarios with screenshots
 
 ---
 
-![Visitor Count](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
+**GitHub Stats**
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=transparent&hide_border=true&title_color=3b82f6&icon_color=3b82f6&text_color=333333)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=transparent&hide_border=true&title_color=3b82f6&text_color=333333)
+
+---
+
+*"Learning by doing. Every project is hands-on, reproducible, and documented. Building practical solutions that demonstrate real cloud support skills."*
