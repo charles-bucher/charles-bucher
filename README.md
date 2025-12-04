@@ -44,11 +44,11 @@ Built practical troubleshooting tools for common cloud support scenarios:
 
 **Tech:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty, CloudWatch), Python, Boto3
 
-![EC2 Network Tester](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
+![EC2 Network Tester](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
 
-![Security Group Manager](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_02_EC2-Security-Group-Manager.png)
+![Security Group Manager](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_02_EC2-Security-Group-Manager.png)
 
-![CloudFormation Stack](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)
+![CloudFormation Stack](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)
 
 [View Repository →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 
@@ -66,9 +66,11 @@ Production-ready monitoring and operations platform:
 
 **Tech:** Terraform, AWS CloudWatch, Python, GuardDuty, Lambda, S3
 
-![CloudWatch Dashboard](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_05_cloudwatch.png)
-![Lambda Functions](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_10_lambda_functions.png)
-![Terraform Deployment](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudOps_17_terraform_confirm.png)
+![CloudWatch Dashboard](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_05_cloudwatch.png)
+
+![Lambda Functions](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_10_lambda_functions.png)
+
+![Terraform Deployment](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/CloudOps_17_terraform_confirm.png)
 
 [View Repository →](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 
@@ -85,9 +87,11 @@ Built intentionally misconfigured multi-tier application for learning:
 
 **Tech:** AWS (EC2, RDS, VPC), Terraform, Python, MySQL
 
-![User Login Interface](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_01_UserLogin.png)
-![Dashboard View](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_02_MainDashboard.png)
-![Error Logs](https://raw.githubusercontent.com/charles-bucher/screenshots/main/Multi_03_ErrorLogsView.png)
+![User Login Interface](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/Multi_01_UserLogin.png)
+
+![Dashboard View](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/Multi_02_MainDashboard.png)
+
+![Error Logs](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/screenshots/Multi_03_ErrorLogsView.png)
 
 [View Repository →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
