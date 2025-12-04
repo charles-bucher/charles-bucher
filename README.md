@@ -45,7 +45,9 @@ Built practical troubleshooting tools for common cloud support scenarios:
 **Tech:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty, CloudWatch), Python, Boto3
 
 ![EC2 Network Tester](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
+
 ![Security Group Manager](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_02_EC2-Security-Group-Manager.png)
+
 ![CloudFormation Stack](https://raw.githubusercontent.com/charles-bucher/screenshots/main/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)
 
 [View Repository →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
