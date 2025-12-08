@@ -1,107 +1,103 @@
-# Charles Bucher
-**Cloud Support Engineer** | AWS | Python | Terraform
+# Charles Bucher  
+**Cloud Support Engineer | AWS | Python | Terraform | Hands-on CloudOps**
 
 📍 Pinellas Park, FL | 📧 quietopscb@gmail.com  
-🔗 [GitHub](https://github.com/charles-bucher) • [LinkedIn](https://linkedin.com/in/charles-bucher) • [Portfolio](https://charles-bucher.github.io)
+🔗 [GitHub](https://github.com/charles-bucher) • [Portfolio](https://charles-bucher.github.io) • [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud)
 
 ---
 
-## Summary
+## About Me
+Self-taught Cloud Support Engineer transitioning from 15+ years in high-pressure operations. Experienced in troubleshooting, automation, and documenting cloud systems. Actively building hands-on AWS CloudOps skills to support production-grade environments.  
 
-Self-taught AWS professional building cloud support skills through hands-on troubleshooting simulations. Career transitioner seeking entry-level Cloud Support Engineer role.
-
-**Target Roles:** Cloud Support Engineer, AWS Support Associate, Technical Support Engineer (Remote)
-
----
-
-## Technical Skills
-
-**AWS:** EC2, VPC, S3, CloudFormation, CloudWatch, GuardDuty, Lambda, RDS, ELB, IAM, SNS  
-**Troubleshooting:** AWS CLI, CloudWatch Logs, SSH, security groups, network connectivity, root cause analysis  
-**Scripting:** Python (Boto3), Bash, PowerShell  
-**IaC:** Terraform, CloudFormation  
-**Tools:** Git, GitHub, VS Code, AWS Console  
+**Core Strengths:**  
+- Troubleshooting & incident response: EC2, VPC, S3, Lambda, CloudWatch, GuardDuty  
+- Infrastructure as Code (IaC): Terraform, CloudFormation  
+- Scripting & automation: Python (Boto3), Bash, PowerShell  
+- Systems administration: Windows & Linux CLI  
+- Monitoring & alerting: CloudWatch, SNS, Lambda automation  
 
 ---
 
-## Projects
+## Featured Projects
 
-### AWS Cloud Support Simulation
-Simulated customer support tickets with documented resolutions
+### 1️⃣ AWS CloudOps Suite  
+Full-stack AWS CloudOps lab integrating monitoring, automated alerts, and incident response.  
+**Tech:** EC2, S3, Lambda, CloudFormation, Terraform, GuardDuty, CloudWatch, Python  
 
-- EC2 SSH connectivity failures (security group misconfiguration)
-- CloudFormation stack deployment errors (IAM permissions)
-- GuardDuty security findings investigation
-- S3 bucket access denied troubleshooting
+<details>
+<summary>View Screenshots</summary>
 
-**Tech:** EC2, VPC, S3, CloudFormation, CloudWatch, Python
+![CloudOps Access Key](screenshots/CloudOps_01_cloudopsaccess_key.png)  
+![Backend Config](screenshots/CloudOps_02_backend_config.png)  
+![CloudWatch Setup](screenshots/CloudOps_05_cloudwatch.png)  
+![DynamoDB Confirm](screenshots/CloudOps_07_dynamo_confirm.png)  
+![Lambda Functions](screenshots/CloudOps_10_lambda_functions.png)  
+![S3 Buckets](screenshots/CloudOps_15_s3_buckets.png)  
+![Terraform Confirm](screenshots/CloudOps_17_terraform_confirm.png)  
 
-[View Repo →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
-
----
-
-### Multi-Tier Application Troubleshooting
-Diagnosed and resolved issues in 3-tier web application
-
-- Load balancer health check failures
-- Database connection timeouts
-- API 500 errors
-- VPC routing issues
-
-**Tech:** EC2, RDS, ELB, VPC, CloudWatch Logs, Terraform
-
-[View Repo →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting)
-
----
-
-### CloudWatch Monitoring & Alerting
-Built proactive monitoring infrastructure
-
-- CloudWatch alarms for CPU/memory thresholds
-- SNS email/SMS notifications
-- Lambda automated responses
-- Custom dashboards
-
-**Tech:** CloudWatch, SNS, Lambda, Python, Terraform
+</details>
 
 [View Repo →](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 
 ---
 
-## Certification
+### 2️⃣ Multi-Tier App Troubleshooting Playground  
+Simulated 3-tier AWS environment with intentional failures for systematic debugging practice.  
+**Tech:** EC2, RDS, VPC, Load Balancers, Terraform  
 
-**AWS Solutions Architect Associate** - Exam January 2026
+<details>
+<summary>View Screenshots</summary>
+
+![User Login](screenshots/Multi_01_UserLogin.png)  
+![Main Dashboard](screenshots/Multi_02_MainDashboard.png)  
+![Error Logs View](screenshots/Multi_03_ErrorLogsView.png)  
+![API Response](screenshots/Multi_04_APIResponse.png)  
+![Admin Login](screenshots/Multi_05_AdminLogin.png)  
+
+</details>
+
+[View Repo →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
 ---
 
-## Learning Path
+### 3️⃣ Cloud Support Simulator  
+End-to-end troubleshooting lab for AWS support workflows.  
+**Tech:** EC2, S3, Lambda, CloudWatch, Python  
 
-**2024-Present:**
-- AWS documentation and hands-on labs
-- Built 3 working troubleshooting simulations
-- 40+ screenshots documenting implementations
-- 15+ Python automation scripts
+<details>
+<summary>View Screenshots</summary>
+
+![EC2 Network Connectivity Tester](screenshots/CloudSupport_01_EC2-Network-Connectivity-Tester.png)  
+![Network Connectivity](screenshots/CloudSupport_01_NetworkConnectivity.png)  
+![Security Group Manager](screenshots/CloudSupport_02_EC2-Security-Group-Manager.png)  
+![CloudFormation Troubleshooting Stack](screenshots/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)  
+![AWS Cloud Support Portfolio](screenshots/CloudSupport_04_AWS-Cloud-Support-Portfolio.png)  
+![Python AWS Project Template](screenshots/CloudSupport_05_Python-AWS-Project-Template.png)  
+
+</details>
+
+[View Repo →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 
 ---
 
-## Current Focus
+## Skills & Tools
+**Cloud:** AWS (EC2, VPC, S3, Lambda, RDS, CloudFormation, CloudWatch, GuardDuty, SNS)  
+**IaC & Automation:** Terraform, CloudFormation, Python (Boto3), Bash, PowerShell  
+**Version Control & Dev Tools:** Git, GitHub, VS Code  
+**Monitoring & Troubleshooting:** Logs analysis, alert pipelines, security findings investigation  
+**Systems Admin:** Windows & Linux CLI, Active Directory basics  
 
-- AWS Solutions Architect Associate study (January 2026 exam)
-- Building AWS troubleshooting portfolio
-- Applying to Cloud Support Engineer roles
+---
+
+## Certifications & Learning
+- AWS Solutions Architect Associate (Exam Target: January 2026)  
+- Hands-on labs & real-world cloud troubleshooting simulations  
 
 ---
 
 ## Contact
-
 📧 quietopscb@gmail.com  
-💼 [LinkedIn](https://linkedin.com/in/charles-bucher)  
+💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud)  
 🌐 [Portfolio](https://charles-bucher.github.io)
 
-**Open to:** Cloud Support Engineer, AWS Support Associate, Technical Support Engineer (Remote)
-
 ---
-
-## Keywords
-
-AWS, Cloud Support Engineer, Technical Support Engineer, EC2, VPC, S3, CloudWatch, CloudFormation, Security Groups, IAM, Lambda, RDS, Troubleshooting, Problem Solving, Python, Boto3, Bash, Terraform, AWS CLI, Remote Work, Help Desk, IT Support, Root Cause Analysis, Network Connectivity, Log Analysis, Entry Level, Self-Taught
