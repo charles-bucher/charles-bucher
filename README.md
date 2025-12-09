@@ -1,39 +1,56 @@
 # Charles Bucher
+## Cloud Support Engineer | AWS | Python | Terraform | CloudOps Hands-On
 
-**Cloud Support Engineer | AWS | Python | Terraform | CloudOps Hands-On**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quietopscb@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/charles-bucher)
 
-📍 Pinellas Park, FL | 📧 quietopscb@gmail.com  
-🔗 [GitHub](https://github.com/charles-bucher) • [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud) • [Portfolio](https://charles-bucher.github.io)
+📍 Pinellas Park, FL
 
 ---
 
 ## Summary
-Self-taught AWS cloud engineer transitioning from 15+ years in operations. Experienced in troubleshooting, automating, and documenting cloud systems. Seeking **entry-level Cloud Support Engineer** or **Technical Support Engineer** roles.  
 
-- Hands-on AWS: EC2, S3, VPC, Lambda, CloudFormation, CloudWatch, RDS, GuardDuty  
-- Automation & scripting: Python (Boto3), Bash, PowerShell, Terraform  
-- Troubleshooting: IAM, security groups, network connectivity, logs analysis, root cause investigation  
-- Tools: Git, GitHub, AWS CLI, VS Code  
-- Focused on **real-world scenarios, incident response, and operational monitoring**
+Self-taught AWS cloud engineer with 6 months of hands-on infrastructure experience. Built production-ready monitoring, troubleshooting, and deployment systems using AWS native services. 15+ years of reliable operations experience transitioning to cloud engineering.
+
+**Core Skills:**
+- **AWS Services:** EC2, S3, VPC, Lambda, CloudFormation, CloudWatch, RDS, GuardDuty, IAM, SNS
+- **Automation & IaC:** Terraform, Python (Boto3), Bash, PowerShell
+- **Monitoring:** CloudWatch dashboards, alarms, SNS notifications, log analysis
+- **Troubleshooting:** Security groups, IAM policies, network connectivity, root cause analysis
+- **Tools:** Git, GitHub, AWS CLI, VS Code
+
+Focused on real-world cloud operations, incident response, and automated monitoring.
 
 ---
 
 ## Technical Skills
 
 | Cloud | Automation & IaC | Monitoring & Logging | Troubleshooting |
-|-------|----------------|------------------|----------------|
+|-------|------------------|----------------------|-----------------|
 | AWS EC2, S3, VPC, RDS, Lambda, CloudFormation, CloudWatch, GuardDuty | Terraform, Python/Boto3, Bash, PowerShell | CloudWatch, SNS, dashboards, alerts | Security groups, IAM, network connectivity, root cause analysis |
 
 ---
 
 ## Projects
 
-### AWS CloudOps Suite
-End-to-end AWS CloudOps environment with monitoring, alerts, and Terraform workflows. Designed for proactive troubleshooting and incident response.  
+### 🔧 AWS_Cloudops_Suite
+**Production-ready AWS monitoring infrastructure with GuardDuty, CloudWatch, SNS, Lambda, and Terraform**
 
-**Tech:** EC2, S3, Lambda, CloudWatch, SNS, Python, Terraform  
+End-to-end CloudOps environment demonstrating security monitoring, automated alerts, and infrastructure-as-code deployment. Built to replace expensive third-party monitoring tools ($500+/month) with AWS native services (~$20/month).
 
-**Screenshots:**  
+**Tech Stack:** GuardDuty, CloudWatch, SNS, Lambda, S3, IAM, DynamoDB, Terraform, Python/Boto3
+
+**Key Features:**
+- Security threat detection with GuardDuty
+- Custom CloudWatch dashboards and alarms
+- Multi-channel SNS alerting (email/SMS)
+- Automated Lambda response functions
+- Remote Terraform state management (S3 + DynamoDB)
+- Complete deployment documentation with 21 screenshots
+
+**Screenshots:**
+
 ![CloudOps Access Key](screenshots/CloudOps_01_cloudopsaccess_key.png)
 ![Backend Config](screenshots/CloudOps_02_backend_config.png)
 ![CloudWatch Setup](screenshots/CloudOps_05_cloudwatch.png)
@@ -42,61 +59,91 @@ End-to-end AWS CloudOps environment with monitoring, alerts, and Terraform workf
 ![S3 Buckets](screenshots/CloudOps_15_s3_buckets.png)
 ![Terraform Confirmation](screenshots/CloudOps_17_terraform_confirm.png)
 
-[View Repo →](https://github.com/charles-bucher/AWS_CloudOps_Suite)
+**[📂 View Repository →](https://github.com/charles-bucher/AWS_Cloudops_Suite)**
 
 ---
 
-### Cloud Support Simulator
-Simulated cloud support tickets and real-world troubleshooting exercises.  
+### 🎯 Real_World_AWS_Support_Scenarios
+**Cloud support troubleshooting simulator with real-world incident scenarios**
 
-**Tech:** EC2, VPC, Security Groups, CloudFormation, CloudWatch, Python/Boto3  
+Hands-on troubleshooting exercises simulating common cloud support tickets: EC2 connectivity issues, security group misconfigurations, CloudFormation stack failures, and network diagnostics.
 
-**Screenshots:**  
-![EC2 Network Connectivity Tester](screenshots/CloudSupport_01_EC2-Network-Connectivity-Tester.png)
-![Network Connectivity](screenshots/CloudSupport_01_NetworkConnectivity.png)
-![Security Group Manager](screenshots/CloudSupport_02_EC2-Security-Group-Manager.png)
-![CloudFormation Troubleshooting](screenshots/CloudSupport_03_CloudFormation-Troubleshooting-Stack.png)
-![AWS Cloud Support Portfolio](screenshots/CloudSupport_04_AWS-Cloud-Support-Portfolio.png)
-![Python AWS Project Template](screenshots/CloudSupport_05_Python-AWS-Project-Template.png)
+**Tech Stack:** EC2, VPC, Security Groups, CloudFormation, CloudWatch, Python/Boto3, AWS CLI
 
-[View Repo →](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+**Key Features:**
+- EC2 network connectivity diagnostics
+- Security group validation and troubleshooting
+- CloudFormation stack debugging
+- Automated incident response scripts
+- Python-based AWS automation tools
 
----
-
-### Multi-Tier Application Troubleshooting
-Full multi-tier AWS app for practicing debugging and troubleshooting multi-service issues.  
-
-**Tech:** EC2, RDS, VPC, Load Balancers, Terraform, MySQL  
-
-**Screenshots:**  
-![User Login](screenshots/Multi_01_UserLogin.png)
-![Main Dashboard](screenshots/Multi_02_MainDashboard.png)
-![Error Logs View](screenshots/Multi_03_ErrorLogsView.png)
-![API Response](screenshots/Multi_04_APIResponse.png)
-![Admin Login](screenshots/Multi_05_AdminLogin.png)
-
-[View Repo →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
+**[📂 View Repository →](https://github.com/charles-bucher/Real_World_AWS_Support_Scenarios)**
 
 ---
 
-## Certifications
-- **AWS Solutions Architect Associate** — Exam scheduled January 2026  
+### 🏗️ Multi-Tier AWS Application
+**Full-stack multi-tier application for practicing debugging and troubleshooting**
+
+Complete multi-tier AWS application demonstrating web tier, application tier, and database tier integration. Built for practicing multi-service troubleshooting and debugging.
+
+**Tech Stack:** EC2, RDS (MySQL), VPC, Application Load Balancer, Terraform, Python
+
+**Key Features:**
+- Multi-tier architecture (web/app/database)
+- Load balancer configuration
+- RDS database integration
+- VPC networking and security groups
+- Infrastructure-as-code with Terraform
+
+**[📂 View Repository →](https://github.com/charles-bucher/multi-tier-aws-app)**
 
 ---
 
-## Learning Path & Achievements
-- Built 3 production-ready AWS troubleshooting projects  
-- 40+ documented implementations with screenshots  
-- 15+ Python automation scripts  
-- Deep understanding of **cloud operations, monitoring, and incident response**  
+## Certifications & Learning
+
+**Currently Studying:**
+- AWS Certified Solutions Architect - Associate (SAA-C03)
+
+**Hands-On Experience:**
+- 40+ documented AWS deployments with screenshots
+- 35+ Git commits showing real iteration and problem-solving
+- 15+ Python automation scripts for AWS management
+- Production infrastructure deployed and tested multiple times
+
+---
+
+## Learning Journey
+
+**6 Months of Building:**
+- Built 3 production-ready AWS projects from scratch
+- Deployed real infrastructure to AWS (GuardDuty, CloudWatch, Lambda, EC2, RDS)
+- Learned Terraform, Python/Boto3, and AWS CLI through hands-on practice
+- Documented everything with screenshots and clear READMEs
+- Debugged IAM permissions, security groups, and network connectivity issues
+
+**What I Bring:**
+- 15 years of reliable operations experience
+- Self-taught cloud engineering skills proven through deployed projects
+- Strong troubleshooting and root cause analysis abilities
+- Clear technical documentation and communication
+- Ready to learn and grow in a Cloud Support role
+
+---
+
+## GitHub Stats
+
+![Charles's GitHub stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117)
 
 ---
 
 ## Contact
-📧 quietopscb@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud)  
-🌐 [Portfolio](https://charles-bucher.github.io)
+
+📧 **Email:** quietopscb@gmail.com  
+💼 **LinkedIn:** [linkedin.com/in/charles-bucher-cloud](https://linkedin.com/in/charles-bucher-cloud)  
+🌐 **Portfolio:** [github.com/charles-bucher](https://github.com/charles-bucher)
 
 ---
 
-> “I demonstrate what I’ve built and what I can build next. Hands-on skills matter more than credentials.”
+**Looking for:** Remote Cloud Support Engineer, Junior DevOps, or Technical Support Engineer roles where I can apply hands-on AWS skills and continue learning.
+
+*"15 years of reliable operations experience. 6 months of building production AWS infrastructure. Ready to prove what I can do."*
