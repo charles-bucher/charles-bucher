@@ -102,7 +102,7 @@ Complete multi-tier AWS application demonstrating web tier, application tier, an
 - VPC networking and security groups
 - Infrastructure-as-code with Terraform
 
-**[📂 View Repository →](https://github.com/charles-bucher/Multi-Tier_AWS_Application)**
+**[📂 View Repository →](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)**
 
 ---
 
