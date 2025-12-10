@@ -13,10 +13,10 @@ Pinellas Park, FL
 ---
 
 ## 👤 About Me
-Self-taught AWS Cloud Engineer with **6 months of hands-on production-style experience** and 15+ years of reliable operations experience.  
-Built monitoring, troubleshooting, and deployment systems using AWS native services. Experienced in multi-tier cloud support scenarios and automation.  
+Self-taught AWS Cloud Engineer with **6 months of hands-on cloud experience** and 15+ years of operations background.  
+I dedicate focused evening hours to **building production-ready AWS infrastructure and automation scripts**, learning through **error-driven projects**, and iterating until solutions work.  
 
-> “15 years of reliable operations. 6 months of building production-ready AWS infrastructure. Ready to deliver results remotely.”
+> “Balancing family life with cloud engineering projects, I turn challenges into hands-on learning opportunities — building real cloud environments after hours to sharpen my skills.”  
 
 ---
 
@@ -24,7 +24,7 @@ Built monitoring, troubleshooting, and deployment systems using AWS native servi
 
 | Cloud | Automation & IaC | Monitoring & Logging | Troubleshooting |
 |-------|-----------------|-------------------|----------------|
-| AWS EC2, S3, VPC, RDS, Lambda, CloudFormation, CloudWatch, GuardDuty | Terraform, Python/Boto3, Bash, PowerShell | CloudWatch dashboards, SNS alerts (~15 key metrics per service) | Security groups, IAM policies, network diagnostics, root cause analysis (~80% issues resolved in lab scenarios) |
+| AWS EC2, S3, VPC, RDS, Lambda, CloudFormation, CloudWatch, GuardDuty | Terraform, Python/Boto3, Bash, PowerShell | CloudWatch dashboards, SNS alerts (~15 key metrics monitored) | Security groups, IAM policies, network diagnostics (~80% issues resolved in lab scenarios) |
 
 **Tools:** Git, GitHub, VS Code, AWS CLI  
 
@@ -35,63 +35,83 @@ Built monitoring, troubleshooting, and deployment systems using AWS native servi
 ### 🔧 AWS_Cloudops_Suite
 **Tech Stack:** GuardDuty, CloudWatch, SNS, Lambda, S3, IAM, DynamoDB, Terraform, Python/Boto3  
 
-**Key Achievements (Lab/Portfolio Environment):**
-- **Security threat detection with GuardDuty** – Detected ~5–10 simulated threats per week.  
-- **Custom CloudWatch dashboards & alarms** – Monitored ~15 metrics per service, improving simulated response time by ~50–70%.  
-- **Automated Lambda response functions** – Handled ~3–5 remediation tasks per week automatically.  
-- **Remote Terraform state management** – Managed ~5–10 infrastructure deployments successfully without errors.  
+**Impact (Lab Environment / Rough Estimates):**
+- Security threat detection with GuardDuty – ~5–10 simulated threats/week  
+- CloudWatch dashboards & alarms – monitored ~15 key metrics per service; improved simulated response ~50–70%  
+- Automated Lambda response functions – handled ~3–5 automated remediation tasks/week  
+- Remote Terraform state management – managed ~5–10 deployments successfully  
 
-**Screenshots:**  
+<details>
+<summary>View AWS_Cloudops_Suite Screenshots</summary>
+
 ![ACSS_01](screenshots/ACSS_01_EC2-VPC-Network-Troubleshooting-59ms-Latency.png)  
 ![ACSS_02](screenshots/ACSS_02_Security-Group-HTTPS-Port443-Resolution.png)  
 ![ACSS_03](screenshots/ACSS_03_CloudFormation-Stack-CreateComplete.png)  
 ![ACSS_04](screenshots/ACSS_04_Git-Branch-Merge-Workflow..png)  
 
-📂 [View Repository →](https://github.com/Charles-bucher/Real_World_AWS_Support_Scenarios)
+</details>
 
 ---
 
 ### 🎯 Real_World_AWS_Support_Scenarios
 **Tech Stack:** EC2, VPC, Security Groups, CloudFormation, CloudWatch, Python/Boto3  
 
-**Key Achievements (Lab/Portfolio Environment):**
-- **EC2 network diagnostics** – Resolved ~80% of simulated connectivity issues in minutes.  
-- **Security group validation & troubleshooting** – Corrected misconfigurations in ~5–8 simulated tickets per week.  
-- **CloudFormation stack debugging** – Reduced stack failures by ~60% through scripted fixes.  
-- **Python automation scripts** – Automated repetitive AWS tasks (~15–30 min each manually).  
+**Impact (Lab Environment / Rough Estimates):**
+- EC2 network diagnostics – resolved ~80% of simulated connectivity issues quickly  
+- Security group validation – corrected misconfigurations in ~5–8 simulated tickets/week  
+- CloudFormation debugging – reduced stack failures by ~60%  
+- Python automation scripts – automated tasks taking 15–30 min manually  
 
-**Screenshots:**  
-![MTAT_01](screenshots/MTAT_01_UserLogin.png) ![MTAT_02](screenshots/MTAT_02_MainDashboard.png)  
-![MTAT_03](screenshots/MTAT_03_ErrorLogsView.png) ![MTAT_04](screenshots/MTAT_04_APIResponse.png)  
+<details>
+<summary>View Real_World_AWS_Support_Scenarios Screenshots</summary>
+
+![MTAT_01](screenshots/MTAT_01_UserLogin.png)  
+![MTAT_02](screenshots/MTAT_02_MainDashboard.png)  
+![MTAT_03](screenshots/MTAT_03_ErrorLogsView.png)  
+![MTAT_04](screenshots/MTAT_04_APIResponse.png)  
+![MTAT_05](screenshots/MTAT_05_AdminLogin.png)  
+![MTAT_06](screenshots/MTAT_06_AdminErrorLogs.png)  
+
+</details>
 
 ---
 
 ### 🏗️ Multi-Tier AWS Application
 **Tech Stack:** EC2, RDS, VPC, Application Load Balancer, Terraform, Python  
 
-**Key Achievements (Lab/Portfolio Environment):**
-- Multi-tier integration (Web/App/DB) – Handled ~3 simulated traffic scenarios/day without errors.  
-- Infrastructure-as-Code with Terraform – Deployed and tested ~5 full-stack environments successfully.  
-- Load balancer & database integration – Configured and tested VPC networking & security groups in ~5–10 scenarios.  
+**Impact (Lab Environment / Rough Estimates):**
+- Handled ~3 simulated traffic scenarios/day without errors  
+- Deployed and tested ~5 full-stack environments successfully  
+- Configured VPC networking & security groups in ~5–10 lab scenarios  
 
-**Screenshots:**  
-![MTAT_05](screenshots/MTAT_05_AdminLogin.png) ![MTAT_06](screenshots/MTAT_06_AdminErrorLogs.png)  
-![MTAT_08](screenshots/MTAT_08_AdminAPIResponse.png) ![MTAT_10](screenshots/MTAT_10_SecondaryDashboard.png)  
+<details>
+<summary>View Multi-Tier AWS Application Screenshots</summary>
+
+![MTAT_08](screenshots/MTAT_08_AdminAPIResponse.png)  
+![MTAT_10](screenshots/MTAT_10_SecondaryDashboard.png)  
+![MTAT_12](screenshots/MTAT_12_SecondaryAPIResponse.png)  
+![MTAT_14](screenshots/MTAT_14_TertiaryDashboard.png)  
+
+</details>
 
 ---
 
 ### 🔧 RWSS – Real World Support Scenarios
 **Tech Stack:** EC2, VPC, Security Groups, CloudFormation, CloudWatch, Python/Boto3  
 
-**Key Achievements (Lab/Portfolio Environment):**
-- Terraform deployments – Managed 5–10 test deployments without manual errors.  
-- Repo & infrastructure documentation – Created clear structure with 20+ screenshots for repeatable deployments.  
+**Impact (Lab Environment / Rough Estimates):**
+- Terraform deployments – managed 5–10 lab deployments successfully  
+- Repository & infrastructure documentation – 20+ screenshots for repeatable deployments  
 
-**Screenshots:**  
+<details>
+<summary>View RWSS Screenshots</summary>
+
 ![RWSS_01](screenshots/RWSS_01_create_target_group_settings_copy.png)  
 ![RWSS_02](screenshots/RWSS_02_repo_folder_structure_copy.png)  
 ![RWSS_03](screenshots/RWSS_03_repo_infrastructure_folder_structure_copy.png)  
 ![RWSS_04](screenshots/RWSS_04_repo_scenarios_folder_structure_copy.png)  
+
+</details>
 
 ---
 
@@ -107,8 +127,8 @@ Built monitoring, troubleshooting, and deployment systems using AWS native servi
 - Built 3 production-ready AWS projects from scratch  
 - Deployed real infrastructure: GuardDuty, CloudWatch, Lambda, EC2, RDS  
 - Hands-on Terraform, Python/Boto3, AWS CLI experience  
+- Error-driven learning & late-night hands-on projects improve troubleshooting skills  
 - Documented everything with screenshots & clear READMEs  
-- Strong troubleshooting & root cause analysis skills  
 
 ---
 
