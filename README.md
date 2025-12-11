@@ -1,5 +1,16 @@
 # Charles Bucher – Cloud Support Engineer | AWS | Python | Terraform | CloudOps
 
+## TL;DR
+
+- **Self-taught AWS CloudOps & IT Support Engineer** with 6+ months hands-on AWS experience and 15+ years operations background.  
+- **Core Skills:** EC2, S3, VPC, RDS, Lambda, CloudFormation, Terraform, Python/Boto3, CloudWatch, GuardDuty.  
+- **Projects:** 4 production-ready repos with automation, monitoring, and troubleshooting labs.  
+- **Impact:** Automated incident response, resolved ~80% of lab connectivity/security issues, deployed multi-tier apps, built CloudWatch dashboards, Terraform IaC.  
+- **Learning & Certifications:** Studying AWS Solutions Architect Associate (SAA-C03); 40+ AWS deployments, 35+ Git commits, 15+ Python automation scripts.  
+- **Contact:** [Email](mailto:quietopscb@gmail.com) | [LinkedIn](https://linkedin.com/in/charles-bucher-cloud) | [GitHub](https://github.com/Charles-bucher)
+
+
+
 [![GitHub stars](https://img.shields.io/github/stars/Charles-bucher/charles-bucher?style=social)](https://github.com/Charles-bucher/charles-bucher/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Charles-bucher/charles-bucher?style=social)](https://github.com/Charles-bucher/charles-bucher/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
