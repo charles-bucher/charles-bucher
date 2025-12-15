@@ -1,73 +1,71 @@
-# Charles Bucher – AWS Cloud Support Engineer
+# Charles Bucher ⚡ AWS Cloud Support Engineer
+**He/Him | Remote-Ready | Pinellas Park, FL**  
 
-![GitHub followers](https://img.shields.io/github/followers/charles-bucher?label=Followers&style=social)
-![GitHub commits](https://img.shields.io/badge/Commits-455%2B-brightgreen)
-![GitHub repos](https://img.shields.io/badge/Repos-6-blue)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)
+[🌐 Portfolio](https://charles-bucher.github.io) • [💼 LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud) • [📧 Email](mailto:quietopscb@gmail.com) • [🐙 GitHub](https://github.com/charles-bucher)
 
-Hands-on **AWS Cloud Support Engineer** focused on **incident troubleshooting, monitoring, and automated remediation** through hands-on labs and simulations.  
+---
 
-📍 Pinellas Park, FL (Remote) | 📧 quietopscb@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud) | 🌐 [Portfolio](https://charles-bucher.github.io/)
+## 🚀 About Me
+Hands-on **AWS Cloud Support Engineer** specializing in **incident troubleshooting, monitoring, and automation**. I build **real-world labs and simulations** to practice root cause analysis, remediation, and prevention. Focused on **portfolio-ready projects** that demonstrate practical skills.
+
+---
+
+## 🏆 Featured Projects
+
+### [AWS_Cloudops_Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite) 🛠️
+*Python & Terraform*  
+Full-stack AWS CloudOps project with **automated incident detection and response** using CloudWatch, GuardDuty, Lambda, and SNS.
+
+### [AWS_Cloud_Support_Sim](https://github.com/charles-bucher/AWS_Cloud_Support_Sim) 🔧
+*Terraform & Python*  
+Hands-on troubleshooting labs covering EC2, S3, Lambda, VPC, and Security Groups. **8 documented scenarios** simulating real-world incidents.
+
+### [AWS_Error_Driven_Troubleshooting_Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab) ⚠️
+*Python*  
+Intentionally broken AWS setups for **root cause analysis, remediation, and prevention practice**.
+
+### [AWS_Cost_Optimization_Dashboard](https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard) 💰
+*Python*  
+Automated cost analysis identifying **underutilized resources and potential savings** using AWS Cost Explorer API.
+
+### [charles-bucher.github.io](https://github.com/charles-bucher/charles-bucher.github.io) 🌐
+*HTML & CSS*  
+Portfolio website showcasing **hands-on labs, troubleshooting projects, and documentation**.
+
+---
+
+## 🛠️ Skills
+
+**Compute & Networking**: EC2 | VPC | Security Groups | NACLs  
+**Monitoring & Detection**: CloudWatch | GuardDuty | SNS  
+**Automation & Remediation**: Lambda | Python | Terraform | CloudFormation  
+**Tools & Workflow**: GitHub | AWS CLI | Bash | PowerShell  
 
 ---
 
 ## 🎯 Current Focus
 - Building **hands-on AWS troubleshooting labs**  
-- Preparing for **AWS Solutions Architect Associate (Exam: Q1 2026)**  
-- Targeting **remote Cloud Support Engineer, NOC, and Junior DevOps roles**
-
----
-
-## 🔧 Technical Skills
-
-**Compute & Networking Troubleshooting**  
-![EC2](https://img.shields.io/badge/EC2-expert-orange) ![VPC](https://img.shields.io/badge/VPC-expert-blue) ![Security Groups](https://img.shields.io/badge/Security_Groups-proficient-green) ![NACLs](https://img.shields.io/badge/NACLs-proficient-red)
-
-**Monitoring & Detection**  
-![CloudWatch](https://img.shields.io/badge/CloudWatch-proficient-blue) ![GuardDuty](https://img.shields.io/badge/GuardDuty-proficient-yellow) ![SNS](https://img.shields.io/badge/SNS-proficient-lightgrey)
-
-**Automation & Remediation**  
-![Lambda](https://img.shields.io/badge/Lambda-proficient-purple) ![Python](https://img.shields.io/badge/Python-proficient-blue) ![Terraform](https://img.shields.io/badge/Terraform-proficient-darkblue) ![CloudFormation](https://img.shields.io/badge/CloudFormation-proficient-orange)
-
-**Tooling & Workflow**  
-![GitHub](https://img.shields.io/badge/GitHub-proficient-black) ![AWS CLI](https://img.shields.io/badge/AWS_CLI-proficient-blue) ![Bash](https://img.shields.io/badge/Bash-proficient-red) ![PowerShell](https://img.shields.io/badge/PowerShell-proficient-blue)
-
----
-
-## 📂 Featured Projects
-
-### 🚨 [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)  
-![Terraform](https://img.shields.io/badge/Terraform-green) ![Python](https://img.shields.io/badge/Python-blue)  
-Automated AWS monitoring and incident response with GuardDuty, CloudWatch, Lambda, and SNS.  
-
-### 🛠️ [AWS Cloud Support Simulation](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)  
-![EC2](https://img.shields.io/badge/EC2-orange) ![VPC](https://img.shields.io/badge/VPC-blue)  
-8 documented troubleshooting scenarios: EC2, S3, Lambda, VPC, and security groups.  
-
-### 🔥 [AWS Incident Postmortems](https://github.com/charles-bucher/AWS_Incident_Postmortems)  
-![Python](https://img.shields.io/badge/Python-blue) ![Lambda](https://img.shields.io/badge/Lambda-purple)  
-Simulated real-world incidents documenting detection, root cause, resolution, and prevention.  
+- Preparing for **AWS Solutions Architect Associate (Q1 2026)**  
+- Targeting **Remote Cloud Support, NOC, and Junior DevOps roles**  
 
 ---
 
 ## 📊 GitHub Activity
-![GitHub commits](https://img.shields.io/badge/Commits-455%2B-brightgreen)  
-- 455+ commits since May 2025 (7 months consistent work)  
-- 3 portfolio-ready repos with full documentation  
-- 12+ AWS services deployed hands-on  
+- 450+ commits in 7 months  
+- 3+ **portfolio-ready repos** with full documentation  
+- Hands-on deployment of **12+ AWS services**  
 
 ---
 
 ## 💼 Open to Opportunities
 **Roles:** Remote AWS Cloud Support Engineer | NOC Engineer | Junior DevOps  
+
 **Strengths:**  
-- Real AWS troubleshooting experience through hands-on labs  
-- Strong documentation and communication skills  
-- Self-motivated with proven work ethic  
-- Remote-ready with dedicated home office setup  
+- Real AWS troubleshooting experience  
+- Strong documentation & communication skills  
+- Self-motivated, disciplined, remote-ready  
+- Building **real AWS solutions to prove capabilities**  
 
 ---
 
-Building **real AWS solutions to prove capabilities, not just claim them**.  
-Full portfolio: [https://charles-bucher.github.io](https://charles-bucher.github.io)  
-Connect on LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud](https://www.linkedin.com/in/charles-bucher-cloud)
+> ⚡ Let's connect! Check out my [portfolio](https://charles-bucher.github.io) or [LinkedIn](https://www.linkedin.com/in/charles-bucher-cloud) for full projects and labs.
