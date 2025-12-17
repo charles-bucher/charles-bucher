@@ -263,7 +263,7 @@ After 10+ years in logistics, I discovered cloud computing and found my passion.
 
 **Self-taught. Project-driven. Customer-focused. Ready to learn and contribute.**
 
-[![View Projects](https://img.shields.io/badge/View-Projects-blue?style=for-the-badge)](https://charles-bucher.github.io/) [![Download Resume](https://img.shields.io/badge/Download-Resume-green?style=for-the-badge)](https://charles-bucher.github.io/resume)
+[![View Projects](https://img.shields.io/badge/View-Projects-blue?style=for-the-badge)](https://charles-bucher.github.io/) [![Download Resume](https://img.shields.io/badge/Download-Resume-green?style=for-the-badge)](https://raw.githubusercontent.com/charles-bucher/charles-bucher/main/resume/2026_Charles_Cloud_Resume.pdf)
 
 *References and detailed work samples available upon request*
 
@@ -273,4 +273,4 @@ After 10+ years in logistics, I discovered cloud computing and found my passion.
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark)
 
-**468 contributions in the last year** | **Active since May 2024** | **7 months intensive learning**
+**468 contributions in the last year** | **Active since May 2025** | **7 months intensive learning**
