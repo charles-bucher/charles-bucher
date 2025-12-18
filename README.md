@@ -16,7 +16,7 @@ Seeking **entry-level Cloud Support Engineer** or **Associate CloudOps Engineer*
 
 ## 📅 My Learning Journey
 
-**May 2024 - Present** | 7 months intensive self-study (2-4 hours daily)
+**May 2025 - Present** | 7 months intensive self-study (3-6 hours daily)
 ```
 Month 1-2: Python fundamentals, Git basics, AWS account setup
 Month 3-4: AWS CLI, IAM, EC2, S3, VPC core services
@@ -156,7 +156,7 @@ Month 7: Built production-ready cost optimization tool, advanced troubleshooting
 ## 📜 Certifications & Training
 
 **In Progress:**
-- AWS Certified Cloud Practitioner (Studying, exam scheduled Q1 2025)
+- AWS Certified Cloud Practitioner (Studying, exam scheduled Q1 2026)
 
 **Self-Built Curriculum:**
 - AWS Error-Driven Troubleshooting Lab (23 completed incidents)
@@ -165,7 +165,7 @@ Month 7: Built production-ready cost optimization tool, advanced troubleshooting
 - AWS Documentation & AWS Skill Builder courses
 
 **Next Steps:**
-- AWS Certified Solutions Architect – Associate (Target: Q2 2025)
+- AWS Certified Solutions Architect – Associate (Target: Q2 2026)
 
 ---
 
