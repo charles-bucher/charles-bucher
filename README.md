@@ -31,7 +31,7 @@
 - ❌ Zero troubleshooting experience
 
 **This portfolio proves:**
-- ✅ **Real troubleshooting** - 23 documented AWS incidents with RCA
+- ✅ **Real troubleshooting** - 3 documented AWS incidents with RCA
 - ✅ **Production code** - Python + Boto3 automation on live AWS accounts
 - ✅ **Documentation skills** - Runbooks, RCAs, customer communication
 - ✅ **Customer service** - 10+ years logistics background
