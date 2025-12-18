@@ -17,7 +17,7 @@
 ✅ Available any shift (nights, weekends, on-call)
 
 ![Commits](https://img.shields.io/badge/Commits-474+-brightgreen?style=for-the-badge&logo=git)
-![Incidents](https://img.shields.io/badge/Incidents-23_Documented-orange?style=for-the-badge&logo=firefoxbrowser)
+![Incidents](https://img.shields.io/badge/Incidents-3_Documented-orange?style=for-the-badge&logo=firefoxbrowser)
 ![Learning](https://img.shields.io/badge/Learning-7_Months-purple?style=for-the-badge&logo=bookstack)
 ![Projects](https://img.shields.io/badge/Projects-4_Real-blue?style=for-the-badge&logo=github)
 
@@ -48,7 +48,7 @@
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazon-cloudwatch&logoColor=white)
 ![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat&logo=amazon-aws&logoColor=white)
 
-**23 real troubleshooting scenarios** - broken AWS infrastructure I fixed and documented
+**3 real troubleshooting scenarios** - broken AWS infrastructure I fixed and documented
 
 ![Lab Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/diagrams/aws-error-driven-lab-architecture.png)
 
@@ -61,7 +61,8 @@
 
 **Each incident includes:** Problem statement → Evidence → Root cause → Resolution → Prevention
 
-[![View 23 Incidents](https://img.shields.io/badge/View_All_23_Incidents-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+[![View 
+3 Incidents](https://img.shields.io/badge/View_All_3_Incidents-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 
 ---
 
@@ -133,7 +134,7 @@
 ## 💼 Why I'm Ready for Entry-Level Cloud Support
 
 **Technical Skills:**
-- ✅ 23 documented troubleshooting cases with full RCA
+- ✅ 3 documented troubleshooting cases with full RCA
 - ✅ Python + Boto3 automation (500+ lines production code)
 - ✅ CloudWatch log analysis and metric interpretation
 - ✅ VPC networking basics (routing, security groups)
@@ -170,7 +171,7 @@
 
 ## 🚀 Hiring Manager Quick Links
 
-[![23 Incidents](https://img.shields.io/badge/View_23_Incidents-Troubleshooting_Lab-FF9900?style=for-the-badge&logo=amazon-aws)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+[![3 Incidents](https://img.shields.io/badge/View_3_Incidents-Troubleshooting_Lab-FF9900?style=for-the-badge&logo=amazon-aws)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 [![All Projects](https://img.shields.io/badge/All_Projects-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher?tab=repositories)
 [![Schedule Interview](https://img.shields.io/badge/Schedule_Interview-Email-D14836?style=for-the-badge&logo=gmail)](mailto:quietopscb@gmail.com?subject=Cloud%20Support%20Interview)
 
