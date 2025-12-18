@@ -9,7 +9,7 @@
 
 ---
 
-## ⚡ TL;DR✅ 23 real AWS incident investigations with full RCA
+## ⚡ TL;DR✅ 3 real AWS incident investigations with full RCA
 ✅ CloudWatch, IAM, VPC, EC2, Lambda hands-on experience
 ✅ Python + Boto3 automation (500+ lines production code)
 ✅ 10+ years customer service background
