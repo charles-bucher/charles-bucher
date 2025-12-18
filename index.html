@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charles Bucher | Cloud Support Engineer</title>
+<meta name="description" content="Charles Bucher - Cloud Support Engineer specializing in AWS troubleshooting and incident response.">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #141824;
+    --bg-card: #1a1f2e;
+    --text-primary: #e4e8f0;
+    --text-secondary: #8b92a8;
+    --accent-cyan: #00d9ff;
+    --accent-purple: #7c3aed;
+    --accent-pink: #ec4899;
+    --border-color: rgba(0, 217, 255, 0.2);
+    --glow-cyan: rgba(0, 217, 255, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Subtle grid background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Gradient orbs for depth */
+.gradient-orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.orb-1 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, var(--accent-cyan), transparent);
+    top: -200px;
+    right: -200px;
+}
+
+.orb-2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, var(--accent-purple), transparent);
+    bottom: -150px;
+    left: -150px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+header {
+    padding: 2rem 0;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10, 14, 26, 0.8);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-primary);
+}
+
+.logo span {
+    color: var(--accent-cyan);
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent-cyan);
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-cyan);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero {
+    padding: 8rem 0 6rem;
+    text-align: center;
+}
+
+.hero-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--accent-cyan);
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    font-weight: 300;
+}
+
+/* Stats */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.stat-card:hover::before {
+    transform: scaleX(1);
+}
+
+.stat-card:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 217, 255, 0.1);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-cyan);
+    font-family: 'JetBrains Mono', monospace;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* CTA Buttons */
+.cta-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    border: 2px solid var(--accent-cyan);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--accent-cyan);
+    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.2);
+}
+
+/* Section Styling */
+section {
+    padding: 6rem 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--accent-cyan);
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: var(--bg-card);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.05), rgba(124, 58, 237, 0.05));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.project-card:hover::before {
+    opacity: 1;
+}
+
+.project-card:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 217, 255, 0.15);
+}
+
+.project-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.project-description {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+    background: rgba(0, 217, 255, 0.1);
+    border: 1px solid rgba(0, 217, 255, 0.3);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--accent-cyan);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent-cyan);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    gap: 1rem;
+}
+
+.project-link::after {
+    content: '→';
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover::after {
+    transform: translateX(5px);
+}
+
+/* About Section */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    padding: 3rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+}
+
+.about-content p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.contact-card:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 217, 255, 0.1);
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.contact-value {
+    font-size: 1.1rem;
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    margin-top: 6rem;
+    color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-cyan);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-purple);
+}
+
+/* Selection */
+::selection {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+}
+</style>
+</head>
+<body>
+
+<!-- Gradient orbs -->
+<div class="gradient-orb orb-1"></div>
+<div class="gradient-orb orb-2"></div>
+
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">charles<span>.cloud</span></div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section id="home" class="hero container">
+    <div class="hero-label">Cloud Support Engineer</div>
+    <h1>Breaking AWS.<br>Fixing it better.</h1>
+    <p class="hero-subtitle">Self-taught engineer specializing in AWS troubleshooting and incident response. I build broken infrastructure and document how to fix it.</p>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <span class="stat-number">455+</span>
+            <div class="stat-label">Commits</div>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">6</span>
+            <div class="stat-label">Repositories</div>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">3</span>
+            <div class="stat-label">Incidents Solved</div>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">90m</span>
+            <div class="stat-label">Daily</div>
+        </div>
+    </div>
+    
+    <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://github.com/charles-bucher" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <div class="section-header">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">Real infrastructure. Real failures. Real solutions. Every project documented with logs, screenshots, and root cause analysis.</p>
+    </div>
+    
+    <div class="projects-grid">
+        <div class="project-card">
+            <span class="project-icon">🔥</span>
+            <h3 class="project-title">AWS Error-Driven Lab</h3>
+            <p class="project-description">Intentionally broken AWS scenarios for hands-on troubleshooting. Breaking things to learn how to fix them—real cloud support workflows.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">EC2</span>
+                <span class="tech-tag">VPC</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">CloudWatch</span>
+                <span class="tech-tag">Python</span>
+            </div>
+            <a href="https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab" target="_blank" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-icon">⚡</span>
+            <h3 class="project-title">AWS CloudOps Suite</h3>
+            <p class="project-description">Production-ready monitoring infrastructure with GuardDuty, CloudWatch, and automated Lambda responses. Security automation at scale.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Terraform</span>
+                <span class="tech-tag">GuardDuty</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">SNS</span>
+            </div>
+            <a href="https://github.com/charles-bucher/AWS_Cloudops_Suite" target="_blank" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <span class="project-icon">💰</span>
+            <h3 class="project-title">AWS Cost Optimizer</h3>
+            <p class="project-description">Python tool analyzing AWS costs and identifying underutilized resources. Hunt down wasted spend and optimize infrastructure.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Boto3</span>
+                <span class="tech-tag">Cost Explorer</span>
+            </div>
+            <a href="https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard" target="_blank" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="container">
+    <div class="section-header">
+        <div class="section-label">About</div>
+        <h2 class="section-title">Who I Am</h2>
+    </div>
+    
+    <div class="about-content">
+        <p>I'm a <span class="highlight">self-taught Cloud Support Engineer</span> with hands-on AWS experience. I specialize in incident troubleshooting, monitoring, automation, and remediation.</p>
+        
+        <p>I learn by breaking things. I build intentionally broken AWS environments, troubleshoot them like real support cases, and document every step. No tutorials. No bootcamps. Just hands-on problem solving.</p>
+        
+        <p>I'm looking for my first Cloud Support role. I know I'm entry-level and I have a lot to learn, but I'm reliable, I care about doing good work, and I'll show up every day ready to get better.</p>
+        
+        <p><span class="highlight">Location:</span> Largo, Florida<br>
+        <span class="highlight">Availability:</span> Night shifts, weekends, rotating schedules<br>
+        <span class="highlight">Skills:</span> EC2, VPC, CloudWatch, IAM, S3, Lambda, Terraform, Python, Boto3</p>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <div class="section-header">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title">Let's Connect</h2>
+    </div>
+    
+    <div class="contact-grid">
+        <a href="mailto:quietopscb@gmail.com" class="contact-card">
+            <div class="contact-label">Email</div>
+            <div class="contact-value">quietopscb@gmail.com</div>
+        </a>
+        <a href="https://github.com/charles-bucher" target="_blank" class="contact-card">
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">charles-bucher</div>
+        </a>
+        <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank" class="contact-card">
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">charles-bucher-cloud</div>
+        </a>
+        <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" target="_blank" class="contact-card">
+            <div class="contact-label">Indeed</div>
+            <div class="contact-value">charles-bucher</div>
+        </a>
+    </div>
+</section>
+
+<footer class="container">
+    <p>© 2025 Charles Bucher. Self-taught. Building daily. Ready to contribute.</p>
+</footer>
+
+<script>
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
+
+// Add scroll-triggered animations
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+        }
+    });
+}, observerOptions);
+
+// Observe all cards
+document.querySelectorAll('.stat-card, .project-card, .contact-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+});
+</script>
+
+</body>
+</html>
