@@ -1,232 +1,279 @@
-# ☁️ Charles Bucher - Cloud Support Portfolio
+# ☁️ Charles Bucher - Aspiring AWS Cloud Support Engineer
 
-**Live Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io)
+**Seeking Entry-Level Cloud Support | AWS Troubleshooting & Automation**
 
-[![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)](https://aws.amazon.com/cloudwatch/)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue)](https://charles-bucher.github.io/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-red)](mailto:quietopscb@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://linkedin.com/in/charles-bucher-cloud)
 
----
-
-## ⚡ TL;DR✅ 3 real AWS incident investigations with full RCA
-✅ CloudWatch, IAM, VPC, EC2, Lambda hands-on experience
-✅ Python + Boto3 automation (500+ lines production code)
-✅ 10+ years customer service background
-✅ Entry-level, honest, ready to learn and contribute
-✅ Available any shift (nights, weekends, on-call)
-
-![Commits](https://img.shields.io/badge/Commits-474+-brightgreen?style=for-the-badge&logo=git)
-![Incidents](https://img.shields.io/badge/Incidents-3_Documented-orange?style=for-the-badge&logo=firefoxbrowser)
-![Learning](https://img.shields.io/badge/Learning-7_Months-purple?style=for-the-badge&logo=bookstack)
-![Projects](https://img.shields.io/badge/Projects-4_Real-blue?style=for-the-badge&logo=github)
+📍 Largo, FL | 🕒 Any Shift | 📧 <24hr Response | 📅 Available Immediately
 
 ---
 
-## 🎯 What Cloud Support Hiring Managers Want to See
+## ⚡ What I Bring to Your Team
 
-**Most entry-level candidates have:**
-- ❌ Only certification study materials
-- ❌ Tutorial projects they didn't build
-- ❌ Zero troubleshooting experience
+I'm an **entry-level candidate who learns by doing** - built these projects in my free time while working full-time and raising a family. 7 months intensive hands-on practice since May 2025.
 
-**This portfolio proves:**
-- ✅ **Real troubleshooting** - 3 documented AWS incidents with RCA
-- ✅ **Production code** - Python + Boto3 automation on live AWS accounts
-- ✅ **Documentation skills** - Runbooks, RCAs, customer communication
-- ✅ **Customer service** - 10+ years logistics background
-- ✅ **Ready to learn** - Self-taught in 7 months, still improving daily
+✅ **3 troubleshooting scenarios** documented start-to-finish with root cause analysis  
+✅ **4 hands-on projects** - CloudWatch monitoring, Lambda automation, cost tools  
+✅ **500+ lines Python/Boto3** - built diagnostic tools to solve real problems  
+✅ **10+ years customer service** - logistics background, patient problem-solver  
+✅ **Studying for AWS SAA** - targeting certification Q1 2026
+
+**What makes me different:** I don't just watch tutorials - I break things, troubleshoot them, and document how I fixed them.
 
 ---
 
-## 🔥 Featured Projects
+## 🔥 Portfolio Projects
 
-### 1️⃣ AWS Error-Driven Troubleshooting Lab ⭐ **Most Relevant for Cloud Support**
+### 1️⃣ [AWS Error-Driven Troubleshooting Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab) ⭐
+**3 practice scenarios** - intentionally broke AWS services, learned how to fix them
 
-![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white)
-![VPC](https://img.shields.io/badge/VPC-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazon-cloudwatch&logoColor=white)
-![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat&logo=amazon-aws&logoColor=white)
+| Issue | What I Learned | How I Fixed It |
+|-------|----------------|----------------|
+| EC2 unreachable | Security groups block by default | Added inbound rule for port 22 |
+| VPC routing failed | Routes aren't automatic | Updated route table to point to IGW |
+| S3 access denied | IAM is deny-by-default | Updated policy with s3:GetObject permission |
 
-**3 real troubleshooting scenarios** - broken AWS infrastructure I fixed and documented
+<details>
+<summary>📸 View Screenshots (Click to expand)</summary>
 
-![Lab Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/diagrams/aws-error-driven-lab-architecture.png)
+### Incident #1: EC2 Unreachable
+![EC2 Connection Timeout](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/ec2-unreachable.png)
 
-**Sample Incidents:**
-| Problem | Screenshot | Root Cause |
-|---------|-----------|------------|
-| EC2 unreachable | ![Evidence](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/evidence/screenshots/01_instances_info.png) | Security group blocked SSH |
-| VPC routing failed | ![Troubleshooting](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/evidence/screenshots/02_security_group_rules.png) | Missing route to IGW |
-| S3 access denied | ![Resolution](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/evidence/screenshots/05_route_tables.PNG) | IAM policy misconfigured |
+### Incident #2: VPC Routing Failed
+![VPC Routing Issue](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/vpc-routing.png)
 
-**Each incident includes:** Problem statement → Evidence → Root cause → Resolution → Prevention
+### Incident #3: S3 Access Denied
+![S3 Access Denied](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/s3-access-denied.png)
 
-[![View 
-3 Incidents](https://img.shields.io/badge/View_All_3_Incidents-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+</details>
 
----
-
-### 2️⃣ AWS CloudOps Suite - Automated Monitoring
-
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazon-cloudwatch&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-
-**Automated alerting pipeline** - CloudWatch → Lambda → SNS notifications
-
-![CloudOps Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/diagrams/AWS_Cloudops_suite_Diagram.png)
-
-| Setup | Configuration | Deployment |
-|-------|--------------|------------|
-| ![Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/screenshots/ACS_01_aws_access_key.png) | ![Config](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/screenshots/ACS_05_cloudwatch_setup.png) | ![Deploy](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/screenshots/ACS_19_terraform_apply.png) |
-
-[![View Project](https://img.shields.io/badge/View_Project-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Cloudops_Suite)
+**What I Learned:** Systematic troubleshooting methodology - check logs first, isolate the problem, verify the fix  
+**Tech Used:** EC2, VPC, CloudWatch, IAM, Security Groups
 
 ---
 
-### 3️⃣ AWS Cost Optimization Dashboard
+### 2️⃣ [Cloud Support Simulation](https://github.com/charles-bucher/cloud-support-simulation)
+**Practice customer scenarios** - built tools to simulate real support tickets
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Boto3](https://img.shields.io/badge/Boto3-FF9900?style=flat&logo=amazon-aws&logoColor=white)
+- **Scenario #1:** IAM access denied troubleshooting with Python diagnostic tool
+- **Scenario #2:** VPC connectivity debugging (network ACLs, security groups, routing)
+- Python scripts (900+ lines) that check policies, test connectivity, suggest fixes
+- Wrote customer communication templates (how to explain technical issues)
+- Documented root cause analysis for each scenario
 
-**Scans AWS for wasted spend** - Stopped instances, orphaned volumes, idle databases
+<details>
+<summary>📸 View Project Details (Click to expand)</summary>
 
-![Cost Dashboard](https://raw.githubusercontent.com/charles-bucher/AWS_Cost_Optimization_Dashboard/main/architecture/aws-cost-optimization-architecture.png)
+### Architecture Overview
+![Support Workflow](https://raw.githubusercontent.com/charles-bucher/cloud-support-simulation/main/docs/architecture-diagram.png)
 
-| Structure | Terraform | Python Code |
-|-----------|-----------|-------------|
-| ![Structure](https://raw.githubusercontent.com/charles-bucher/AWS_Cost_Optimization_Dashboard/main/screenshots/ACOD_01_Project%20Folder%20Structure%20_%20src%20and_terraform%20Overview%22.PNG) | ![Terraform](https://raw.githubusercontent.com/charles-bucher/AWS_Cost_Optimization_Dashboard/main/screenshots/ACOD_02_Terraform_Initializatio_n%20Output.PNG) | ![Code](https://raw.githubusercontent.com/charles-bucher/AWS_Cost_Optimization_Dashboard/main/screenshots/ACOD_06_Creating%20analyzer%20clients.PNG) |
+### IAM Troubleshooting Tool
+```bash
+$ python3 policy-validator.py --username john-doe --bucket my-bucket
 
-[![View Project](https://img.shields.io/badge/View_Project-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard)
+🔍 Starting IAM diagnosis for user: john-doe
+
+✅ User 'john-doe' exists
+⚠️  Permission boundary detected: arn:aws:iam::123456789012:policy/DevBoundary
+✅ Found 2 policies attached to user
+❌ Action 's3:GetObject' on 'arn:aws:s3:::my-bucket/*' is DENIED
+
+💡 RECOMMENDATIONS:
+   1. Remove or update permission boundary if it's too restrictive
+   2. Check for explicit DENY in bucket policy
+```
+
+### VPC Network Diagnostic Tool
+```bash
+$ python3 network-diagnostic.py --source i-abc123 --destination i-def456 --port 3306
+
+🔍 Diagnosing connectivity: i-abc123 → i-def456:3306/tcp
+
+✅ Instances found and running
+⚠️  Security group sg-db456 does NOT allow inbound tcp/3306
+❌ NACL acl-db789 DENIES inbound traffic on port 3306
+
+❌ CONNECTIVITY BLOCKED
+   2 blocking issue(s) found
+```
+
+</details>
+
+**What I Learned:** How to translate technical errors into customer-friendly explanations  
+**Tech Used:** Python, IAM, VPC, S3, GuardDuty, Security Groups, Network ACLs
 
 ---
 
-### 4️⃣ Cloud Support Simulation
+### 3️⃣ [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
+**Automated monitoring practice** - built alert pipeline using CloudWatch and Lambda
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![VPC](https://img.shields.io/badge/VPC-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+- Set up CloudWatch to track EC2 metrics (CPU, disk, memory)
+- Wrote Lambda function that triggers when thresholds are breached
+- Configured SNS to send email alerts
+- Used Terraform to deploy everything as code
 
-**Customer ticket workflows** - IAM errors, network issues, S3 access problems
+<details>
+<summary>📸 View Architecture (Click to expand)</summary>
 
-| VPC Troubleshooting | GuardDuty Automation |
-|---------------------|----------------------|
-| ![VPC](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/ACSS_01_VPC_Setup.png) | ![GuardDuty](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/ACSS_05_Python-Boto3-GuardDuty-Findings-Automation.png) |
+### Monitoring Pipeline
+```
+CloudWatch Metrics → CloudWatch Alarms → Lambda Function → SNS Topic → Email/SMS Alert
+       ↓                    ↓                   ↓              ↓
+   EC2 Instances      Threshold Breach    Process Alert   Notify Team
+```
 
-[![View Project](https://img.shields.io/badge/View_Project-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+![CloudOps Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/architecture/monitoring-pipeline.png)
+
+### Sample Alert
+```json
+{
+  "AlarmName": "high-cpu-alert-web-server-01",
+  "AlarmDescription": "CPU utilization exceeded 80%",
+  "Timestamp": "2025-12-19T14:30:00.000Z",
+  "InstanceId": "i-0123456789abcdef",
+  "MetricValue": 87.5,
+  "Threshold": 80.0,
+  "Action": "Investigate high CPU usage"
+}
+```
+
+</details>
+
+**What I Learned:** Event-driven architecture, Lambda functions, Infrastructure as Code basics  
+**Tech Used:** Lambda, CloudWatch, SNS, Terraform, Python
 
 ---
 
-## 🛠️ AWS Services (Hands-On Experience)
+### 4️⃣ [AWS Cost Optimization Dashboard](https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard)
+**Practice project** - built tool to find wasteful AWS spending
 
-| Service | Experience | What I've Done |
-|---------|-----------|----------------|
-| ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white) **EC2** | ⭐⭐⭐ Learning | Instance troubleshooting, state management, security groups |
-| ![VPC](https://img.shields.io/badge/VPC-232F3E?style=flat&logo=amazon-aws&logoColor=white) **VPC** | ⭐⭐⭐ Learning | Routing issues, subnet configs, connectivity debugging |
-| ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazon-cloudwatch&logoColor=white) **CloudWatch** | ⭐⭐⭐ Learning | Log analysis, metrics, alarms, dashboards |
-| ![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat&logo=amazon-aws&logoColor=white) **IAM** | ⭐⭐⭐ Learning | Permission debugging, policy troubleshooting |
-| ![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white) **S3** | ⭐⭐⭐ Learning | Access issues, bucket policies, permissions |
-| ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white) **Lambda** | ⭐⭐ Learning | Function errors, timeouts, automation |
+- Python script using Boto3 to query EC2, EBS, RDS, and Cost Explorer
+- Finds stopped instances, unattached volumes, idle databases
+- Generates report with potential savings
+- Learned error handling, logging, and production code practices
 
-*Still learning all of these - this shows hands-on practice, not expertise*
+<details>
+<summary>📸 View Sample Output (Click to expand)</summary>
+
+### Cost Optimization Report
+```
+☁️ AWS Cost Optimization Dashboard
+Generated: 2025-12-19 14:45:00
+
+💰 COST SAVINGS OPPORTUNITIES FOUND:
+
+1. Stopped EC2 Instances (Still Paying for EBS)
+   - i-abc123 (stopped 45 days) → Save $24/month
+   - i-def456 (stopped 30 days) → Save $18/month
+   - i-ghi789 (stopped 60 days) → Save $36/month
+
+2. Unattached EBS Volumes
+   - vol-123abc (100GB) → Save $10/month
+   - vol-456def (50GB) → Save $5/month
+
+3. Idle RDS Instances (Low CPU/Connections)
+   - db-prod-old (2% CPU, 0 connections) → Save $180/month
+
+4. Old EBS Snapshots (>90 days)
+   - 15 snapshots → Save $45/month
+
+TOTAL MONTHLY SAVINGS: $318/month ($3,816/year)
+
+💡 RECOMMENDATIONS:
+   1. Terminate or snapshot stopped instances
+   2. Delete unattached EBS volumes after backup
+   3. Consider RDS Aurora Serverless for variable workloads
+   4. Implement snapshot lifecycle policies
+```
+
+</details>
+
+**What I Learned:** Working with multiple AWS APIs, data analysis, presenting findings clearly  
+**Tech Used:** Python, Boto3, Cost Explorer, CloudWatch
+
+---
+
+## 🛠️ Technical Skills (What I'm Learning & Practicing)
+
+**AWS Services (Hands-On Practice):**
+EC2 • VPC • IAM • S3 • Lambda • CloudWatch • CloudTrail • Security Groups • NACLs • Route53 • GuardDuty
+
+*Still learning all of these - comfortable with basics, building knowledge through projects*
+
+**Languages & Tools:**
+Python • Boto3 • Bash • Git • Linux (Ubuntu) • Terraform • JSON • YAML • Markdown
+
+**What I'm Getting Better At:**
+- Basic incident troubleshooting & asking the right questions
+- Reading CloudWatch logs & understanding error messages
+- Debugging IAM permission issues (policies, roles, boundaries)
+- Understanding VPC networking (routing, security groups, NACLs)
+- Writing Python scripts with error handling
+- Creating clear technical documentation
+- Explaining technical problems in simple terms
+
+**Certifications:**
+🎯 Studying for AWS Solutions Architect Associate (no test scheduled yet, targeting early 2026)
 
 ---
 
 ## 💼 Why I'm Ready for Entry-Level Cloud Support
 
-**Technical Skills:**
-- ✅ 3 documented troubleshooting cases with full RCA
-- ✅ Python + Boto3 automation (500+ lines production code)
-- ✅ CloudWatch log analysis and metric interpretation
-- ✅ VPC networking basics (routing, security groups)
-- ✅ IAM permission debugging
+**What I Bring Technically:**
+- 4 hands-on projects (not just tutorials - I built these from scratch)
+- 3 documented troubleshooting scenarios showing my thought process
+- Python tools that actually work and solve problems
+- Understanding of AWS fundamentals (networking, IAM, compute, storage)
+- Know how to read docs, search effectively, and ask good questions
 
-**Customer Service:**
-- ✅ 10+ years logistics with heavy customer interaction
-- ✅ Explaining technical issues to non-technical people
-- ✅ Patient, methodical problem-solver
+**Transferable Skills from Customer Service:**
+- 10+ years dealing with frustrated customers in logistics
+- Can explain technical issues to people who aren't technical
+- Patient when troubleshooting - I don't give up easily
+- Good written communication (emails, documentation)
+- Know when to escalate vs when to keep digging
 
-**Work Ethic:**
-- ✅ Self-taught in 7 months (May 2025 - Present)
-- ✅ Available any shift (day, evening, night, rotating)
-- ✅ Comfortable with on-call and weekend work
+**Work Style:**
+- Available any shift (24/7, nights, weekends, rotating, on-call)
+- Built all 4 projects while working full-time - I know how to hustle and manage time
+- Comfortable learning on the job with guidance
+- Okay with not knowing everything - I'll research and ask questions
+- Proven self-starter - nobody made me do this, I wanted it
 
-**Honest About My Level:**
-- ✅ Entry-level, not claiming expertise
-- ✅ Ready to learn from experienced engineers
-- ✅ Not afraid to say "I don't know, let me research that"
+**Being Honest:**
+- This is entry-level work - I'm not pretending to be senior
+- I'll need training and mentorship, and I'll soak it up
+- I learn fast when given clear direction
+- I'm looking for a career, not a job - I want to grow with a company long-term
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
+
+**298 contributions** | 7 months learning | 4 practice projects | 500+ lines code written
 
 ---
 
 ## 📫 Contact
 
-**Charles Bucher** | Entry-Level Cloud Support Engineer
+**Charles Bucher** | Seeking Entry-Level AWS Cloud Support Role
 
-[![Email](https://img.shields.io/badge/Email-quietopscb%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quietopscb@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-charles--bucher--cloud-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charles-bucher-cloud)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-181717?style=for-the-badge&logo=github&logoColor=white)](https://charles-bucher.github.io)
+📧 [quietopscb@gmail.com](mailto:quietopscb@gmail.com) • 💼 [LinkedIn](https://linkedin.com/in/charles-bucher-cloud) • 🌐 [Portfolio](https://charles-bucher.github.io/) • 📄 [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
 
-📍 **Largo, Florida** | ⏱️ **Response: <24 hours** | 📅 **Available: Immediate**
+📍 Largo, Florida | ⏱️ Response: <24hrs | 📅 Available: Immediate
 
 ---
 
 ## 🚀 Hiring Manager Quick Links
 
-[![3 Incidents](https://img.shields.io/badge/View_3_Incidents-Troubleshooting_Lab-FF9900?style=for-the-badge&logo=amazon-aws)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
-[![All Projects](https://img.shields.io/badge/All_Projects-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher?tab=repositories)
-[![Schedule Interview](https://img.shields.io/badge/Schedule_Interview-Email-D14836?style=for-the-badge&logo=gmail)](mailto:quietopscb@gmail.com?subject=Cloud%20Support%20Interview)
+[![View All Projects](https://img.shields.io/badge/📂-All_Projects-blue?style=for-the-badge)](https://github.com/charles-bucher?tab=repositories)
+[![Schedule Interview](https://img.shields.io/badge/📅-Schedule_Interview-green?style=for-the-badge)](mailto:quietopscb@gmail.com?subject=Cloud%20Support%20Interview%20-%20Charles%20Bucher)
+[![View Portfolio](https://img.shields.io/badge/🌐-Live_Portfolio-orange?style=for-the-badge)](https://charles-bucher.github.io/)
 
 ---
 
-## 📊 GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![Active Since](https://img.shields.io/badge/Active_Since-May_2025-blue?style=flat&logo=calendar)
-![Contributions](https://img.shields.io/badge/Contributions-474+_This_Year-brightgreen?style=flat&logo=github)
-
----
-
-<details>
-<summary><b>📅 My Learning Journey (Click to expand)</b></summary>
-
-**May 2025 - Present** | 7 months intensive self-study (2-4 hours daily after work)Month 1-2: Python fundamentals, Git, AWS account setup
-Month 3-4: AWS CLI, IAM, EC2, S3, VPC core services
-Month 5-6: Boto3 SDK, CloudWatch, Lambda automation
-Month 7: Production tools, troubleshooting, documentation
-
-**Self-Built Curriculum:**
-- AWS Documentation deep dives
-- Hands-on incident response scenarios
-- Real-world troubleshooting practice
-- Stack Overflow (a lot of Stack Overflow)
-
-**Current Focus:**
-- ![CCP](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=flat&logo=amazon-aws&logoColor=white) AWS Certified Cloud Practitioner (Exam Q1 2026)
-- ![SAA](https://img.shields.io/badge/AWS-Solutions_Architect-FF9900?style=flat&logo=amazon-aws&logoColor=white) AWS Solutions Architect - Associate (Target Q2 2026)
-
-</details>
-
-<details>
-<summary><b>💬 The Honest Story (Click to expand)</b></summary>
-
-After 10+ years in logistics, I discovered cloud computing and found my passion.
-
-**Every night after work, I'm in my home lab:**
-- Breaking AWS infrastructure
-- Troubleshooting real issues
-- Documenting everything
-- Learning from mistakes
-
-This isn't a side interest. This is a career change I'm fully committed to.
-
-**I'm not the most experienced candidate.**  
-**I'm not the most certified candidate.**  
-**But I'm ready to work hard, learn fast, and contribute from day one.**
-
-</details>
-
----
-
-*Last updated: December 2025 | Self-taught. Project-driven. Ready to contribute.*
-
-[![View Live Portfolio](https://img.shields.io/badge/View_Live_Portfolio-charles--bucher.github.io-FF6B35?style=for-the-badge&logo=github-pages&logoColor=white)](https://charles-bucher.github.io)
+**Last Updated:** December 2025 • Learning Every Day • Building Real Projects • Ready for Entry-Level Work
