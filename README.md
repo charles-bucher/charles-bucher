@@ -1,31 +1,66 @@
-# ☁️ Charles Bucher - Aspiring AWS Cloud Support Engineer
+# 🔧 How to Fix Broken Screenshot Links in Your README
 
-**Seeking Entry-Level Cloud Support | AWS Troubleshooting & Automation**
+## Problem
+The collapsible screenshot sections have **placeholder paths** that don't exist yet. They won't show images until you add the actual screenshots to your repositories.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue)](https://charles-bucher.github.io/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red)](mailto:quietopscb@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://linkedin.com/in/charles-bucher-cloud)
+## Solution Options
 
-📍 Largo, FL | 🕒 Any Shift | 📧 <24hr Response | 📅 Available Immediately
+### Option 1: Add Real Screenshots (RECOMMENDED)
+This makes your README look professional and proves your projects work.
+
+#### Steps:
+
+**1. Take Screenshots**
+
+For **AWS_Error_Driven_Troubleshooting_Lab**:
+- `ec2-unreachable.png` - Screenshot of EC2 connection timeout error
+- `vpc-routing.png` - Screenshot of VPC route table showing missing IGW route
+- `s3-access-denied.png` - Screenshot of S3 access denied error in AWS console
+
+For **cloud-support-simulation**:
+- `architecture-diagram.png` - Simple flowchart of your support workflow
+- OR delete the architecture image line if you don't have one
+
+For **AWS_Cloudops_Suite**:
+- `monitoring-pipeline.png` - CloudWatch dashboard or architecture diagram
+- OR delete the architecture image line
+
+**2. Create Screenshots Folder in Each Repo**
+```bash
+# In AWS_Error_Driven_Troubleshooting_Lab repo
+mkdir screenshots
+# Add your 3 screenshots here
+
+# In cloud-support-simulation repo
+mkdir docs
+# Add architecture diagram here (if you have one)
+
+# In AWS_Cloudops_Suite repo
+mkdir architecture
+# Add monitoring pipeline diagram here (if you have one)
+```
+
+**3. Upload to GitHub**
+```bash
+git add screenshots/
+git commit -m "Add troubleshooting screenshots"
+git push
+```
+
+**4. Screenshots Will Auto-Display**
+Once uploaded to GitHub, the README will automatically show them because the paths are correct:
+```
+https://raw.githubusercontent.com/charles-bucher/REPO_NAME/main/screenshots/FILENAME.png
+```
 
 ---
 
-## ⚡ What I Bring to Your Team
+### Option 2: Remove Screenshot Sections (QUICK FIX)
+If you don't have screenshots ready, remove the collapsible sections to avoid broken links.
 
-I'm an **entry-level candidate who learns by doing** - built these projects in my free time while working full-time and raising a family. 7 months intensive hands-on practice since May 2025.
+Use this version instead:
 
-✅ **3 troubleshooting scenarios** documented start-to-finish with root cause analysis  
-✅ **4 hands-on projects** - CloudWatch monitoring, Lambda automation, cost tools  
-✅ **500+ lines Python/Boto3** - built diagnostic tools to solve real problems  
-✅ **10+ years customer service** - logistics background, patient problem-solver  
-✅ **Studying for AWS SAA** - targeting certification Q1 2026
-
-**What makes me different:** I don't just watch tutorials - I break things, troubleshoot them, and document how I fixed them.
-
----
-
-## 🔥 Portfolio Projects
-
+```markdown
 ### 1️⃣ [AWS Error-Driven Troubleshooting Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab) ⭐
 **3 practice scenarios** - intentionally broke AWS services, learned how to fix them
 
@@ -35,20 +70,6 @@ I'm an **entry-level candidate who learns by doing** - built these projects in m
 | VPC routing failed | Routes aren't automatic | Updated route table to point to IGW |
 | S3 access denied | IAM is deny-by-default | Updated policy with s3:GetObject permission |
 
-<details>
-<summary>📸 View Screenshots (Click to expand)</summary>
-
-### Incident #1: EC2 Unreachable
-![EC2 Connection Timeout](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/ec2-unreachable.png)
-
-### Incident #2: VPC Routing Failed
-![VPC Routing Issue](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/vpc-routing.png)
-
-### Incident #3: S3 Access Denied
-![S3 Access Denied](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/screenshots/s3-access-denied.png)
-
-</details>
-
 **What I Learned:** Systematic troubleshooting methodology - check logs first, isolate the problem, verify the fix  
 **Tech Used:** EC2, VPC, CloudWatch, IAM, Security Groups
 
@@ -57,49 +78,29 @@ I'm an **entry-level candidate who learns by doing** - built these projects in m
 ### 2️⃣ [Cloud Support Simulation](https://github.com/charles-bucher/cloud-support-simulation)
 **Practice customer scenarios** - built tools to simulate real support tickets
 
-- **Scenario #1:** IAM access denied troubleshooting with Python diagnostic tool
-- **Scenario #2:** VPC connectivity debugging (network ACLs, security groups, routing)
-- Python scripts (900+ lines) that check policies, test connectivity, suggest fixes
-- Wrote customer communication templates (how to explain technical issues)
-- Documented root cause analysis for each scenario
-
-<details>
-<summary>📸 View Project Details (Click to expand)</summary>
-
-### Architecture Overview
-![Support Workflow](https://raw.githubusercontent.com/charles-bucher/cloud-support-simulation/main/docs/architecture-diagram.png)
-
-### IAM Troubleshooting Tool
+**IAM Troubleshooting Tool Output:**
 ```bash
-$ python3 policy-validator.py --username john-doe --bucket my-bucket
-
 🔍 Starting IAM diagnosis for user: john-doe
 
 ✅ User 'john-doe' exists
-⚠️  Permission boundary detected: arn:aws:iam::123456789012:policy/DevBoundary
-✅ Found 2 policies attached to user
-❌ Action 's3:GetObject' on 'arn:aws:s3:::my-bucket/*' is DENIED
+⚠️  Permission boundary detected
+❌ Action 's3:GetObject' is DENIED
 
 💡 RECOMMENDATIONS:
-   1. Remove or update permission boundary if it's too restrictive
+   1. Remove or update permission boundary
    2. Check for explicit DENY in bucket policy
 ```
 
-### VPC Network Diagnostic Tool
+**VPC Network Diagnostic Output:**
 ```bash
-$ python3 network-diagnostic.py --source i-abc123 --destination i-def456 --port 3306
-
 🔍 Diagnosing connectivity: i-abc123 → i-def456:3306/tcp
 
 ✅ Instances found and running
-⚠️  Security group sg-db456 does NOT allow inbound tcp/3306
-❌ NACL acl-db789 DENIES inbound traffic on port 3306
+⚠️  Security group does NOT allow inbound tcp/3306
+❌ NACL DENIES inbound traffic on port 3306
 
-❌ CONNECTIVITY BLOCKED
-   2 blocking issue(s) found
+❌ CONNECTIVITY BLOCKED - 2 blocking issues found
 ```
-
-</details>
 
 **What I Learned:** How to translate technical errors into customer-friendly explanations  
 **Tech Used:** Python, IAM, VPC, S3, GuardDuty, Security Groups, Network ACLs
@@ -109,37 +110,20 @@ $ python3 network-diagnostic.py --source i-abc123 --destination i-def456 --port 
 ### 3️⃣ [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 **Automated monitoring practice** - built alert pipeline using CloudWatch and Lambda
 
-- Set up CloudWatch to track EC2 metrics (CPU, disk, memory)
-- Wrote Lambda function that triggers when thresholds are breached
-- Configured SNS to send email alerts
-- Used Terraform to deploy everything as code
-
-<details>
-<summary>📸 View Architecture (Click to expand)</summary>
-
-### Monitoring Pipeline
+**Monitoring Flow:**
 ```
-CloudWatch Metrics → CloudWatch Alarms → Lambda Function → SNS Topic → Email/SMS Alert
-       ↓                    ↓                   ↓              ↓
-   EC2 Instances      Threshold Breach    Process Alert   Notify Team
+CloudWatch Metrics → Alarms → Lambda → SNS → Email Alert
 ```
 
-![CloudOps Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/architecture/monitoring-pipeline.png)
-
-### Sample Alert
+**Sample Alert Output:**
 ```json
 {
   "AlarmName": "high-cpu-alert-web-server-01",
-  "AlarmDescription": "CPU utilization exceeded 80%",
-  "Timestamp": "2025-12-19T14:30:00.000Z",
-  "InstanceId": "i-0123456789abcdef",
   "MetricValue": 87.5,
   "Threshold": 80.0,
   "Action": "Investigate high CPU usage"
 }
 ```
-
-</details>
 
 **What I Learned:** Event-driven architecture, Lambda functions, Infrastructure as Code basics  
 **Tech Used:** Lambda, CloudWatch, SNS, Terraform, Python
@@ -149,131 +133,84 @@ CloudWatch Metrics → CloudWatch Alarms → Lambda Function → SNS Topic → E
 ### 4️⃣ [AWS Cost Optimization Dashboard](https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard)
 **Practice project** - built tool to find wasteful AWS spending
 
-- Python script using Boto3 to query EC2, EBS, RDS, and Cost Explorer
-- Finds stopped instances, unattached volumes, idle databases
-- Generates report with potential savings
-- Learned error handling, logging, and production code practices
-
-<details>
-<summary>📸 View Sample Output (Click to expand)</summary>
-
-### Cost Optimization Report
+**Sample Report Output:**
 ```
-☁️ AWS Cost Optimization Dashboard
-Generated: 2025-12-19 14:45:00
-
 💰 COST SAVINGS OPPORTUNITIES FOUND:
 
-1. Stopped EC2 Instances (Still Paying for EBS)
-   - i-abc123 (stopped 45 days) → Save $24/month
-   - i-def456 (stopped 30 days) → Save $18/month
-   - i-ghi789 (stopped 60 days) → Save $36/month
-
-2. Unattached EBS Volumes
-   - vol-123abc (100GB) → Save $10/month
-   - vol-456def (50GB) → Save $5/month
-
-3. Idle RDS Instances (Low CPU/Connections)
-   - db-prod-old (2% CPU, 0 connections) → Save $180/month
-
-4. Old EBS Snapshots (>90 days)
-   - 15 snapshots → Save $45/month
+1. Stopped EC2 Instances → Save $78/month
+2. Unattached EBS Volumes → Save $15/month  
+3. Idle RDS Instances → Save $180/month
+4. Old EBS Snapshots → Save $45/month
 
 TOTAL MONTHLY SAVINGS: $318/month ($3,816/year)
-
-💡 RECOMMENDATIONS:
-   1. Terminate or snapshot stopped instances
-   2. Delete unattached EBS volumes after backup
-   3. Consider RDS Aurora Serverless for variable workloads
-   4. Implement snapshot lifecycle policies
 ```
-
-</details>
 
 **What I Learned:** Working with multiple AWS APIs, data analysis, presenting findings clearly  
 **Tech Used:** Python, Boto3, Cost Explorer, CloudWatch
+```
 
 ---
 
-## 🛠️ Technical Skills (What I'm Learning & Practicing)
+## Recommended Approach
 
-**AWS Services (Hands-On Practice):**
-EC2 • VPC • IAM • S3 • Lambda • CloudWatch • CloudTrail • Security Groups • NACLs • Route53 • GuardDuty
+**For NOW (to fix immediately):**
+1. Use **Option 2** - Remove the collapsible screenshot sections
+2. The code output examples are still there and look professional
+3. No broken image links
 
-*Still learning all of these - comfortable with basics, building knowledge through projects*
-
-**Languages & Tools:**
-Python • Boto3 • Bash • Git • Linux (Ubuntu) • Terraform • JSON • YAML • Markdown
-
-**What I'm Getting Better At:**
-- Basic incident troubleshooting & asking the right questions
-- Reading CloudWatch logs & understanding error messages
-- Debugging IAM permission issues (policies, roles, boundaries)
-- Understanding VPC networking (routing, security groups, NACLs)
-- Writing Python scripts with error handling
-- Creating clear technical documentation
-- Explaining technical problems in simple terms
-
-**Certifications:**
-🎯 Studying for AWS Solutions Architect Associate (no test scheduled yet, targeting early 2026)
+**For LATER (when you have time):**
+1. Take actual screenshots from AWS console
+2. Create simple architecture diagrams (use draw.io or PowerPoint)
+3. Upload to your repos
+4. Add back the collapsible sections
 
 ---
 
-## 💼 Why I'm Ready for Entry-Level Cloud Support
+## Quick Screenshots You Can Take Right Now
 
-**What I Bring Technically:**
-- 4 hands-on projects (not just tutorials - I built these from scratch)
-- 3 documented troubleshooting scenarios showing my thought process
-- Python tools that actually work and solve problems
-- Understanding of AWS fundamentals (networking, IAM, compute, storage)
-- Know how to read docs, search effectively, and ask good questions
+**EC2 Unreachable:**
+1. Launch EC2 instance
+2. Don't add SSH rule to security group
+3. Try to SSH → Screenshot the timeout error
+4. Add rule → Screenshot it working
 
-**Transferable Skills from Customer Service:**
-- 10+ years dealing with frustrated customers in logistics
-- Can explain technical issues to people who aren't technical
-- Patient when troubleshooting - I don't give up easily
-- Good written communication (emails, documentation)
-- Know when to escalate vs when to keep digging
+**VPC Routing:**
+1. Create VPC and subnet
+2. Don't add route to IGW
+3. Screenshot route table showing only local route
+4. Add IGW route → Screenshot working
 
-**Work Style:**
-- Available any shift (24/7, nights, weekends, rotating, on-call)
-- Built all 4 projects while working full-time - I know how to hustle and manage time
-- Comfortable learning on the job with guidance
-- Okay with not knowing everything - I'll research and ask questions
-- Proven self-starter - nobody made me do this, I wanted it
-
-**Being Honest:**
-- This is entry-level work - I'm not pretending to be senior
-- I'll need training and mentorship, and I'll soak it up
-- I learn fast when given clear direction
-- I'm looking for a career, not a job - I want to grow with a company long-term
+**S3 Access Denied:**
+1. Create S3 bucket
+2. Try to access without permissions
+3. Screenshot the 403 Forbidden error
+4. Add permissions → Screenshot it working
 
 ---
 
-## 📊 GitHub Stats
+## Which Should You Do?
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
+**If you're applying THIS WEEK:**
+→ Use Option 2 (remove screenshots, keep code output)
 
-**298 contributions** | 7 months learning | 4 practice projects | 500+ lines code written
+**If you have 2-3 hours:**
+→ Take the 3 screenshots above and use Option 1
 
----
-
-## 📫 Contact
-
-**Charles Bucher** | Seeking Entry-Level AWS Cloud Support Role
-
-📧 [quietopscb@gmail.com](mailto:quietopscb@gmail.com) • 💼 [LinkedIn](https://linkedin.com/in/charles-bucher-cloud) • 🌐 [Portfolio](https://charles-bucher.github.io/) • 📄 [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
-
-📍 Largo, Florida | ⏱️ Response: <24hrs | 📅 Available: Immediate
+**If you have a full day:**
+→ Take screenshots + create simple diagrams in PowerPoint
 
 ---
 
-## 🚀 Hiring Manager Quick Links
+## Need Help Creating Diagrams?
 
-[![View All Projects](https://img.shields.io/badge/📂-All_Projects-blue?style=for-the-badge)](https://github.com/charles-bucher?tab=repositories)
-[![Schedule Interview](https://img.shields.io/badge/📅-Schedule_Interview-green?style=for-the-badge)](mailto:quietopscb@gmail.com?subject=Cloud%20Support%20Interview%20-%20Charles%20Bucher)
-[![View Portfolio](https://img.shields.io/badge/🌐-Live_Portfolio-orange?style=for-the-badge)](https://charles-bucher.github.io/)
+Use these free tools:
+- **Draw.io** (diagrams.net) - Free, easy
+- **Canva** - Has AWS icon templates
+- **PowerPoint** - Built-in shapes
+- **Lucidchart** - Professional but has free tier
+
+Or just use ASCII diagrams like the ones already in your README - they work great!
 
 ---
 
-**Last Updated:** December 2025 • Learning Every Day • Building Real Projects • Ready for Entry-Level Work
+**Bottom Line:** Your README still looks professional without the screenshots. The code output examples are enough to prove your work. Add real screenshots later when you have time.
