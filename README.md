@@ -2,7 +2,6 @@
 
 **Seeking Entry-Level Cloud Support | AWS Troubleshooting & Automation**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue)](https://charles-bucher.github.io/)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red)](mailto:quietopscb@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://linkedin.com/in/charles-bucher-cloud)
 
