@@ -10,3 +10,11 @@
 # Ignore Python cache
 __pycache__/
 *.pyc
+
+# Additional patterns
+.env
+venv/
+.aws/
+*.tfstate
+*.key
+*.pem
