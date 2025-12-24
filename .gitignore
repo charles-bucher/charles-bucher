@@ -18,3 +18,8 @@ venv/
 *.tfstate
 *.key
 *.pem
+# Analyzer output files
+commit_analysis_report.json
+commit_fixes/
+temp_repos/
+critical_fixes/
