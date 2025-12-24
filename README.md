@@ -354,20 +354,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&hide_rank=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=false&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=charles-bucher&theme=radical&hide_border=false)
-
-</div>
-
----
-
 ## 🎓 Continuous Learning
 
 **Current Focus Areas:**
@@ -465,4 +451,5 @@ SOFTWARE.
 ![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blueviolet&style=flat-square)
 
 **Last Updated:** December 2025
+
 </div>
