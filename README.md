@@ -356,11 +356,15 @@ pip install -r requirements.txt
 
 ## 📊 GitHub Stats
 
-![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=dark&hide_border=true)
+![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&hide_rank=false)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=charles-bucher&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=false&langs_count=8)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=charles-bucher&theme=radical&hide_border=false)
+
+</div>
 
 ---
 
@@ -460,6 +464,5 @@ SOFTWARE.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blueviolet&style=flat-square)
 
-**Last Updated:** December 2024
-
+**Last Updated:** December 2025
 </div>
