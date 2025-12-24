@@ -8,7 +8,7 @@
 
 ---
 
-## 👨‍💻 Professional Summary
+## 👨�💻 Professional Summary
 
 **Self-Taught Cloud Support Engineer** specializing in AWS troubleshooting, incident response, and automation. Hands-on experience with EC2, S3, Lambda, VPC, CloudWatch, and IAM through real-world scenario-based labs. Skilled in root cause analysis, technical documentation, and Python automation with Boto3.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠� Technical Skills
 
 ### AWS Cloud Services
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -116,7 +116,7 @@ Production-ready AWS incident response portfolio demonstrating real cloud suppor
 
 ---
 
-### 🛡️ AWS Cloud Support Sim
+### 🛡� AWS Cloud Support Sim
 **Repository:** [AWS_Cloud_Support_Sim](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 
 Security-focused cloud support scenarios with Infrastructure as Code.
@@ -136,7 +136,7 @@ Security-focused cloud support scenarios with Infrastructure as Code.
 
 ---
 
-### ⚙️ AWS CloudOps Suite
+### ⚙� AWS CloudOps Suite
 **Repository:** [AWS_Cloudops_Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 
 DevOps automation toolkit for cloud operations and security.
@@ -211,7 +211,7 @@ Seeking **remote Cloud Support Engineer** or **AWS Technical Support Associate**
 
 <div align="center">
 
-### ⭐ Open to Opportunities
+### � Open to Opportunities
 
 **Actively seeking remote Cloud Support Engineer roles**
 
@@ -222,3 +222,17 @@ Seeking **remote Cloud Support Engineer** or **AWS Technical Support Associate**
 ---
 
 **Last Updated:** December 2024
+## TL;DR
+Short summary of repo purpose.
+
+## Quick Start
+Steps to run the project locally.
+
+## Incident Scenarios
+List of example scenarios for testing.
+
+## Installation
+Dependencies and setup instructions.
+
+## License
+MIT or your chosen license.
