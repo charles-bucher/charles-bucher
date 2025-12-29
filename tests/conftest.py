@@ -2,7 +2,6 @@
 # Author: Charles Bucher
 # Description: Add description here
 
-import pytest
 import os
 
 
