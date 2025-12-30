@@ -52,6 +52,8 @@ My learning approach simulates real cloud support environments:
 
 ### 🔥 [AWS Error-Driven Troubleshooting Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 
+![Broken Service Status](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/docs/screenshots/01-broken-service-status.png)
+
 Hands-on incident simulations with intentionally broken AWS services
 - **Root Cause Analysis:** Practice diagnosing Lambda failures, S3 misconfigurations, EC2 connectivity issues
 - **Log Analysis:** CloudWatch Logs, VPC Flow Logs, CloudTrail events
@@ -61,6 +63,8 @@ Hands-on incident simulations with intentionally broken AWS services
 
 ### 🎯 [AWS Cloud Support Simulator](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 
+![VPC Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png)
+
 Realistic cloud support ticket scenarios with automated environment setup
 - **Incident Response:** Triage, investigate, resolve, document
 - **Multi-Service Scenarios:** EC2, S3, Lambda, RDS, GuardDuty
@@ -69,6 +73,8 @@ Realistic cloud support ticket scenarios with automated environment setup
 - **Tech Stack:** AWS, Terraform, Python, CloudWatch, GuardDuty
 
 ### ⚙️ [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
+
+![CI/CD Pipeline](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/27_ci_github_actions.png)
 
 Production-ready automation toolkit for cloud operations
 - **Infrastructure as Code:** Modular Terraform configurations
@@ -87,6 +93,8 @@ Automated cost analysis and optimization recommendations
 - **Tech Stack:** Python, PowerShell, AWS Cost Explorer, CloudWatch
 
 ### 🔧 [CloudOpsLab](https://github.com/charles-bucher/CloudOpsLab)
+
+![Portfolio Automation](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/portfolio_master_auto-run1.png)
 
 Monitoring and self-healing automation for AWS infrastructure
 - **Automated Monitoring:** Portfolio analysis and health checks
