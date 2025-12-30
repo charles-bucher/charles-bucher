@@ -74,7 +74,7 @@ Realistic cloud support ticket scenarios with automated environment setup
 
 ### ⚙️ [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
 
-![CI/CD Pipeline](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/27_ci_github_actions.png)
+![CI/CD Pipeline](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/screenshots/27_ci_github_actions.png)
 
 Production-ready automation toolkit for cloud operations
 - **Infrastructure as Code:** Modular Terraform configurations
@@ -94,7 +94,7 @@ Automated cost analysis and optimization recommendations
 
 ### 🔧 [CloudOpsLab](https://github.com/charles-bucher/CloudOpsLab)
 
-![Portfolio Automation](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/portfolio_master_auto-run1.png)
+![Portfolio Automation](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/docs/screenshots/automation/portfolio_master_auto-run1.png)
 
 Monitoring and self-healing automation for AWS infrastructure
 - **Automated Monitoring:** Portfolio analysis and health checks
