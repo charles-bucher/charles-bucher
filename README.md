@@ -4,7 +4,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-charles--bucher.github.io-green)](https://charles-bucher.github.io/)
 [![Email](https://img.shields.io/badge/Email-quietopscb%40gmail.com-red)](mailto:quietopscb@gmail.com)
 
-> Career transitioner building production-ready cloud support skills through 500+ hours of hands-on AWS labs and incident simulations
+> Career transitioner building production-ready cloud support skills through **500+ GitHub contributions** and hands-on AWS labs & incident simulations
 
 ## Overview
 
@@ -51,6 +51,9 @@ My learning approach simulates real cloud support environments:
 ## Features
 
 ### 🔥 [AWS Error-Driven Troubleshooting Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+
+![Broken Service Status](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/docs/screenshots/01-broken-service-status.png)
+
 Hands-on incident simulations with intentionally broken AWS services
 - **Root Cause Analysis:** Practice diagnosing Lambda failures, S3 misconfigurations, EC2 connectivity issues
 - **Log Analysis:** CloudWatch Logs, VPC Flow Logs, CloudTrail events
@@ -59,6 +62,9 @@ Hands-on incident simulations with intentionally broken AWS services
 - **Tech Stack:** AWS Lambda, S3, EC2, DynamoDB, CloudWatch, Terraform
 
 ### 🎯 [AWS Cloud Support Simulator](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+
+![VPC Architecture](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png)
+
 Realistic cloud support ticket scenarios with automated environment setup
 - **Incident Response:** Triage, investigate, resolve, document
 - **Multi-Service Scenarios:** EC2, S3, Lambda, RDS, GuardDuty
@@ -67,6 +73,9 @@ Realistic cloud support ticket scenarios with automated environment setup
 - **Tech Stack:** AWS, Terraform, Python, CloudWatch, GuardDuty
 
 ### ⚙️ [AWS CloudOps Suite](https://github.com/charles-bucher/AWS_Cloudops_Suite)
+
+![CI/CD Pipeline](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/27_ci_github_actions.png)
+
 Production-ready automation toolkit for cloud operations
 - **Infrastructure as Code:** Modular Terraform configurations
 - **CI/CD Pipelines:** Automated testing and deployment
@@ -81,6 +90,93 @@ Automated cost analysis and optimization recommendations
 - **Automated Reports:** Daily/weekly cost analysis emails
 - **Savings Tracking:** Monitor cost reduction over time
 - **Tech Stack:** Python, PowerShell, AWS Cost Explorer, CloudWatch
+
+### 🔧 [CloudOpsLab](https://github.com/charles-bucher/CloudOpsLab)
+
+![Portfolio Automation](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/portfolio_master_auto-run1.png)
+
+Monitoring and self-healing automation for AWS infrastructure
+- **Automated Monitoring:** Portfolio analysis and health checks
+- **Self-Healing Scripts:** Detect and remediate issues automatically
+- **Cost Tracking:** Resource usage analysis and optimization
+- **Compliance Scanning:** Security and compliance validation
+- **Tech Stack:** Python, Bash, AWS, CloudWatch
+
+## Project Gallery
+
+### AWS CloudOps Suite
+<details>
+<summary>View Infrastructure & Automation Screenshots</summary>
+
+**Authentication & Access**
+![Auth Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/03_auth_access_key.png)
+
+**CloudWatch Monitoring**
+![CloudWatch Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/07_monitor_cloudwatch_setup.png)
+
+**Lambda Functions**
+![Lambda Deployment](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/13__lambda_functions.png)
+
+**S3 Buckets**
+![S3 Configuration](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/18_s3_buckets.png)
+
+**Terraform Planning**
+![Terraform Plan](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/21_tf_plan.png)
+
+**CI/CD Pipeline**
+![GitHub Actions](https://raw.githubusercontent.com/charles-bucher/AWS_Cloudops_Suite/main/docs/screenshots/27_ci_github_actions.png)
+
+</details>
+
+### AWS Cloud Support Simulator
+<details>
+<summary>View Lab Environment Screenshots</summary>
+
+**VPC Architecture**
+![VPC Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png)
+
+**Security Configuration**
+![Security Groups](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/03_security_groups_network_acls.png)
+
+**GuardDuty Dashboard**
+![GuardDuty](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/07_guardduty_dashboard_overview.png)
+
+**CloudWatch Monitoring**
+![CloudWatch Dashboard](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/09_cloudwatch_monitoring_dashboard.png)
+
+</details>
+
+### AWS Error-Driven Troubleshooting Lab
+<details>
+<summary>View Incident Response Screenshots</summary>
+
+**Broken Service Status**
+![Service Failure](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/docs/screenshots/01-broken-service-status.png)
+
+**Storage Gateway Setup**
+![Storage Gateway](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/incidents/001-ec2-ssh-lockout/001_screenshots/06_storage_gateway_setup.png)
+
+**Public Access Validation**
+![S3 Security](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/incidents/002-s3-public-bucket/002_screenshots/05_validate_public_access.png)
+
+**Issue Remediation**
+![Remediation](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/incidents/003-lambda-timeout/003_screenshots/04_remediate_issue.png)
+
+</details>
+
+### CloudOpsLab
+<details>
+<summary>View Automation Results Screenshots</summary>
+
+**Portfolio Master Auto-Run**
+![Automation Execution](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/portfolio_master_auto-run1.png)
+
+**Cloud Portfolio Scan Results**
+![Portfolio Analysis](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/cloud_portfolio_scan_results.png)
+
+</details>
+
+---
 
 ## Setup
 
@@ -208,7 +304,7 @@ aws lambda update-function-configuration \
 - AWS Certified Cloud Practitioner
 
 **Completed:**
-- 500+ hours hands-on AWS labs and incident simulations
+- 500+ GitHub contributions building AWS troubleshooting labs
 - Infrastructure as Code with Terraform
 - Python for Cloud Automation
 - Linux System Administration
@@ -227,7 +323,7 @@ AWS CCP → AWS SAA (Q1 2025) → AWS SysOps (Q2 2025) → AWS DevOps (Q3 2025)
 - 🚀 Availability: Immediate
 
 **What I Bring:**
-- Real-world troubleshooting skills from 500+ hours of labs
+- Real-world troubleshooting skills from 500+ GitHub contributions
 - Self-starter who built comprehensive training independently
 - Production-ready mindset focused on incident response
 - Strong documentation and communication skills
