@@ -14,6 +14,10 @@
 **🎯 Current Focus:** AWS Solutions Architect Associate certification  
 **🚀 Availability:** Immediate (2-week notice)
 
+
+TL;DR
+
+AWS Cloud Support & CloudOps practitioner with 525+ GitHub contributions, hands-on labs, and real-world incident simulations. I break AWS environments, troubleshoot issues, document resolutions, and automate fixes. Experienced with EC2, Lambda, S3, RDS, VPC, Terraform, Python, Bash, CloudWatch, and CI/CD pipelines. Remote-ready, production-focused, and building toward AWS Solutions Architect Associate. Perfect for entry-level Cloud Support, Junior DevOps, or CloudOps roles.
 ---
 
 ## 👨‍💻 Overview
