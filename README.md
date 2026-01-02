@@ -1,33 +1,120 @@
-Absolutely — here is a fully polished, portfolio‑ready rewrite with inclined (angled) screenshot thumbnails, clean structure, and recruiter‑optimized language.
-This version reads like a professional showcase section in a top‑tier GitHub portfolio.
+# Charles Bucher
 
-🚀 Featured Projects & Visual Portfolio
-🌟 AWS Cloud Support Simulator (Flagship)
-A production‑grade training environment demonstrating real SysOps, troubleshooting, and cloud support workflows.
-Includes validated architecture, networking, security, and observability visuals.
-Environment Setup & Verification
-<img src="screenshots/00_lab_environment_verified.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-Networking & Security
-<img src="screenshots/01_vpc_architecture_setup.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-<img src="screenshots/02_vpc_subnets_routing.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-<img src="screenshots/03_security_groups_network_acls.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-Monitoring & Observability
-<img src="screenshots/09_cloudwatch_monitoring_dashboard.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
+## ☁️ AWS Services Used
 
-🔥 AWS Error‑Driven Troubleshooting Lab
-A collection of simulated AWS incidents designed to demonstrate diagnostic thinking, root‑cause analysis, and real SysOps troubleshooting.
-EC2 SSH Lockout Incident
-<img src="incidents/001-ec2-ssh-lockout/001_screenshots/05_ec2_instances.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-S3 Public Bucket Misconfiguration
-<img src="incidents/002-s3-public-bucket/002_screenshots/04_full_audit_workflow.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-Lambda Timeout Simulation
-<img src="incidents/003-lambda-timeout/003_screenshots/03_simulate_failure.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
+- **CloudWatch**: Monitoring, logging, and alerting
+- **DynamoDB**: NoSQL database for scalable data storage
+- **EC2**: Compute instances for hosting applications
+- **IAM**: Identity and access management
+- **Lambda**: Serverless functions for event-driven processing
+- **RDS**: Managed relational database service
+- **S3**: Object storage for data and artifacts
+- **VPC**: Network isolation and security
 
-🔧 CloudOps Lab
-Automation, monitoring, alerting, and self‑healing infrastructure demonstrations.
-Automated Monitoring & Alerts
-[<img src="automation/screenshots/CloudWatch alarm firing or SNS notification.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">](automation/screenshots/CloudWatch alarm firing or SNS notification.png)
-<img src="automation/screenshots/ec2-auto-recovery-error.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">
-Audit & Reporting
-[<img src="monitoring/screenshots/audit findings output.png" width="420" style="transform: skewY(-2deg) rotate(-1deg);">](monitoring/screenshots/audit findings output.png)
+## 💡 Skills Demonstrated
 
+- **AWS Service Configuration**: Hands-on experience with core AWS services
+- **Infrastructure as Code**: Automated provisioning and management
+- **Troubleshooting**: Systematic problem diagnosis and resolution
+- **Documentation**: Clear technical writing and process documentation
+- **Monitoring & Logging**: Proactive system observation
+- **Security Best Practices**: IAM policies and least-privilege access
+## 📦 Prerequisites
+
+- AWS Account with appropriate permissions
+- AWS CLI configured (`aws configure`)
+- Python 3.8+ installed
+- boto3 library (`pip install boto3`)
+- Terraform or AWS CloudFormation CLI
+
+## 📖 Usage
+
+### Running Scripts
+
+```bash
+python3 Portfolio auto fixer.py
+python3 profile_deep_check.py
+python3 conftest.py
+```
+
+### Testing Components
+
+1. Verify AWS connectivity: `aws sts get-caller-identity`
+2. Check resource provisioning in AWS Console
+3. Review CloudWatch logs for any errors
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Issue**: AWS credentials not configured
+- **Solution**: Run `aws configure` and enter valid credentials
+
+**Issue**: Permission denied errors
+- **Solution**: Verify IAM user has required permissions
+- Check IAM policy allows actions for services used
+
+**Issue**: EC2 instance not reachable
+- **Solution**: Check security group rules allow inbound traffic
+- Verify instance is in 'running' state
+
+**Issue**: S3 access denied
+- **Solution**: Check bucket policy and IAM permissions
+- Verify bucket exists in correct region
+
+**Issue**: Rate limiting or throttling
+- **Solution**: Implement exponential backoff
+- Check service quotas in AWS Console
+
+## 📁 Project Structure
+
+```
+charles-bucher/
+├── README.md
+├── infrastructure/
+│   ├── main.tf or template.yaml
+│   └── variables.tf
+├── scripts/
+│   ├── Portfolio auto fixer.py
+│   ├── clean_terraform_files.ps1
+│   └── git_push_all.ps1
+├── monitoring/
+│   └── cloudwatch_config.yaml
+└── docs/
+    └── architecture.md
+```
+
+## 📊 Monitoring & Logging
+
+This project includes monitoring capabilities:
+
+- **CloudWatch Metrics**: Track resource utilization
+- **CloudWatch Alarms**: Alert on threshold breaches
+- **CloudWatch Logs**: Centralized application logging
+
+### Setting Up Monitoring
+
+```bash
+# Create CloudWatch alarm
+aws cloudwatch put-metric-alarm \
+  --alarm-name HighCPU \
+  --alarm-description 'Alert when CPU exceeds 80%' \
+  --metric-name CPUUtilization \
+  --threshold 80
+```
+
+## 🔮 Future Enhancements
+
+- Implement CI/CD pipeline with AWS CodePipeline
+- Add automated testing and validation
+- Expand to multi-region deployment
+## 👤 Author
+
+**Charles Bucher**
+- GitHub: [@Charles-Bucher](https://github.com/Charles-Bucher)
+- LinkedIn: [Charles Bucher](https://linkedin.com/in/charles-bucher-cloud)
+- Transitioning to Cloud/DevOps | AWS Focused
+
+## 📄 License
+
+This project is open source and available for educational purposes.

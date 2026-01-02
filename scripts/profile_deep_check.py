@@ -1,6 +1,14 @@
+"""
+Profile Deep Check
+Purpose: [AWS automation script]
+Author: Charles Bucher
+"""
+
+# Import required libraries
 import os
 import requests
 from pathlib import Path
+
 
 # -------------------------
 # CONFIGURATION
@@ -14,8 +22,11 @@ HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 # -------------------------
 # HELPER FUNCTIONS
 # -------------------------
-
 def get_repo_contents(repo, path=""):
+    """
+        Function to get_repo_contents.
+    """
+
     url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{repo}/contents/{path}"
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
@@ -23,8 +34,11 @@ def get_repo_contents(repo, path=""):
     else:
         print(f"Failed to fetch {path}: {response.status_code}")
         return []
-
 def analyze_readme(repo):
+    """
+        Function to analyze_readme.
+    """
+
     contents = get_repo_contents(repo)
     readme = next((c for c in contents if c['name'].lower() == 'readme.md'), None)
     if readme:
@@ -35,8 +49,11 @@ def analyze_readme(repo):
         sections = text.count("#")
         return {"exists": True, "lines": len(lines), "words": word_count, "sections": sections}
     return {"exists": False, "lines": 0, "words": 0, "sections": 0}
-
 def count_scripts(repo, folder=""):
+    """
+        Function to count_scripts.
+    """
+
     contents = get_repo_contents(repo, folder)
     scripts = {"python": 0, "bash": 0, "powershell": 0}
     for item in contents:
@@ -49,8 +66,11 @@ def count_scripts(repo, folder=""):
             for k in scripts:
                 scripts[k] += sub_scripts[k]
     return scripts
-
 def deep_check_repo(repo):
+    """
+        Function to deep_check_repo.
+    """
+
     print(f"\n🔎 Analyzing repo: {repo}")
     readme_info = analyze_readme(repo)
     scripts_info = count_scripts(repo)
