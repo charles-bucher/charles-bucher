@@ -1,120 +1,40 @@
-# Charles Bucher
+﻿# Charles Bucher – Cloud & DevOps Portfolio
 
-## ☁️ AWS Services Used
+Welcome! This repo is my **GitHub profile repository**, summarizing my cloud/DevOps skills and projects.
 
-- **CloudWatch**: Monitoring, logging, and alerting
-- **DynamoDB**: NoSQL database for scalable data storage
-- **EC2**: Compute instances for hosting applications
-- **IAM**: Identity and access management
-- **Lambda**: Serverless functions for event-driven processing
-- **RDS**: Managed relational database service
-- **S3**: Object storage for data and artifacts
-- **VPC**: Network isolation and security
+## About Me
+- Cloud Support / SysOps / DevOps aspiring professional
+- AWS-focused troubleshooting, automation, and operational excellence
+- Strong emphasis on IaC, monitoring, and error-driven labs
 
-## 💡 Skills Demonstrated
+## Featured Repositories
+| Repo | Purpose |
+|------|---------|
+| [AWS_Cloud_Support_Sim](./AWS_Cloud_Support_Sim) | Flagship lab repo: real-world AWS troubleshooting scenarios |
+| [AWS_Error_Driven_Troubleshooting_Lab](./AWS_Error_Driven_Troubleshooting_Lab) | Error-driven labs with hands-on remediation exercises |
+| [CloudOpsLab](./CloudOpsLab) | CloudOps practice, automation scripts, and operational exercises |
 
-- **AWS Service Configuration**: Hands-on experience with core AWS services
-- **Infrastructure as Code**: Automated provisioning and management
-- **Troubleshooting**: Systematic problem diagnosis and resolution
-- **Documentation**: Clear technical writing and process documentation
-- **Monitoring & Logging**: Proactive system observation
-- **Security Best Practices**: IAM policies and least-privilege access
-## 📦 Prerequisites
+## Skills Demonstrated
+- **AWS Core Services**: EC2, S3, IAM, Lambda, CloudWatch
+- **Infrastructure as Code**: Terraform, CloudFormation
+- **Monitoring & Troubleshooting**: Alarms, Logs, Tickets
+- **Automation**: Scripts, remediation workflows
+- **Operational Excellence**: Error-driven labs, SysOps mindset
 
-- AWS Account with appropriate permissions
-- AWS CLI configured (`aws configure`)
-- Python 3.8+ installed
-- boto3 library (`pip install boto3`)
-- Terraform or AWS CloudFormation CLI
+## Optional IaC Example
+You can explore a minimal Terraform example below:
 
-## 📖 Usage
+\\\hcl
+provider "aws" {
+  region = "us-east-1"
+}
 
-### Running Scripts
+resource "aws_s3_bucket" "example_bucket" {
+  bucket = "example-bucket-demo"
+  acl    = "private"
+}
+\\\
 
-```bash
-python3 Portfolio auto fixer.py
-python3 profile_deep_check.py
-python3 conftest.py
-```
+---
 
-### Testing Components
-
-1. Verify AWS connectivity: `aws sts get-caller-identity`
-2. Check resource provisioning in AWS Console
-3. Review CloudWatch logs for any errors
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-**Issue**: AWS credentials not configured
-- **Solution**: Run `aws configure` and enter valid credentials
-
-**Issue**: Permission denied errors
-- **Solution**: Verify IAM user has required permissions
-- Check IAM policy allows actions for services used
-
-**Issue**: EC2 instance not reachable
-- **Solution**: Check security group rules allow inbound traffic
-- Verify instance is in 'running' state
-
-**Issue**: S3 access denied
-- **Solution**: Check bucket policy and IAM permissions
-- Verify bucket exists in correct region
-
-**Issue**: Rate limiting or throttling
-- **Solution**: Implement exponential backoff
-- Check service quotas in AWS Console
-
-## 📁 Project Structure
-
-```
-charles-bucher/
-├── README.md
-├── infrastructure/
-│   ├── main.tf or template.yaml
-│   └── variables.tf
-├── scripts/
-│   ├── Portfolio auto fixer.py
-│   ├── clean_terraform_files.ps1
-│   └── git_push_all.ps1
-├── monitoring/
-│   └── cloudwatch_config.yaml
-└── docs/
-    └── architecture.md
-```
-
-## 📊 Monitoring & Logging
-
-This project includes monitoring capabilities:
-
-- **CloudWatch Metrics**: Track resource utilization
-- **CloudWatch Alarms**: Alert on threshold breaches
-- **CloudWatch Logs**: Centralized application logging
-
-### Setting Up Monitoring
-
-```bash
-# Create CloudWatch alarm
-aws cloudwatch put-metric-alarm \
-  --alarm-name HighCPU \
-  --alarm-description 'Alert when CPU exceeds 80%' \
-  --metric-name CPUUtilization \
-  --threshold 80
-```
-
-## 🔮 Future Enhancements
-
-- Implement CI/CD pipeline with AWS CodePipeline
-- Add automated testing and validation
-- Expand to multi-region deployment
-## 👤 Author
-
-**Charles Bucher**
-- GitHub: [@Charles-Bucher](https://github.com/Charles-Bucher)
-- LinkedIn: [Charles Bucher](https://linkedin.com/in/charles-bucher-cloud)
-- Transitioning to Cloud/DevOps | AWS Focused
-
-## 📄 License
-
-This project is open source and available for educational purposes.
+This profile repo is **not a lab repo** — it’s a portfolio summary linking to my practical labs.
