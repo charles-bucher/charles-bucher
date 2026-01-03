@@ -62,7 +62,10 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 ### 1️⃣ [AWS Cloud Support Simulator](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
 **My flagship portfolio project** - Real-world AWS troubleshooting scenarios
 
-![Lab Environment](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/00_lab_environment_verified.png)
+<a href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim">
+  <img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/00_lab_environment_verified.png" alt="Lab Environment" width="600">
+</a>
+
 *Fully functional AWS lab environment deployed with Terraform*
 
 **What's Inside:**
@@ -72,40 +75,58 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 - ✅ Security hardening with GuardDuty
 
 <details>
-<summary>🏗️ <strong>Architecture & Infrastructure</strong></summary>
+<summary><b>🏗️ Architecture & Infrastructure</b></summary>
+
+<br>
 
 #### VPC Architecture
-![VPC Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png" alt="VPC Setup" width="600">
+
 *Custom VPC with public/private subnets, IGW, and route tables*
 
+<br>
+
 #### Network Configuration
-![Subnets & Routing](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/02_vpc_subnets_routing.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/02_vpc_subnets_routing.png" alt="Subnets & Routing" width="600">
+
 *Detailed subnet configuration and routing tables*
 
+<br>
+
 #### Security Hardening
-![Security Groups](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/03_security_groups_network_acls.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/03_security_groups_network_acls.png" alt="Security Groups" width="600">
+
 *Security Groups and Network ACLs configured for defense in depth*
 
 </details>
 
 <details>
-<summary>🔐 <strong>IAM & Storage</strong></summary>
+<summary><b>🔐 IAM & Storage</b></summary>
+
+<br>
 
 #### IAM Roles & Policies
-![IAM Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/04_iam_roles_policies_setup.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/04_iam_roles_policies_setup.png" alt="IAM Setup" width="600">
+
 *IAM roles configured with least privilege policies*
 
+<br>
+
 #### S3 Bucket Configuration
-![S3 Setup](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/06_s3_bucket_setup.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/06_s3_bucket_setup.png" alt="S3 Setup" width="600">
+
 *S3 buckets with versioning, encryption, and access policies*
 
 </details>
 
 <details>
-<summary>📊 <strong>Monitoring & Security</strong></summary>
+<summary><b>📊 Monitoring & Security</b></summary>
+
+<br>
 
 #### CloudWatch Dashboard
-![CloudWatch](https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/09_cloudwatch_monitoring_dashboard.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/09_cloudwatch_monitoring_dashboard.png" alt="CloudWatch" width="600">
+
 *Custom CloudWatch dashboard for monitoring metrics and logs*
 
 </details>
@@ -122,9 +143,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 **Real Incidents I Created & Solved:**
 
 <details>
-<summary>🔴 <strong>Incident 001: EC2 SSH Lockout</strong></summary>
+<summary><b>🔴 Incident 001: EC2 SSH Lockout</b></summary>
 
-![EC2 SSH Issue](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/001-ec2-ssh-lockout/001_screenshots/05_ec2_instances.png)
+<br>
+
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/001-ec2-ssh-lockout/001_screenshots/05_ec2_instances.png" alt="EC2 SSH Issue" width="600">
 
 **Problem:** Unable to SSH into EC2 instance  
 **Investigation:** Security Group had port 22 blocked  
@@ -134,9 +157,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 </details>
 
 <details>
-<summary>🔴 <strong>Incident 002: S3 Public Bucket Exposure</strong></summary>
+<summary><b>🔴 Incident 002: S3 Public Bucket Exposure</b></summary>
 
-![S3 Remediation](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/002-s3-public-bucket/002_screenshots/04_full_audit_workflow.png)
+<br>
+
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/002-s3-public-bucket/002_screenshots/04_full_audit_workflow.png" alt="S3 Remediation" width="600">
 
 **Problem:** S3 bucket accidentally made public  
 **Investigation:** Audited bucket policies and ACLs  
@@ -146,9 +171,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 </details>
 
 <details>
-<summary>🔴 <strong>Incident 003: Lambda Function Timeout</strong></summary>
+<summary><b>🔴 Incident 003: Lambda Function Timeout</b></summary>
 
-![Lambda Fix](https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/003-lambda-timeout/003_screenshots/04_remediate_issue.png)
+<br>
+
+<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/003-lambda-timeout/003_screenshots/04_remediate_issue.png" alt="Lambda Fix" width="600">
 
 **Problem:** Lambda function timing out at 3 seconds  
 **Investigation:** Analyzed CloudWatch Logs, identified inefficient code  
@@ -167,27 +194,39 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 **Automation & monitoring practice** - Learning operational excellence
 
 <details>
-<summary>📡 <strong>Automated Monitoring</strong></summary>
+<summary><b>📡 Automated Monitoring</b></summary>
+
+<br>
 
 #### CloudWatch Alarms & SNS Notifications
-![CloudWatch Alarm](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/CloudWatch%20alarm%20firing%20or%20SNS%20notification.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/CloudWatch%20alarm%20firing%20or%20SNS%20notification.png" alt="CloudWatch Alarm" width="600">
+
 *Automated monitoring with email alerts via SNS*
 
+<br>
+
 #### EC2 Auto-Recovery
-![EC2 Recovery](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/ec2-auto-recovery-error.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/ec2-auto-recovery-error.png" alt="EC2 Recovery" width="600">
+
 *Configured EC2 auto-recovery for system status checks*
 
 </details>
 
 <details>
-<summary>🛡️ <strong>Security Monitoring</strong></summary>
+<summary><b>🛡️ Security Monitoring</b></summary>
+
+<br>
 
 #### GuardDuty Security Monitoring
-![GuardDuty](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/GuardDuty%20enabled%20in%20AWS%20console.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/GuardDuty%20enabled%20in%20AWS%20console.png" alt="GuardDuty" width="600">
+
 *GuardDuty enabled for threat detection*
 
+<br>
+
 #### Security Issues Detection
-![Issues Detected](https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/issues%20detected%20summary.png)
+<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/issues%20detected%20summary.png" alt="Issues Detected" width="600">
+
 *Security audit findings and remediation tracking*
 
 </details>
@@ -260,9 +299,13 @@ AWS Services I've Actually Used:
 
 <div align="center">
 
-![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=default&hide_border=true&count_private=true)
+<a href="https://github.com/charles-bucher">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Charles's GitHub Stats"/>
+</a>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&hide_border=true)
+<a href="https://github.com/charles-bucher">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&hide_border=true&theme=default" alt="Top Languages"/>
+</a>
 
 </div>
 
@@ -304,9 +347,13 @@ I'm actively looking for **entry-level AWS Cloud Support, SysOps, or DevOps role
 
 **Best Ways to Reach Me:**
 
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:charles.bucher.cloud@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge)](https://charles-bucher.github.io)
+
+</div>
 
 **What I'm Open To:**
 - Full-time W2 positions
@@ -368,13 +415,21 @@ fun_fact: "I debug AWS issues faster than I delivered packages"
 
 ---
 
+## 📌 Featured Repositories
+
 <div align="center">
 
-### 📌 Pinned Repositories
+[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&theme=default&hide_border=true)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&theme=default&hide_border=true)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 
-Check out my featured projects above ⬆️
+[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&theme=default&hide_border=true)](https://github.com/charles-bucher/CloudOpsLab)
+[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&theme=default&hide_border=true)](https://github.com/charles-bucher/charles-bucher.github.io)
+
+</div>
 
 ---
+
+<div align="center">
 
 **⭐ If you find my work interesting, please star my repositories!**
 
