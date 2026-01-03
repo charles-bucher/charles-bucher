@@ -418,14 +418,11 @@ fun_fact: "I debug AWS issues faster than I delivered packages"
 ## 📌 Featured Repositories
 
 <div align="center">
+[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&hide_border=true)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&hide_border=true)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 
-[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&theme=default&hide_border=true)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
-[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&theme=default&hide_border=true)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
-
-[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&theme=default&hide_border=true)](https://github.com/charles-bucher/CloudOpsLab)
-[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&theme=default&hide_border=true)](https://github.com/charles-bucher/charles-bucher.github.io)
-
-</div>
+[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&hide_border=true)](https://github.com/charles-bucher/CloudOpsLab)
+[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&hide_border=true)](https://github.com/charles-bucher/charles-bucher.github.io)
 
 ---
 
