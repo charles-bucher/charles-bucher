@@ -1,26 +1,17 @@
 # Hi, I'm Charles Bucher 👋
 
-<div align="center">
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-![AWS](https://img.shields.io/badge/AWS-Cloud_Learning-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+## Self-Taught AWS Cloud Engineer 🚀
+**Career transition from delivery driver to cloud operations**
 
-**Self-Taught AWS Cloud Engineer** 🚀  
-*Career transition from delivery driver to cloud operations*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/charles-bucher-cloud)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-success?style=flat-square)](https://charles-bucher.github.io)
-[![Open to Work](https://img.shields.io/badge/Status-Open_to_Work-brightgreen?style=flat-square)](mailto:charles.bucher.cloud@gmail.com)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://charles-bucher.github.io/) ![Open to Work](https://img.shields.io/badge/Open%20To%20Work-00C853?style=for-the-badge)
 
 ---
 
 ## 🎯 About Me
 
-I'm a **self-taught cloud engineer** building hands-on AWS skills through real-world projects. I spent the last year learning AWS while working as a delivery driver, and now I'm ready for my first cloud role.
+I'm a self-taught cloud engineer building hands-on AWS skills through real-world projects. I spent the last year learning AWS while working as a delivery driver, and now I'm ready for my first cloud role.
 
 **What I'm Looking For:**
 - Entry-level AWS Cloud Support / SysOps roles
@@ -29,13 +20,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 - Contract opportunities through staffing agencies
 
 **Current Status:**
-```
-✅ Built 3 comprehensive AWS lab environments
-✅ Deployed infrastructure with Terraform
-✅ Created troubleshooting scenarios with documentation
-🔄 Studying for AWS Solutions Architect Associate
-📋 Adding automation & CI/CD projects
-```
+- ✅ Built 3 comprehensive AWS lab environments
+- ✅ Deployed infrastructure with Terraform
+- ✅ Created troubleshooting scenarios with documentation
+- 🔄 Studying for AWS SysOps Administrator Associate
+- 📋 Adding automation & CI/CD projects
 
 ---
 
@@ -43,15 +32,15 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 
 | Skill Area | Level | Proof |
 |------------|-------|-------|
-| **AWS Console** | Comfortable | Screenshots throughout repos |
-| **EC2, VPC, S3** | Learning | Deployed real infrastructure |
-| **IAM, Security Groups** | Basic | Can configure policies |
-| **CloudWatch Logs** | Basic | Can troubleshoot with logs |
-| **Terraform** | Beginner | Have working IaC code |
-| **Python Scripts** | Basic | Simple automation |
-| **Git/GitHub** | Comfortable | You're looking at it |
-| **Documentation** | Strong | Professional docs in all repos |
-| **Troubleshooting** | Learning | Built error-driven labs |
+| AWS Console | Comfortable | Screenshots throughout repos |
+| EC2, VPC, S3 | **Comfortable** | **Deployed real infrastructure** |
+| IAM, Security Groups | Basic | Can configure policies |
+| CloudWatch Logs | Basic | Can troubleshoot with logs |
+| Terraform | Beginner | Have working IaC code |
+| Python Scripts | Basic | Simple automation |
+| Git/GitHub | Comfortable | You're looking at it |
+| Documentation | Strong | Professional docs in all repos |
+| Troubleshooting | Learning | Built error-driven labs |
 
 **Translation:** I'm entry-level, but I've actually touched AWS and built things. I can prove it.
 
@@ -59,14 +48,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 
 ## 🔧 Featured Projects
 
-### 1️⃣ [AWS Cloud Support Simulator](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+### 1️⃣ AWS Cloud Support Simulator
 **My flagship portfolio project** - Real-world AWS troubleshooting scenarios
 
-<a href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim">
-  <img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/00_lab_environment_verified.png" alt="Lab Environment" width="600">
-</a>
-
-*Fully functional AWS lab environment deployed with Terraform*
+#### Lab Environment
+Fully functional AWS lab environment deployed with Terraform
 
 **What's Inside:**
 - ✅ Complete VPC with subnets, routing, security groups
@@ -74,62 +60,9 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 - ✅ CloudWatch monitoring and alarms
 - ✅ Security hardening with GuardDuty
 
-<details>
-<summary><b>🏗️ Architecture & Infrastructure</b></summary>
-
-<br>
-
-#### VPC Architecture
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/01_vpc_architecture_setup.png" alt="VPC Setup" width="600">
-
-*Custom VPC with public/private subnets, IGW, and route tables*
-
-<br>
-
-#### Network Configuration
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/02_vpc_subnets_routing.png" alt="Subnets & Routing" width="600">
-
-*Detailed subnet configuration and routing tables*
-
-<br>
-
-#### Security Hardening
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/03_security_groups_network_acls.png" alt="Security Groups" width="600">
-
-*Security Groups and Network ACLs configured for defense in depth*
-
-</details>
-
-<details>
-<summary><b>🔐 IAM & Storage</b></summary>
-
-<br>
-
-#### IAM Roles & Policies
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/04_iam_roles_policies_setup.png" alt="IAM Setup" width="600">
-
-*IAM roles configured with least privilege policies*
-
-<br>
-
-#### S3 Bucket Configuration
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/06_s3_bucket_setup.png" alt="S3 Setup" width="600">
-
-*S3 buckets with versioning, encryption, and access policies*
-
-</details>
-
-<details>
-<summary><b>📊 Monitoring & Security</b></summary>
-
-<br>
-
-#### CloudWatch Dashboard
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Cloud_Support_Sim/main/screenshots/09_cloudwatch_monitoring_dashboard.png" alt="CloudWatch" width="600">
-
-*Custom CloudWatch dashboard for monitoring metrics and logs*
-
-</details>
+#### 🏗️ Architecture & Infrastructure
+#### 🔐 IAM & Storage
+#### 📊 Monitoring & Security
 
 **Skills Demonstrated:** VPC design, IAM governance, Infrastructure as Code, security best practices, monitoring
 
@@ -137,52 +70,13 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 
 ---
 
-### 2️⃣ [AWS Error-Driven Troubleshooting Lab](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
-**Hands-on troubleshooting scenarios** - I broke things on purpose to learn how to fix them
+### 2️⃣ AWS Error-Driven Troubleshooting Lab
+Hands-on troubleshooting scenarios - **I broke things on purpose to learn how to fix them**
 
 **Real Incidents I Created & Solved:**
-
-<details>
-<summary><b>🔴 Incident 001: EC2 SSH Lockout</b></summary>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/001-ec2-ssh-lockout/001_screenshots/05_ec2_instances.png" alt="EC2 SSH Issue" width="600">
-
-**Problem:** Unable to SSH into EC2 instance  
-**Investigation:** Security Group had port 22 blocked  
-**Solution:** Fixed Security Group rules, verified connectivity  
-**Learning:** Always check Security Groups first when troubleshooting connectivity
-
-</details>
-
-<details>
-<summary><b>🔴 Incident 002: S3 Public Bucket Exposure</b></summary>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/002-s3-public-bucket/002_screenshots/04_full_audit_workflow.png" alt="S3 Remediation" width="600">
-
-**Problem:** S3 bucket accidentally made public  
-**Investigation:** Audited bucket policies and ACLs  
-**Solution:** Implemented bucket policy remediation, enabled block public access  
-**Learning:** Multi-layered security approach prevents exposure
-
-</details>
-
-<details>
-<summary><b>🔴 Incident 003: Lambda Function Timeout</b></summary>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab/main/003-lambda-timeout/003_screenshots/04_remediate_issue.png" alt="Lambda Fix" width="600">
-
-**Problem:** Lambda function timing out at 3 seconds  
-**Investigation:** Analyzed CloudWatch Logs, identified inefficient code  
-**Solution:** Increased timeout, optimized code, added error handling  
-**Learning:** CloudWatch Logs tell you exactly what's wrong
-
-</details>
+- 🔴 Incident 001: EC2 SSH Lockout
+- 🔴 Incident 002: S3 Public Bucket Exposure
+- 🔴 Incident 003: Lambda Function Timeout
 
 **Skills Demonstrated:** Troubleshooting methodology, root cause analysis, incident response, documentation
 
@@ -190,46 +84,11 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 
 ---
 
-### 3️⃣ [CloudOps Lab](https://github.com/charles-bucher/CloudOpsLab)
-**Automation & monitoring practice** - Learning operational excellence
+### 3️⃣ CloudOps Lab
+Automation & monitoring practice - Learning operational excellence
 
-<details>
-<summary><b>📡 Automated Monitoring</b></summary>
-
-<br>
-
-#### CloudWatch Alarms & SNS Notifications
-<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/CloudWatch%20alarm%20firing%20or%20SNS%20notification.png" alt="CloudWatch Alarm" width="600">
-
-*Automated monitoring with email alerts via SNS*
-
-<br>
-
-#### EC2 Auto-Recovery
-<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/automation/screenshots/ec2-auto-recovery-error.png" alt="EC2 Recovery" width="600">
-
-*Configured EC2 auto-recovery for system status checks*
-
-</details>
-
-<details>
-<summary><b>🛡️ Security Monitoring</b></summary>
-
-<br>
-
-#### GuardDuty Security Monitoring
-<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/GuardDuty%20enabled%20in%20AWS%20console.png" alt="GuardDuty" width="600">
-
-*GuardDuty enabled for threat detection*
-
-<br>
-
-#### Security Issues Detection
-<img src="https://raw.githubusercontent.com/charles-bucher/CloudOpsLab/main/monitoring/screenshots/issues%20detected%20summary.png" alt="Issues Detected" width="600">
-
-*Security audit findings and remediation tracking*
-
-</details>
+#### 📡 Automated Monitoring
+#### 🛡️ Security Monitoring
 
 **Skills Demonstrated:** Automation, monitoring, alerting, security auditing, operational workflows
 
@@ -240,8 +99,8 @@ I'm a **self-taught cloud engineer** building hands-on AWS skills through real-w
 ## 🛠️ Tech Stack & Tools
 
 ### Cloud Platform
+**AWS Services I've Actually Used:**
 ```
-AWS Services I've Actually Used:
 ├─ Compute: EC2 (instances, SSH, troubleshooting)
 ├─ Storage: S3 (buckets, policies, versioning, encryption)
 ├─ Networking: VPC, Subnets, Route Tables, IGW, Security Groups, NACLs
@@ -252,8 +111,7 @@ AWS Services I've Actually Used:
 ```
 
 ### Infrastructure as Code
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 
 **What I Can Do:**
 - Deploy VPC environments with Terraform
@@ -262,9 +120,7 @@ AWS Services I've Actually Used:
 - Manage state files properly
 
 ### Scripting & Automation
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 
 **What I've Built:**
 - Error simulation scripts
@@ -273,41 +129,30 @@ AWS Services I've Actually Used:
 - Basic automation tasks
 
 ### Version Control & Documentation
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 ---
 
 ## 📚 Currently Learning
 
-**AWS Solutions Architect - Associate**
-- Studying: Stephane Maarek's Udemy course
-- Practice: Tutorials Dojo labs and exams
-- Hands-on: Building projects to reinforce concepts
+### AWS SysOps Administrator - Associate
+
+**Studying:** Stephane Maarek's Udemy course  
+**Practice:** Tutorials Dojo labs and exams  
+**Hands-on:** Building projects to reinforce concepts
 
 **Next Skills on My List:**
-- [ ] Auto Scaling Groups & Elastic Load Balancers
-- [ ] RDS and database fundamentals
-- [ ] Container basics (ECS)
-- [ ] CI/CD pipelines (CodePipeline, CodeBuild)
-- [ ] AWS Systems Manager
+- ⏳ Auto Scaling Groups & Elastic Load Balancers
+- ⏳ RDS and database fundamentals
+- ⏳ Container basics (ECS)
+- ⏳ CI/CD pipelines (CodePipeline, CodeBuild)
+- ⏳ AWS Systems Manager
 
 ---
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<a href="https://github.com/charles-bucher">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Charles's GitHub Stats"/>
-</a>
-
-<a href="https://github.com/charles-bucher">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&hide_border=true&theme=default" alt="Top Languages"/>
-</a>
-
-</div>
+![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical)
 
 ---
 
@@ -315,25 +160,25 @@ AWS Services I've Actually Used:
 
 I'm 40 years old, married with three kids, and I've been working as a delivery driver while teaching myself cloud engineering. I have a felony record from 2003 (clean since 2008), and I know that means I need to work twice as hard to prove myself.
 
-**Why Cloud?**
+### Why Cloud?
 - My family deserves better than paycheck-to-paycheck living
 - I'm good at solving technical problems
 - I love learning new technology
 - Remote cloud roles offer stability and growth
 
-**Why Trust Me?**
+### Why Trust Me?
 - ✅ Every screenshot in my repos is from MY AWS account
 - ✅ I spent my own money learning ($20+/month on AWS)
 - ✅ I worked on these projects after 10-hour delivery shifts
 - ✅ I document everything professionally
 
-**What I'm Not:**
+### What I'm Not:
 - ❌ A senior engineer pretending to be entry-level
 - ❌ Someone who just copied tutorials
 - ❌ A paper cert chaser with no hands-on
 - ❌ Someone who will give up when it gets hard
 
-**What I Am:**
+### What I Am:
 - ✅ Self-taught and proud of it
 - ✅ Honest about my skill level (entry-level)
 - ✅ Willing to start small and prove myself
@@ -347,13 +192,7 @@ I'm actively looking for **entry-level AWS Cloud Support, SysOps, or DevOps role
 
 **Best Ways to Reach Me:**
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:charles.bucher.cloud@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge)](https://charles-bucher.github.io)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quietopscb@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://charles-bucher.github.io/)
 
 **What I'm Open To:**
 - Full-time W2 positions
@@ -382,7 +221,7 @@ skills:
   soft_skills: [Documentation, Troubleshooting, Self-Learning]
 
 currently_learning:
-  - AWS Solutions Architect Associate
+  - AWS SysOps Administrator Associate
   - Advanced networking concepts
   - Container orchestration
 
@@ -399,7 +238,7 @@ fun_fact: "I debug AWS issues faster than I delivered packages"
 
 ## 🏆 Why Hire Me?
 
-**What Makes Me Different:**
+### What Makes Me Different:
 
 1. **Proof Over Promises** - All my repos have real AWS screenshots showing actual work
 2. **Self-Starter** - Taught myself cloud while working 50+ hours/week
@@ -407,7 +246,7 @@ fun_fact: "I debug AWS issues faster than I delivered packages"
 4. **Great Communicator** - Professional documentation in every project
 5. **Hungry** - This isn't a hobby, it's my family's future
 
-**I'm Not Asking for a Senior Role:**
+### I'm Not Asking for a Senior Role:
 - I know I'm entry-level
 - I'm willing to start at the bottom
 - I'll take contract work to prove myself
@@ -417,27 +256,25 @@ fun_fact: "I debug AWS issues faster than I delivered packages"
 
 ## 📌 Featured Repositories
 
-<div align="center">
-[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&hide_border=true)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
-[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&hide_border=true)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&theme=radical)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
+[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&theme=radical)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
 
-[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&hide_border=true)](https://github.com/charles-bucher/CloudOpsLab)
-[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&hide_border=true)](https://github.com/charles-bucher/charles-bucher.github.io)
+[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&theme=radical)](https://github.com/charles-bucher/CloudOpsLab)
+[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&theme=radical)](https://github.com/charles-bucher/charles-bucher.github.io)
+
+---
+
+⭐ **If you find my work interesting, please star my repositories!**
 
 ---
 
 <div align="center">
 
-**⭐ If you find my work interesting, please star my repositories!**
+**Built with ☕ and determination by a delivery driver learning to code**
 
-*Built with ☕ and determination by a delivery driver learning to code*
-
-**Charles Bucher** | Self-Taught Cloud Engineer  
+### Charles Bucher | Self-Taught Cloud Engineer
 *"I can't fake experience, so I'm building proof instead"*
 
----
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=charles-bucher.charles-bucher)
-![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=brightgreen)
+![Visitor Count](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
 
 </div>
