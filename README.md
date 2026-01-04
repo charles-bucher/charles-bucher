@@ -10,8 +10,7 @@
 ---
 
 ## 🎯 About Me
-
-Entry‑level AWS Cloud Support Engineer focused on troubleshooting, incident response, and CloudOps automation. Skilled in Python, Bash, PowerShell, Terraform, and CI/CD; created a suite of scripts for alerting, health checks, cost snapshots, and automated remediation. Open to entry‑level CloudOps, SRE, and support roles.
+Entry‑level AWS Cloud Support Engineer focused on troubleshooting, incident response, and CloudOps automation. Skilled in Python, Bash, PowerShell, and CI/CD; created a suite of scripts for alerting, health checks, cost snapshots, and automated remediation. Open to entry‑level CloudOps, SRE, and support roles.
 
 **Current Status:**
 - ✅ Built 3 comprehensive AWS lab environments
@@ -104,7 +103,7 @@ Automation & monitoring practice - Learning operational excellence
 
 
 **What I Can Do:**
-- Deploy VPC environments with Terraform
+- Deploy VPC environments with scripts
 - Create modular, reusable infrastructure code
 - Use variables and outputs effectively
 - Manage state files properly
