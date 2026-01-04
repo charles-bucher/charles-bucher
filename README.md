@@ -1,269 +1,190 @@
-# Hi, I'm Charles Bucher 👋
+Hi, I’m Charles Bucher 👋
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+Entry-Level AWS Cloud Support Engineer | CloudOps | Automation
 
-## Self-Taught AWS Cloud Engineer 🚀
-**Career transition from delivery driver to cloud operations**
+AWS • EC2 • S3 • Lambda • VPC • IAM • CloudWatch
+Python • Bash • PowerShell • Linux • Git/GitHub
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://charles-bucher.github.io/) ![Open to Work](https://img.shields.io/badge/Open%20To%20Work-00C853?style=for-the-badge)
+📍 Florida | 🌐 Portfolio: https://charles-bucher.github.io
 
----
+💼 LinkedIn: https://www.linkedin.com/in/charles-bucher-cloud
 
-## 🎯 About Me
-Entry‑level AWS Cloud Support Engineer focused on troubleshooting, incident response, and CloudOps automation. Skilled in Python, Bash, PowerShell, and CI/CD; created a suite of scripts for alerting, health checks, cost snapshots, and automated remediation. Open to entry‑level CloudOps, SRE, and support roles.
+📫 Email: quietopscb@gmail.com
 
-**Current Status:**
-- ✅ Built 3 comprehensive AWS lab environments
-- ✅ Created troubleshooting scenarios with documentation
-- 🔄 Studying for AWS SysOps Administrator Associate
-- 📋 Adding automation & CI/CD projects
+🎯 About Me
 
----
+Entry-level AWS Cloud Support Engineer focused on troubleshooting, incident response, monitoring, and CloudOps automation. I build hands-on AWS lab environments that simulate real operational issues and document how to diagnose, remediate, and prevent them.
 
-## 💼 What I Can Do (Honestly)
+I specialize in learning by breaking things on purpose and fixing them the right way, using logs, metrics, and automation — not tutorials or click-through demos.
 
-| Skill Area | Level | Proof |
-|------------|-------|-------|
-| AWS Console | Comfortable | Screenshots throughout repos |
-| EC2, VPC, S3 | **Comfortable** | **Deployed real infrastructure** |
-| IAM, Security Groups | Basic | Can configure policies |
-| CloudWatch Logs | Basic | Can troubleshoot with logs |
-| Python Scripts | Basic | Simple automation |
-| Git/GitHub | Comfortable | You're looking at it |
-| Documentation | Strong | Professional docs in all repos |
-| Troubleshooting | Learning | Built error-driven labs |
+Actively seeking entry-level Cloud Support, CloudOps, or SysOps roles (remote or hybrid).
 
-**Translation:** I'm entry-level, but I've actually touched AWS and built things. I can prove it.
+🧠 Core Skills (ATS-Optimized)
 
----
+Cloud Platforms
 
-## 🔧 Featured Projects
+AWS: EC2, S3, Lambda, VPC, IAM, CloudWatch, CloudTrail, GuardDuty
 
-### 1️⃣ AWS Cloud Support Simulator
-**My flagship portfolio project** - Real-world AWS troubleshooting scenarios
+Cloud Operations
 
-#### Lab Environment
-Fully functional AWS lab environment  with scripts 
+Incident response
 
-**What's Inside:**
-- ✅ Complete VPC with subnets, routing, security groups
-- ✅ EC2, S3, Lambda, IAM configurations
-- ✅ CloudWatch monitoring and alarms
-- ✅ Security hardening with GuardDuty
+Troubleshooting & root cause analysis
 
-#### 🏗️ Architecture & Infrastructure
-#### 🔐 IAM & Storage
-#### 📊 Monitoring & Security
+Monitoring & alerting
 
-**Skills Demonstrated:** VPC design, IAM governance, Infrastructure as Code, security best practices, monitoring
+Cost awareness & resource hygiene
 
-**Tech Stack:** AWS (EC2, VPC, S3, Lambda, CloudWatch),Python
+Security fundamentals
 
----
+Scripting & Automation
 
-### 2️⃣ AWS Error-Driven Troubleshooting Lab
-Hands-on troubleshooting scenarios - **I broke things on purpose to learn how to fix them**
+Python
 
-**Real Incidents I Created & Solved:**
-- 🔴 Incident 001: EC2 SSH Lockout
-- 🔴 Incident 002: S3 Public Bucket Exposure
-- 🔴 Incident 003: Lambda Function Timeout
+Bash
 
-**Skills Demonstrated:** Troubleshooting methodology, root cause analysis, incident response, documentation
+PowerShell
 
-**Tech Stack:** AWS (EC2, S3, Lambda, CloudWatch), Python remediation scripts
+Systems & Tools
 
----
+Linux
 
-### 3️⃣ CloudOps Lab
-Automation & monitoring practice - Learning operational excellence
+Git / GitHub
 
-#### 📡 Automated Monitoring
-#### 🛡️ Security Monitoring
+Markdown documentation
 
-**Skills Demonstrated:** Automation, monitoring, alerting, security auditing, operational workflows
+🔧 Featured Projects
+1️⃣ AWS Cloud Support Simulator
 
-**Tech Stack:** AWS (CloudWatch, GuardDuty, SNS, CloudTrail), Python automation scripts
+Hands-on AWS troubleshooting using real support workflows
 
----
+Built a complete AWS lab environment simulating common Cloud Support incidents
 
-## 🛠️ Tech Stack & Tools
+Deployed EC2, S3, Lambda, IAM, and VPC configurations
 
-### Cloud Platform
-**AWS Services I've Actually Used:**
-```
-├─ Compute: EC2 (instances, SSH, troubleshooting)
-├─ Storage: S3 (buckets, policies, versioning, encryption)
-├─ Networking: VPC, Subnets, Route Tables, IGW, Security Groups, NACLs
-├─ Security: IAM (roles, policies, users), GuardDuty
-├─ Monitoring: CloudWatch (logs, metrics, alarms, dashboards)
-├─ Serverless: Lambda (functions, IAM, timeouts)
-└─ Audit: CloudTrail (API logging, investigation)
-```
+Investigated failures using CloudWatch logs and metrics
 
+Documented root cause, remediation steps, and prevention strategies
 
-**What I Can Do:**
-- Deploy VPC environments with scripts
-- Create modular, reusable infrastructure code
-- Use variables and outputs effectively
-- Manage state files properly
+Skills Demonstrated:
+AWS Cloud Support, incident response, troubleshooting, monitoring, IAM basics, documentation
 
-### Scripting & Automation
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+Tech Used:
+AWS (EC2, S3, Lambda, VPC, CloudWatch, GuardDuty), Python
 
-**What I've Built:**
-- Error simulation scripts
-- Automated remediation workflows
-- Monitoring setup scripts
-- Basic automation tasks
+2️⃣ AWS Error-Driven Troubleshooting Lab
 
-### Version Control & Documentation
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+Intentionally broken AWS scenarios to practice diagnosis and recovery
 
----
+Simulated and resolved issues including:
 
-## 📚 Currently Learning
+EC2 SSH access failures
 
-### AWS SysOps Administrator - Associate
+S3 public access misconfigurations
 
-**Studying:** Stephane Maarek's Udemy course  
-**Practice:** Tutorials Dojo labs and exams  
-**Hands-on:** Building projects to reinforce concepts
+Lambda timeout and permission errors
 
-**Next Skills on My List:**
-- ⏳ Auto Scaling Groups & Elastic Load Balancers
-- ⏳ RDS and database fundamentals
-- ⏳ Container basics (ECS)
-- ⏳ CI/CD pipelines (CodePipeline, CodeBuild)
-- ⏳ AWS Systems Manager
+Used logs and metrics to identify root cause
 
----
+Applied least-privilege IAM fixes
 
-## 📊 GitHub Stats
+Documented each incident like a real support case
 
-![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical)
+Skills Demonstrated:
+Troubleshooting methodology, root cause analysis, AWS security fundamentals, incident documentation
 
----
+Tech Used:
+AWS (EC2, S3, Lambda, CloudWatch), Python
 
-## 🎯 My Story (The Real One)
+3️⃣ CloudOps Lab
 
-I'm 40 years old, married with three kids, and I've been working as a delivery driver while teaching myself cloud engineering. I have a felony record from 2003 (clean since 2008), and I know that means I need to work twice as hard to prove myself.
+Automation, monitoring, and operational best practices
 
-### Why Cloud?
-- My family deserves better than paycheck-to-paycheck living
-- I'm good at solving technical problems
-- I love learning new technology
-- Remote cloud roles offer stability and growth
+Built scripts to automate monitoring checks and alerts
 
-### Why Trust Me?
-- ✅ Every screenshot in my repos is from MY AWS account
-- ✅ I spent my own money learning ($20+/month on AWS)
-- ✅ I worked on these projects after 10-hour delivery shifts
-- ✅ I document everything professionally
+Practiced operational workflows for detection and response
 
-### What I'm Not:
-- ❌ A senior engineer pretending to be entry-level
-- ❌ Someone who just copied tutorials
-- ❌ A paper cert chaser with no hands-on
-- ❌ Someone who will give up when it gets hard
+Explored security monitoring using GuardDuty and CloudTrail
 
-### What I Am:
-- ✅ Self-taught and proud of it
-- ✅ Honest about my skill level (entry-level)
-- ✅ Willing to start small and prove myself
-- ✅ Ready to outwork anyone for this opportunity
+Skills Demonstrated:
+CloudOps automation, monitoring, alerting, security awareness
 
----
+Tech Used:
+AWS (CloudWatch, GuardDuty, CloudTrail, SNS), Python
 
-## 💬 Let's Connect
+4️⃣ AWS Cost Optimization Tool
 
-I'm actively looking for **entry-level AWS Cloud Support, SysOps, or DevOps roles** (remote preferred).
+Basic automation for identifying inefficient AWS usage
 
-**Best Ways to Reach Me:**
+Built Python and PowerShell scripts to analyze AWS usage data
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charles-bucher-cloud) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:quietopscb@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://charles-bucher.github.io/)
+Identified underutilized EC2, S3, and Lambda resources
 
-**What I'm Open To:**
-- Full-time W2 positions
-- Contract work through staffing agencies
-- Freelance AWS projects
-- Remote opportunities (Florida-based)
-- Hybrid roles in Tampa Bay area
+Generated actionable cost-saving recommendations
 
-**Salary Expectations:** $50k+ (realistic for entry-level, just need to break in)
+Skills Demonstrated:
+Cost awareness, automation, scripting, operational reporting
 
----
+Tech Used:
+AWS, Python, PowerShell
 
-## 📝 Quick Facts
+🛠️ What I Can Do (Honest Assessment)
+Skill Area	Level	Evidence
+AWS Console	Comfortable	Screenshots & labs
+EC2, S3, VPC	Comfortable	Deployed & troubleshot
+IAM	Basic	Roles, policies, permissions
+CloudWatch Logs	Basic	Log-driven troubleshooting
+Python Scripting	Basic	Automation & remediation
+Git/GitHub	Comfortable	Active repos
+Documentation	Strong	Clear, professional write-ups
 
-```yaml
-name: Charles Bucher
-role: Self-Taught Cloud Engineer
-location: Pinellas Park, Florida
-status: Open to Work
-focus: AWS Cloud Operations
+Translation: I’m entry-level, but I’ve actually worked with AWS services and can explain what I did and why.
 
-skills:
-  cloud: [AWS, Terraform, CloudFormation]
-  scripting: [Python, Bash, PowerShell]
-  tools: [Git, VS Code, Linux]
-  soft_skills: [Documentation, Troubleshooting, Self-Learning]
+📚 Currently Learning
 
-currently_learning:
-  - AWS SysOps Administrator Associate
-  - Advanced networking concepts
-  - Container orchestration
+AWS SysOps Administrator – Associate
 
-ideal_role:
-  - AWS Cloud Support Associate
-  - Junior SysOps Administrator
-  - Cloud Operations Engineer
-  - Entry-level DevOps Engineer
+Advanced monitoring & alerting patterns
 
-fun_fact: "I debug AWS issues faster than I delivered packages"
-```
+Auto Scaling & load balancing fundamentals
 
----
+CI/CD basics with AWS native tools
 
-## 🏆 Why Hire Me?
+🎯 Roles I’m Targeting
 
-### What Makes Me Different:
+AWS Cloud Support Associate
 
-1. **Proof Over Promises** - All my repos have real AWS screenshots showing actual work
-2. **Self-Starter** - Taught myself cloud while working 50+ hours/week
-3. **Problem Solver** - Built entire labs by breaking things and fixing them
-4. **Great Communicator** - Professional documentation in every project
-5. **Hungry** - This isn't a hobby, it's my family's future
+Junior Cloud Operations Engineer
 
-### I'm Not Asking for a Senior Role:
-- I know I'm entry-level
-- I'm willing to start at the bottom
-- I'll take contract work to prove myself
-- I just need someone to give me a shot
+Junior SysOps Administrator
 
----
+Entry-Level DevOps / Cloud Engineer
 
-## 📌 Featured Repositories
+💬 Let’s Connect
 
-[![AWS Cloud Support Sim](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Cloud_Support_Sim&theme=radical)](https://github.com/charles-bucher/AWS_Cloud_Support_Sim)
-[![Error-Driven Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=AWS_Error_Driven_Troubleshooting_Lab&theme=radical)](https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab)
+I’m actively looking for entry-level cloud support or CloudOps roles and am open to:
 
-[![CloudOps Lab](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=CloudOpsLab&theme=radical)](https://github.com/charles-bucher/CloudOpsLab)
-[![Portfolio Site](https://github-readme-stats.vercel.app/api/pin/?username=charles-bucher&repo=charles-bucher.github.io&theme=radical)](https://github.com/charles-bucher/charles-bucher.github.io)
+Full-time W2 roles
 
----
+Contract roles through staffing agencies
 
-⭐ **If you find my work interesting, please star my repositories!**
+Remote or hybrid opportunities
 
----
+📫 Email: quietopscb@gmail.com
 
-<div align="center">
+💼 LinkedIn: https://www.linkedin.com/in/charles-bucher-cloud
 
-**Built with ☕ and determination by a delivery driver learning to code**
+📌 Featured Repositories
 
-### Charles Bucher | Self-Taught Cloud Engineer
-*"I can't fake experience, so I'm building proof instead"*
+AWS Cloud Support Simulator
 
-![Visitor Count](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
+AWS Error-Driven Troubleshooting Lab
 
-</div>
+CloudOps Lab
+
+⭐ If you find my work useful, feel free to star the repos.
+
+Charles Bucher
+Entry-Level AWS Cloud Support Engineer
+
+“I can’t fake experience — so I build it.”
