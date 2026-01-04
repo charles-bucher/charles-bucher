@@ -11,17 +11,10 @@
 
 ## 🎯 About Me
 
-I'm a self-taught cloud engineer building hands-on AWS skills through real-world projects. I spent the last year learning AWS while working as a delivery driver, and now I'm ready for my first cloud role.
-
-**What I'm Looking For:**
-- Entry-level AWS Cloud Support / SysOps roles
-- Junior DevOps Engineer positions
-- Cloud Operations Engineer (remote preferred)
-- Contract opportunities through staffing agencies
+Entry‑level AWS Cloud Support Engineer focused on troubleshooting, incident response, and CloudOps automation. Skilled in Python, Bash, PowerShell, Terraform, and CI/CD; created a suite of scripts for alerting, health checks, cost snapshots, and automated remediation. Open to entry‑level CloudOps, SRE, and support roles.
 
 **Current Status:**
 - ✅ Built 3 comprehensive AWS lab environments
-- ✅ Deployed infrastructure with Terraform
 - ✅ Created troubleshooting scenarios with documentation
 - 🔄 Studying for AWS SysOps Administrator Associate
 - 📋 Adding automation & CI/CD projects
@@ -36,7 +29,6 @@ I'm a self-taught cloud engineer building hands-on AWS skills through real-world
 | EC2, VPC, S3 | **Comfortable** | **Deployed real infrastructure** |
 | IAM, Security Groups | Basic | Can configure policies |
 | CloudWatch Logs | Basic | Can troubleshoot with logs |
-| Terraform | Beginner | Have working IaC code |
 | Python Scripts | Basic | Simple automation |
 | Git/GitHub | Comfortable | You're looking at it |
 | Documentation | Strong | Professional docs in all repos |
@@ -52,7 +44,7 @@ I'm a self-taught cloud engineer building hands-on AWS skills through real-world
 **My flagship portfolio project** - Real-world AWS troubleshooting scenarios
 
 #### Lab Environment
-Fully functional AWS lab environment deployed with Terraform
+Fully functional AWS lab environment  with scripts 
 
 **What's Inside:**
 - ✅ Complete VPC with subnets, routing, security groups
@@ -66,7 +58,7 @@ Fully functional AWS lab environment deployed with Terraform
 
 **Skills Demonstrated:** VPC design, IAM governance, Infrastructure as Code, security best practices, monitoring
 
-**Tech Stack:** AWS (EC2, VPC, S3, Lambda, CloudWatch), Terraform, Python
+**Tech Stack:** AWS (EC2, VPC, S3, Lambda, CloudWatch),Python
 
 ---
 
@@ -110,8 +102,6 @@ Automation & monitoring practice - Learning operational excellence
 └─ Audit: CloudTrail (API logging, investigation)
 ```
 
-### Infrastructure as Code
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 
 **What I Can Do:**
 - Deploy VPC environments with Terraform
