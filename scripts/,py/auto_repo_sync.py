@@ -1,3 +1,24 @@
+
+from botocore.exceptions import ClientError, BotoCoreError
+
+def safe_aws_call(func, description="AWS call"):
+    try:
+        return func()
+    except ClientError as e:
+        logger.error(f"{description} failed: {e.response['Error']['Code']}")
+    except BotoCoreError as e:
+        logger.error(f"{description} SDK failure: {e}")
+    return None
+
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
+
+logger = logging.getLogger(__name__)
+
 #!/usr/bin/env python3
 """
 CLOUD PORTFOLIO AUTO-FIXER
@@ -52,15 +73,15 @@ class RepoFixer:
         try:
             shutil.copytree(self.repo_path, backup_path, 
                           ignore=shutil.ignore_patterns('.git', '__pycache__'))
-            print(f"✅ Backup created: {backup_path}")
+            logger.info(f"✅ Backup created: {backup_path}")
             return backup_path
         except Exception as e:
-            print(f"⚠️  Backup failed: {e}")
+            logger.info(f"⚠️  Backup failed: {e}")
             return None
     
     def analyze_repo(self):
         """Analyze repository to detect AWS services and file types."""
-        print(f"\n🔍 Analyzing {self.repo_name}...")
+        logger.info(f"\n🔍 Analyzing {self.repo_name}...")
         
         for root, dirs, files in os.walk(self.repo_path):
             # Skip excluded directories
@@ -90,10 +111,10 @@ class RepoFixer:
                 except:
                     pass
         
-        print(f"   AWS Services detected: {', '.join(sorted(self.detected_services)) or 'None'}")
-        print(f"   Code files: {len(self.code_files)}")
-        print(f"   IaC present: {'Yes' if self.has_iac else 'No'}")
-        print(f"   Monitoring present: {'Yes' if self.has_monitoring else 'No'}")
+        logger.info(f"   AWS Services detected: {', '.join(sorted(self.detected_services)) or 'None'}")
+        logger.info(f"   Code files: {len(self.code_files)}")
+        logger.info(f"   IaC present: {'Yes' if self.has_iac else 'No'}")
+        logger.info(f"   Monitoring present: {'Yes' if self.has_monitoring else 'No'}")
     
     def generate_readme(self):
         """Generate or improve README.md file."""
@@ -103,9 +124,9 @@ class RepoFixer:
         existing_content = ""
         if readme_path.exists():
             existing_content = readme_path.read_text(encoding='utf-8', errors='ignore')
-            print(f"📝 Enhancing existing README...")
+            logger.info(f"📝 Enhancing existing README...")
         else:
-            print(f"📝 Creating new README...")
+            logger.info(f"📝 Creating new README...")
         
         # Determine project type based on name
         project_type = self._determine_project_type()
@@ -115,7 +136,7 @@ class RepoFixer:
         
         # Write README
         readme_path.write_text(readme_content, encoding='utf-8')
-        print(f"✅ README.md updated")
+        logger.info(f"✅ README.md updated")
     
     def _determine_project_type(self):
         """Determine project type from repo name and content."""
@@ -474,7 +495,7 @@ class RepoFixer:
     
     def add_code_comments(self):
         """Add comprehensive comments to code files."""
-        print(f"\n💬 Adding code comments...")
+        logger.info(f"\n💬 Adding code comments...")
         
         commented_count = 0
         for code_file in self.code_files:
@@ -486,9 +507,9 @@ class RepoFixer:
                     if self._add_bash_comments(code_file):
                         commented_count += 1
             except Exception as e:
-                print(f"⚠️  Could not comment {code_file.name}: {e}")
+                logger.info(f"⚠️  Could not comment {code_file.name}: {e}")
         
-        print(f"✅ Added comments to {commented_count} files")
+        logger.info(f"✅ Added comments to {commented_count} files")
     
     def _add_python_comments(self, filepath):
         """Add comments to Python files."""
@@ -556,7 +577,7 @@ class RepoFixer:
     
     def organize_files(self):
         """Organize files into logical directory structure."""
-        print(f"\n📂 Organizing file structure...")
+        logger.info(f"\n📂 Organizing file structure...")
         
         # Create standard directories
         dirs_to_create = ['scripts', 'docs', 'infrastructure', 'monitoring']
@@ -574,18 +595,18 @@ class RepoFixer:
                     if not target.exists():
                         try:
                             shutil.move(str(code_file), str(target))
-                            print(f"   Moved {code_file.name} → scripts/")
+                            logger.info(f"   Moved {code_file.name} → scripts/")
                         except:
                             pass
         
-        print(f"✅ File organization complete")
+        logger.info(f"✅ File organization complete")
     
     def add_monitoring_example(self):
         """Add CloudWatch monitoring example if missing."""
         if self.has_monitoring:
             return
         
-        print(f"\n📊 Adding monitoring example...")
+        logger.info(f"\n📊 Adding monitoring example...")
         
         monitoring_dir = self.repo_path / 'monitoring'
         monitoring_dir.mkdir(exist_ok=True)
@@ -616,7 +637,12 @@ Resources:
 
 # Python example for custom metrics
 # import boto3
-# cloudwatch = boto3.client('cloudwatch')
+# try:
+    cloudwatch = boto3.client("cloudwatch")
+except BotoCoreError as e:
+    logger.critical("Failed to create cloudwatch client: {e}")
+    raise
+
 # 
 # cloudwatch.put_metric_data(
 #     Namespace='CustomApp',
@@ -631,22 +657,22 @@ Resources:
         config_file = monitoring_dir / 'cloudwatch_config.yaml'
         config_file.write_text(config_content)
         
-        print(f"✅ Added monitoring/cloudwatch_config.yaml")
+        logger.info(f"✅ Added monitoring/cloudwatch_config.yaml")
 
 
 def main():
     """Main execution function."""
-    print("\n" + "="*60)
-    print("  CLOUD PORTFOLIO AUTO-FIXER")
-    print("="*60)
-    print("\nThis script will automatically improve your GitHub repos to")
-    print("meet entry-level cloud hiring standards.\n")
-    print("Changes include:")
-    print("  ✓ Professional README files")
-    print("  ✓ Code comments and documentation")
-    print("  ✓ Organized file structure")
-    print("  ✓ Monitoring examples")
-    print("\n⚠️  A backup will be created before any modifications.\n")
+    logger.info("\n" + "="*60)
+    logger.info("  CLOUD PORTFOLIO AUTO-FIXER")
+    logger.info("="*60)
+    logger.info("\nThis script will automatically improve your GitHub repos to")
+    logger.info("meet entry-level cloud hiring standards.\n")
+    logger.info("Changes include:")
+    logger.info("  ✓ Professional README files")
+    logger.info("  ✓ Code comments and documentation")
+    logger.info("  ✓ Organized file structure")
+    logger.info("  ✓ Monitoring examples")
+    logger.info("\n⚠️  A backup will be created before any modifications.\n")
     
     # Get current directory
     base_dir = Path.cwd()
@@ -659,22 +685,22 @@ def main():
             repos.append((item_path, item))
     
     if not repos:
-        print("❌ No repositories found in current directory.")
+        logger.info("❌ No repositories found in current directory.")
         return
     
-    print(f"Found {len(repos)} repositories:\n")
+    logger.info(f"Found {len(repos)} repositories:\n")
     for i, (_, name) in enumerate(repos, 1):
-        print(f"  {i}. {name}")
+        logger.info(f"  {i}. {name}")
     
-    print("\nOptions:")
-    print("  1. Fix all repositories")
-    print("  2. Select specific repositories")
-    print("  3. Exit")
+    logger.info("\nOptions:")
+    logger.info("  1. Fix all repositories")
+    logger.info("  2. Select specific repositories")
+    logger.info("  3. Exit")
     
     choice = input("\nEnter choice (1-3): ").strip()
     
     if choice == '3':
-        print("Exiting...")
+        logger.info("Exiting...")
         return
     elif choice == '2':
         indices = input("Enter repository numbers (comma-separated, e.g., 1,3,4): ").strip()
@@ -682,14 +708,14 @@ def main():
             selected = [int(i.strip()) - 1 for i in indices.split(',')]
             repos = [repos[i] for i in selected if 0 <= i < len(repos)]
         except:
-            print("❌ Invalid selection. Exiting.")
+            logger.info("❌ Invalid selection. Exiting.")
             return
     
     # Process each repository
     for repo_path, repo_name in repos:
-        print("\n" + "="*60)
-        print(f"Processing: {repo_name}")
-        print("="*60)
+        logger.info("\n" + "="*60)
+        logger.info(f"Processing: {repo_name}")
+        logger.info("="*60)
         
         fixer = RepoFixer(repo_path, repo_name)
         
@@ -705,26 +731,26 @@ def main():
         fixer.organize_files()
         fixer.add_monitoring_example()
         
-        print(f"\n✅ {repo_name} improvements complete!")
+        logger.info(f"\n✅ {repo_name} improvements complete!")
     
-    print("\n" + "="*60)
-    print("  ALL REPOSITORIES PROCESSED")
-    print("="*60)
-    print(f"\n📁 Backups saved to: {BACKUP_DIR}/")
-    print("\n🎯 Next steps:")
-    print("  1. Review changes in each repository")
-    print("  2. Commit and push to GitHub")
-    print("  3. Run cloud_breakin_scanner.py to verify improvements")
-    print("\n💡 Tip: Add screenshots to your READMEs for maximum impact!")
-    print("="*60 + "\n")
+    logger.info("\n" + "="*60)
+    logger.info("  ALL REPOSITORIES PROCESSED")
+    logger.info("="*60)
+    logger.info(f"\n📁 Backups saved to: {BACKUP_DIR}/")
+    logger.info("\n🎯 Next steps:")
+    logger.info("  1. Review changes in each repository")
+    logger.info("  2. Commit and push to GitHub")
+    logger.info("  3. Run cloud_breakin_scanner.py to verify improvements")
+    logger.info("\n💡 Tip: Add screenshots to your READMEs for maximum impact!")
+    logger.info("="*60 + "\n")
 
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n\n⚠️  Process interrupted by user.")
+        logger.info("\n\n⚠️  Process interrupted by user.")
     except Exception as e:
-        print(f"\n❌ Fatal error: {e}")
+        logger.info(f"\n❌ Fatal error: {e}")
         import traceback
         traceback.print_exc()
