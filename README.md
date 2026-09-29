@@ -81,6 +81,8 @@ Simulated enterprise IT environment using Windows Server and Active Directory.
 - Focused on resolution, not blame
 - Strong follow-up and communication skills
 
+
+- 🎓 Currently studying for CompTIA A+ certification
 ---
 
 ## 📁 Tools & Environment
