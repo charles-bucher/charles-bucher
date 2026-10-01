@@ -75,7 +75,7 @@ Simulated enterprise IT environment using Windows Server and Active Directory.
 
 ## 💬 Customer Support Strength
 
-- 10+ years customer service experience
+- 17+ years customer service experience
 - Calm under pressure with frustrated users
 - Explains technical issues in simple language
 - Focused on resolution, not blame
