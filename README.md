@@ -51,7 +51,15 @@ Simulated enterprise IT environment using Windows Server and Active Directory.
 - User account creation
 - Password reset requests
 - Account lockouts
+- Outlook not sending emails
+- Network connectivity issue
+- Printer not working
+- Software installation failure
+
+#### In Progress:
 - Login failures
+
+#### Planned:
 - Basic permission/group issues
 
 #### Skills Demonstrated:
@@ -81,8 +89,12 @@ Simulated enterprise IT environment using Windows Server and Active Directory.
 - Focused on resolution, not blame
 - Strong follow-up and communication skills
 
+---
 
-- 🎓 Currently studying for CompTIA A+ certification
+## 🎓 Currently Studying
+
+- CompTIA A+ certification (in progress)
+
 ---
 
 ## 📁 Tools & Environment
